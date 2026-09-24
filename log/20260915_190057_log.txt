@@ -1,0 +1,16 @@
+2026-09-15 19:00:57.256819:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-15 19:00:57.352340:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-15 19:01:04.092991:串口已就绪
+2026-09-15 19:01:04.096507:SID的列表sid_list: [66]
+2026-09-15 19:01:04.099511:platform: RTK
+2026-09-15 19:01:04.603957:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:01:04.605961:继电器命令成功
+2026-09-15 19:01:08.111185:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:01:08.113067:继电器命令成功
+2026-09-15 19:01:33.122629:data: ['hwsetting from mmc', 'AC on HW offset 0x809 start 0x800 reg 0x8090800', 'total = 2f00']
+2026-09-15 19:01:33.124846:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:01:33.126846:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:01:33.128846:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:01:33.130846:data: ['Realtek> ', 'Realtek> ', 'Realtek> ']
+2026-09-15 19:01:33.133354:进入uboot模式成功
+2026-09-15 19:01:33.135353:进入uboot模式成功

@@ -1,0 +1,38 @@
+2026-09-10 00:24:21.013874:SID的列表sid_list: [1]
+2026-09-10 00:24:21.518847:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:24:21.520852:继电器命令成功
+2026-09-10 00:24:25.024659:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:24:25.026664:继电器命令成功
+2026-09-10 00:24:35.036868:data: []
+2026-09-10 00:24:35.039909:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:35.042912:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:35.044912:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:35.045912:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:35.549995:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:24:35.551998:继电器命令成功
+2026-09-10 00:24:39.055331:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:24:39.056841:继电器命令成功
+2026-09-10 00:24:49.069549:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:49.077126:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:49.079127:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:49.081135:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:49.083077:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:24:49.587199:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:24:49.594220:继电器命令成功
+2026-09-10 00:24:53.098581:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:24:53.100312:继电器命令成功
+2026-09-10 00:25:03.114532:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:25:03.116536:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:25:03.122756:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:25:03.124757:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:25:03.125758:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:25:03.629549:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:25:03.631556:继电器命令成功
+2026-09-10 00:25:07.135421:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:25:07.137425:继电器命令成功
+2026-09-10 00:25:17.147502:data: ['[    5.032068][  T321] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1', '^C[    5.324014][  T124] mtu3 1c7a3e00.usb: ssusb clock enable', '[    5.334536][  T124] mtu3 1c1b3e00.usb: ssusb clock enable']
+2026-09-10 00:25:17.149719:data: ['[    5.032068][  T321] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1', '^C[    5.324014][  T124] mtu3 1c7a3e00.usb: ssusb clock enable', '[    5.334536][  T124] mtu3 1c1b3e00.usb: ssusb clock enable']
+2026-09-10 00:25:17.151718:data: ['[    5.032068][  T321] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1', '^C[    5.324014][  T124] mtu3 1c7a3e00.usb: ssusb clock enable', '[    5.334536][  T124] mtu3 1c1b3e00.usb: ssusb clock enable']
+2026-09-10 00:25:17.154180:data: ['[    5.032068][  T321] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1', '^C[    5.324014][  T124] mtu3 1c7a3e00.usb: ssusb clock enable', '[    5.334536][  T124] mtu3 1c1b3e00.usb: ssusb clock enable']
+2026-09-10 00:25:17.157744:data: ['[    5.032068][  T321] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1', '^C[    5.324014][  T124] mtu3 1c7a3e00.usb: ssusb clock enable', '[    5.334536][  T124] mtu3 1c1b3e00.usb: ssusb clock enable']
+2026-09-10 00:25:17.158743:进入uboot模式失败

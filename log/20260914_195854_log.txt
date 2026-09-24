@@ -1,0 +1,18 @@
+2026-09-14 19:58:54.628180:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-14 19:58:54.840671:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-14 19:59:01.649686:串口已就绪
+2026-09-14 19:59:01.652688:SID的列表sid_list: [0]
+2026-09-14 19:59:01.656688:platform: RTK
+2026-09-14 19:59:02.160103:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:59:02.163728:继电器命令成功
+2026-09-14 19:59:05.670335:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:59:05.672347:继电器命令成功
+2026-09-14 19:59:30.681304:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 19:59:30.685813:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 19:59:30.687812:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 19:59:30.688812:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 19:59:30.691320:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 19:59:31.196023:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:59:31.197027:继电器命令成功
+2026-09-14 19:59:34.707182:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:59:34.708361:继电器命令成功

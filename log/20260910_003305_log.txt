@@ -1,0 +1,17 @@
+2026-09-10 00:33:05.758371:SID的列表sid_list: [1]
+2026-09-10 00:33:05.791901:platform: MTK
+2026-09-10 00:33:06.296354:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:33:06.302372:继电器命令成功
+2026-09-10 00:33:09.807678:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:33:09.809682:继电器命令成功
+2026-09-10 00:33:44.812784:data: ['Verification passed successfully']
+2026-09-10 00:33:44.814788:data: ['[   10.582174][  T409] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   11.627896][  T753] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   12.674630][  T754] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule']
+2026-09-10 00:33:44.817295:data: ['[   10.582174][  T409] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   11.627896][  T753] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   12.674630][  T754] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule']
+2026-09-10 00:33:44.820295:data: ['[   10.582174][  T409] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   11.627896][  T753] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   12.674630][  T754] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule']
+2026-09-10 00:33:44.822465:data: ['[   10.582174][  T409] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   11.627896][  T753] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   12.674630][  T754] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule']
+2026-09-10 00:33:45.327299:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:33:45.330304:继电器命令成功
+2026-09-10 00:33:48.834431:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:33:48.836437:继电器命令成功
+2026-09-10 00:34:23.853461:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:34:23.855630:进入uboot模式成功

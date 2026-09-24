@@ -1,0 +1,40 @@
+2026-09-10 01:02:50.903445:SID的列表sid_list: [1]
+2026-09-10 01:02:50.906448:当前测试SID: 1
+2026-09-10 01:02:50.909448:platform: MTK
+2026-09-10 01:02:51.413537:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:02:51.417043:继电器命令成功
+2026-09-10 01:02:54.921563:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:02:54.923566:继电器命令成功
+2026-09-10 01:03:29.934898:data: []
+2026-09-10 01:03:29.939976:data: ['[    7.285688][  T486] stall_debug: enable ip record by scs OK', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 01:03:29.943091:进入uboot模式失败
+2026-09-10 01:03:31.947090:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:03:31.949443:进入uboot模式失败
+2026-09-10 01:03:33.952606:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:03:33.954615:进入uboot模式失败
+2026-09-10 01:03:35.957204:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:03:35.965223:进入uboot模式失败
+2026-09-10 01:03:38.470268:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:03:38.472810:继电器命令成功
+2026-09-10 01:03:41.976580:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:03:41.978586:继电器命令成功
+2026-09-10 01:04:16.990685:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:04:16.992190:进入uboot模式失败
+2026-09-10 01:04:18.995808:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:04:18.997592:进入uboot模式失败
+2026-09-10 01:04:21.000713:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:04:21.005577:进入uboot模式失败
+2026-09-10 01:04:23.008046:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:04:23.011052:进入uboot模式失败
+2026-09-10 01:04:25.014323:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:04:25.016447:进入uboot模式失败
+2026-09-10 01:04:27.524583:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:04:27.526586:继电器命令成功
+2026-09-10 01:04:31.030487:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:04:31.032491:继电器命令成功
+2026-09-10 01:05:06.040986:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 01:05:06.044018:进入uboot模式成功
+2026-09-10 01:05:06.046018:进入uboot模式成功
+2026-09-10 01:05:31.051134:进入Pmode模式成功
+2026-09-10 01:05:31.053137:进入Pmode模式成功
+2026-09-10 01:05:31.056150:发生错误: cannot access local variable 'data' where it is not associated with a value

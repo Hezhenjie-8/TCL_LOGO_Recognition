@@ -1,0 +1,19 @@
+2026-09-09 22:54:24.783114:SID的列表sid_list: [1]
+2026-09-09 22:54:24.786622:当前测试SID: 1
+2026-09-09 22:54:24.788621:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 22:54:25.295136:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 22:54:25.298646:继电器命令成功
+2026-09-09 22:54:27.803846:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 22:54:27.805855:继电器命令成功
+2026-09-09 22:54:27.812857:第1/3次断电上电完成
+2026-09-09 22:55:02.816943:已发送命令: logcat |grep BootAnimation，正在等待抓取ZipFileName返回值...
+2026-09-09 22:55:04.820110:抓取到返回值: 01-07 11:06:40.448   833   883 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 22:55:04.821618:提取到的bootanimation zip路径: /tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 22:55:04.823618:已发送 ctrl+C 结束 logcat
+2026-09-09 22:55:04.826619:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 22:55:04.828122:执行 adb connect 命令: adb connect 192.168.0.114
+2026-09-09 22:55:04.935664:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 22:55:04.938664:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\XXX项目\demo\image_recognition\machine
+2026-09-09 22:55:10.137905:adb pull 返回码: 1, 输出: adb: error: failed to stat remote object '/tclconfig': Permission denied
+2026-09-09 22:55:10.139905:adb pull 失败: adb: error: failed to stat remote object '/tclconfig': Permission denied
+2026-09-09 22:55:10.141907:测试次数：1

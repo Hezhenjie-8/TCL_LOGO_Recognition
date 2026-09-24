@@ -1,0 +1,16 @@
+2026-09-09 22:27:13.047362:SID的列表sid_list: [1]
+2026-09-09 22:27:13.052362:当前测试SID: 1
+2026-09-09 22:27:13.058869:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 22:27:13.567057:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 22:27:13.569067:继电器命令成功
+2026-09-09 22:27:16.072918:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 22:27:16.074427:继电器命令成功
+2026-09-09 22:27:29.565599:进入uboot模式成功
+2026-09-09 22:27:30.570516:logo得到的地址tcl_logo_path: ['console:/ $ ']
+2026-09-09 22:27:30.573515:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 22:27:30.578024:执行 adb connect 命令: adb connect 192.168.0.114
+2026-09-09 22:27:37.855699:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 22:27:37.858704:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\XXX项目\demo脚本\图像识别\machine
+2026-09-09 22:27:37.953550:adb pull 返回码: 1, 输出: adb: error: connect failed: closed
+2026-09-09 22:27:37.956549:adb pull 失败: adb: error: connect failed: closed
+2026-09-09 22:27:37.959053:测试次数：1

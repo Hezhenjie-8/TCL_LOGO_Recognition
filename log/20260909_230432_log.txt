@@ -1,0 +1,23 @@
+2026-09-09 23:04:32.536442:SID的列表sid_list: [1]
+2026-09-09 23:04:32.539442:当前测试SID: 1
+2026-09-09 23:04:32.541447:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 23:04:33.048964:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 23:04:33.051029:继电器命令成功
+2026-09-09 23:04:35.555052:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 23:04:35.556560:继电器命令成功
+2026-09-09 23:04:35.558560:第1/3次断电上电完成
+2026-09-09 23:05:10.561617:已发送命令: logcat |grep BootAnimation，正在等待抓取ZipFileName返回值...
+2026-09-09 23:05:14.566148:抓取到返回值: 01-07 11:06:51.373   822   891 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:05:14.568659:提取到的bootanimation zip路径: /tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:05:14.570659:已发送 ctrl+C 结束 logcat
+2026-09-09 23:05:14.573660:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 23:05:14.691178:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:05:14.785700:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-09 23:05:19.874145:adb root 后重新 connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:05:20.355788:adb root 等待5s后获取返回码: 0, 输出: restarting adbd as root
+2026-09-09 23:05:20.359762:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\XXX项目\demo\image_recognition\machine
+2026-09-09 23:05:28.582195:adb pull 返回码: 1, 输出: adb: error: cannot create 'd:\XXX椤圭洰\demo\image_recognition\machine\tclconfig\SVN_VERSION.txt': Not a directory
+pull: building file list...
+2026-09-09 23:05:28.584197:adb pull 失败: adb: error: cannot create 'd:\XXX椤圭洰\demo\image_recognition\machine\tclconfig\SVN_VERSION.txt': Not a directory
+pull: building file list...
+2026-09-09 23:05:28.585196:测试次数：1

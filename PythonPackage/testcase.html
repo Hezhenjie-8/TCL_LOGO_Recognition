@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ test_case_title }}</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 16px;
+            font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #24292f;
+            background: #f5f6f8;
+        }
+
+        .title {
+            padding: 14px 18px;
+            margin-bottom: 14px;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            color: {{ title_text_color }};
+            background-color: {{ title_bg_color }};
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+        }
+
+        .summary {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .summary .card {
+            flex: 1 1 110px;
+            padding: 10px 12px;
+            background: #fff;
+            border: 1px solid #e3e6ea;
+            border-radius: 6px;
+            color: #57606a;
+        }
+
+        .summary .card b {
+            display: block;
+            margin-top: 2px;
+            font-size: 18px;
+            color: #24292f;
+        }
+
+        .summary .card b.ng { color: #F44336; }
+        .summary .card b.warn { color: #B7791F; }
+        .summary .card b.err { color: #FF8000; }
+
+        .panel {
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid #e3e6ea;
+            border-radius: 6px;
+        }
+
+        .panel-head {
+            padding: 10px 14px;
+            font-weight: 600;
+            background: #fafbfc;
+            border-bottom: 1px solid #e3e6ea;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: top;
+            border-bottom: 1px solid #eef0f2;
+        }
+
+        th {
+            white-space: nowrap;
+            font-weight: 600;
+            color: #57606a;
+            background: #fafbfc;
+        }
+
+        tbody tr:hover td { background: #fcfdff; }
+        tr:last-child td { border-bottom: none; }
+
+        td.no, td.time, td.type {
+            white-space: nowrap;
+            color: #57606a;
+        }
+
+        .content {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .content img, .detail-block img {
+            display: block;
+            max-width: 320px;
+            max-height: 220px;
+            margin-top: 6px;
+            border: 1px solid #e3e6ea;
+            border-radius: 4px;
+            cursor: zoom-in;
+        }
+
+        .badge {
+            display: inline-block;
+            min-width: 52px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+        }
+
+        .badge-plain {
+            color: #57606a;
+            background: #eaeef2;
+        }
+
+        details { margin-top: 6px; }
+
+        summary {
+            cursor: pointer;
+            font-size: 12px;
+            color: #0969da;
+            user-select: none;
+        }
+
+        .detail-block {
+            margin-top: 6px;
+            padding: 8px 10px;
+            background: #f6f8fa;
+            border: 1px solid #e3e6ea;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .detail-block h4 {
+            margin: 0 0 4px;
+            font-size: 12px;
+            color: #57606a;
+        }
+
+        .empty {
+            padding: 20px;
+            text-align: center;
+            color: #8b949e;
+        }
+
+        #img-mask {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.78);
+            cursor: zoom-out;
+            z-index: 999;
+        }
+
+        #img-mask.open { display: flex; }
+
+        #img-mask img {
+            max-width: 96vw;
+            max-height: 96vh;
+            border-radius: 4px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">{{ full_title }}</div>
+
+    {% set ns = namespace(steps=0, ng=0, warning=0, error=0) %}
+    {% for item in data_list %}
+        {% if item.record_type == '步骤' %}{% set ns.steps = ns.steps + 1 %}{% endif %}
+        {% if item.result == 'NG' %}{% set ns.ng = ns.ng + 1 %}{% endif %}
+        {% if item.result == 'WARNING' %}{% set ns.warning = ns.warning + 1 %}{% endif %}
+        {% if item.result == 'ERROR' %}{% set ns.error = ns.error + 1 %}{% endif %}
+    {% endfor %}
+
+    <div class="summary">
+        <div class="card">总记录<b>{{ data_list | length }}</b></div>
+        <div class="card">步骤数<b>{{ ns.steps }}</b></div>
+        <div class="card">NG 数<b class="ng">{{ ns.ng }}</b></div>
+        <div class="card">WARNING 数<b class="warn">{{ ns.warning }}</b></div>
+        <div class="card">ERROR 数<b class="err">{{ ns.error }}</b></div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-head">详细记录（共 {{ data_list | length }} 条）</div>
+        <table>
+            <thead>
+            <tr>
+                <th style="width: 56px;">序号</th>
+                <th style="width: 150px;">时间</th>
+                <th style="width: 70px;">类型</th>
+                <th>内容</th>
+                <th style="width: 96px;">结果</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in data_list %}
+                <tr>
+                    <td class="no">{{ loop.index }}</td>
+                    <td class="time">{{ item.time_str }}</td>
+                    <td class="type">{{ item.record_type }}</td>
+                    <td class="content">
+                        {{ item.description | safe }}
+                        {% if item.can_expand %}
+                        <details>
+                            <summary>展开预期 / 实测</summary>
+                            {% if item.expected %}
+                            <div class="detail-block">
+                                <h4>预期结果</h4>
+                                <div>{{ item.expected | safe }}</div>
+                            </div>
+                            {% endif %}
+                            {% if item.actual %}
+                            <div class="detail-block">
+                                <h4>实测结果</h4>
+                                <div>{{ item.actual | safe }}</div>
+                            </div>
+                            {% endif %}
+                        </details>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if item.result == '-' %}
+                        <span class="badge badge-plain">-</span>
+                        {% else %}
+                        <span class="badge" style="background-color: {{ item.result_color }};">{{ item.result }}</span>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% else %}
+                <tr><td colspan="5" class="empty">暂无记录</td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="img-mask"><img alt="大图"></div>
+    <script>
+        (function () {
+            var mask = document.getElementById('img-mask');
+            var bigImg = mask.querySelector('img');
+            document.addEventListener('click', function (event) {
+                var target = event.target;
+                var img = target && target.closest ? target.closest('.content img, .detail-block img') : null;
+                if (img) {
+                    bigImg.src = img.getAttribute('src');
+                    mask.classList.add('open');
+                } else if (mask.classList.contains('open')) {
+                    mask.classList.remove('open');
+                    bigImg.removeAttribute('src');
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

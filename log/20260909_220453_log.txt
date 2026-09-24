@@ -1,0 +1,8 @@
+2026-09-09 22:04:53.995393:SID的列表sid_list: [1]
+2026-09-09 22:04:54.000393:当前测试SID: 1
+2026-09-09 22:04:54.003392:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 22:04:54.508239:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 22:04:54.509747:继电器命令成功
+2026-09-09 22:04:57.013804:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 22:04:57.015312:继电器命令成功
+2026-09-09 22:05:07.018328:发生错误: argument of type 'NoneType' is not iterable

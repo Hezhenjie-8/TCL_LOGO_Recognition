@@ -1,0 +1,24 @@
+2026-09-22 23:03:15.229780:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-22 23:03:31.124733:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-22 23:03:31.126732:串口已就绪
+2026-09-22 23:03:31.130239:SID的列表sid_list: [0, 21, 98]
+2026-09-22 23:03:31.133240:platform: MTK
+2026-09-22 23:03:31.637938:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 23:03:31.639940:继电器命令成功
+2026-09-22 23:03:35.145317:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 23:03:35.147975:继电器命令成功
+2026-09-22 23:04:00.154523:data: ['[   14.317682][ T1385] [UserWrittenI2CRead]: [IIC] TUNER READ : NG, SlaveAddr=0x7b', '[   14.325250][ T1385] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b']
+2026-09-22 23:04:00.159189:data: ['130|console:/ $ ', '130|console:/ $ ^C', '130|console:/ $ ']
+2026-09-22 23:04:00.165189:进入uboot模式失败
+2026-09-22 23:04:02.168316:data: ['130|console:/ $ ^C', '130|console:/ $ ', '130|console:/ $ ^C']
+2026-09-22 23:04:02.170324:进入uboot模式失败
+2026-09-22 23:04:04.172823:data: ['130|console:/ $ ', '130|console:/ $ ^C', '^C130|console:/ $ ']
+2026-09-22 23:04:04.175347:进入uboot模式失败
+2026-09-22 23:04:06.177724:data: ['130|console:/ $ ', '130|console:/ $ ^C', '^C130|console:/ $ ']
+2026-09-22 23:04:06.181741:进入uboot模式失败
+2026-09-22 23:04:08.685929:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 23:04:08.687436:继电器命令成功
+2026-09-22 23:04:12.192507:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 23:04:12.195022:继电器命令成功
+2026-09-22 23:04:37.199677:data: ['130|console:/ $ ', '130|console:/ $ ^C', '130|console:/ $ ']
+2026-09-22 23:04:37.201185:进入uboot模式失败

@@ -1,0 +1,12 @@
+2026-09-10 02:01:16.802190:串口已就绪
+2026-09-10 02:01:16.807695:SID的列表sid_list: [1]
+2026-09-10 02:01:16.810203:当前测试SID: 1
+2026-09-10 02:01:16.813202:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-10 02:01:16.996386:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-10 02:01:17.134857:adb root 首次返回码: 0, 输出: restarting adbd as root
+2026-09-10 02:01:22.211726:adb root 后重新 connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-10 02:01:22.293008:adb root 等待5s后获取返回码: 0, 输出: adbd is already running as root
+2026-09-10 02:01:59.070075:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\demo\image_recognition\machine
+2026-09-10 02:04:13.613733:adb pull 返回码: 0, 输出: /tclconfig/: 10438 files pulled, 0 skipped. 2.3 MB/s (325256047 bytes in 134.437s)
+2026-09-10 02:04:13.615735:/tclconfig 数据已成功 pull 到: d:\demo\image_recognition\machine\tclconfig
+2026-09-10 02:04:13.617734:拉取 /tclconfig 完成

@@ -1,0 +1,33 @@
+2026-09-10 00:28:42.645500:SID的列表sid_list: [1]
+2026-09-10 00:28:42.648500:platform: MTK
+2026-09-10 00:28:43.152706:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:28:43.153711:继电器命令成功
+2026-09-10 00:28:46.657914:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:28:46.659421:继电器命令成功
+2026-09-10 00:29:31.669935:data: []
+2026-09-10 00:29:31.673452:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 00:29:31.675452:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 00:29:31.678452:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 00:29:31.680453:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 00:29:32.183848:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:29:32.184852:继电器命令成功
+2026-09-10 00:29:35.690787:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:29:35.691872:继电器命令成功
+2026-09-10 00:30:20.702241:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:30:20.704244:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:30:20.706270:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:30:20.708270:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:30:20.710270:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 00:30:21.214010:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:30:21.216017:继电器命令成功
+2026-09-10 00:30:24.720439:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:30:24.722956:继电器命令成功
+2026-09-10 00:31:09.730250:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-10 00:31:09.733268:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-10 00:31:09.735285:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-10 00:31:09.738286:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-10 00:31:09.740286:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-10 00:31:10.244747:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 00:31:10.247016:继电器命令成功
+2026-09-10 00:31:13.750776:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 00:31:13.752311:继电器命令成功

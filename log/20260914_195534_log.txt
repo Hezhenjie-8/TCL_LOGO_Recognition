@@ -1,0 +1,72 @@
+2026-09-14 19:55:34.808178:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-14 19:55:34.996379:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-14 19:55:41.887252:串口已就绪
+2026-09-14 19:55:41.890253:SID的列表sid_list: [0]
+2026-09-14 19:55:41.893253:platform: RTK
+2026-09-14 19:55:42.396782:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:55:42.399288:继电器命令成功
+2026-09-14 19:55:45.903402:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:55:45.905484:继电器命令成功
+2026-09-14 19:56:10.920463:data: []
+2026-09-14 19:56:10.922469:data: [' 130|console:/ $ ', '130|console:/ $  ^C', '^C130|console:/ $ ']
+2026-09-14 19:56:10.924470:进入uboot模式失败
+2026-09-14 19:56:12.927730:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:12.930736:进入uboot模式失败
+2026-09-14 19:56:14.933113:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:14.935621:进入uboot模式失败
+2026-09-14 19:56:16.938534:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:16.941095:进入uboot模式失败
+2026-09-14 19:56:19.444971:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:56:19.447230:继电器命令成功
+2026-09-14 19:56:22.951871:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:56:22.954006:继电器命令成功
+2026-09-14 19:56:47.957642:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-14 19:56:47.960878:进入uboot模式失败
+2026-09-14 19:56:49.967663:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:49.969676:进入uboot模式失败
+2026-09-14 19:56:51.974936:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:51.976979:进入uboot模式失败
+2026-09-14 19:56:53.979322:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:53.981827:进入uboot模式失败
+2026-09-14 19:56:55.984705:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:56:55.986611:进入uboot模式失败
+2026-09-14 19:56:58.490112:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:56:58.492119:继电器命令成功
+2026-09-14 19:57:01.996011:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:57:02.000022:继电器命令成功
+2026-09-14 19:57:27.005920:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-14 19:57:27.008433:进入uboot模式失败
+2026-09-14 19:57:29.011539:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:57:29.013045:进入uboot模式失败
+2026-09-14 19:57:31.019036:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:57:31.020583:进入uboot模式失败
+2026-09-14 19:57:33.024353:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:57:33.026861:进入uboot模式失败
+2026-09-14 19:57:35.030541:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:57:35.032546:进入uboot模式失败
+2026-09-14 19:57:37.536834:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:57:37.538845:继电器命令成功
+2026-09-14 19:57:41.042814:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:57:41.044818:继电器命令成功
+2026-09-14 19:58:06.056683:data: ['ATF:0 1 NOTICE: atf enter time:1185ms, current time:2858ms', 'ATF:0 1 NOTICE: 1st boot elapsed 2864ms', '^C^C']
+2026-09-14 19:58:06.058706:data: ['ATF:0 1 NOTICE: atf enter time:1185ms, current time:2858ms', 'ATF:0 1 NOTICE: 1st boot elapsed 2864ms', '^C^C']
+2026-09-14 19:58:06.063223:data: ['ATF:0 1 NOTICE: atf enter time:1185ms, current time:2858ms', 'ATF:0 1 NOTICE: 1st boot elapsed 2864ms', '^C^C']
+2026-09-14 19:58:06.066733:data: ['ATF:0 1 NOTICE: atf enter time:1185ms, current time:2858ms', 'ATF:0 1 NOTICE: 1st boot elapsed 2864ms', '^C^C']
+2026-09-14 19:58:06.068732:data: ['ATF:0 1 NOTICE: atf enter time:1185ms, current time:2858ms', 'ATF:0 1 NOTICE: 1st boot elapsed 2864ms', '^C^C']
+2026-09-14 19:58:06.070732:进入uboot模式失败
+2026-09-14 19:58:06.073733:进入uboot模式失败，重试一次
+2026-09-14 19:58:06.076233:platform: RTK
+2026-09-14 19:58:06.580024:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 19:58:06.581532:继电器命令成功
+2026-09-14 19:58:10.086664:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 19:58:10.089034:继电器命令成功
+2026-09-14 19:58:35.093923:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^C']
+2026-09-14 19:58:35.094932:进入uboot模式失败
+2026-09-14 19:58:37.098273:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:58:37.100464:进入uboot模式失败
+2026-09-14 19:58:39.109319:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:58:39.111528:进入uboot模式失败
+2026-09-14 19:58:41.114504:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:58:41.117255:进入uboot模式失败
+2026-09-14 19:58:43.124249:data: ['130|console:/ $ ', '130|console:/ $ ', '130|console:/ $ ']
+2026-09-14 19:58:43.126757:进入uboot模式失败

@@ -1,0 +1,19 @@
+2026-09-09 22:59:47.745146:SID的列表sid_list: [1]
+2026-09-09 22:59:47.749243:当前测试SID: 1
+2026-09-09 22:59:47.750243:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 22:59:48.254779:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 22:59:48.257803:继电器命令成功
+2026-09-09 22:59:50.761956:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 22:59:50.763962:继电器命令成功
+2026-09-09 22:59:50.766962:第1/3次断电上电完成
+2026-09-09 23:00:25.771241:已发送命令: logcat |grep BootAnimation，正在等待抓取ZipFileName返回值...
+2026-09-09 23:00:27.774526:抓取到返回值: 01-07 11:06:40.395   835   895 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:00:27.782249:提取到的bootanimation zip路径: /tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:00:27.784758:已发送 ctrl+C 结束 logcat
+2026-09-09 23:00:27.788762:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 23:00:27.791762:执行 adb connect 命令: adb connect 192.168.0.114
+2026-09-09 23:00:27.876458:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:00:27.878610:执行 adb root 命令: adb -s 192.168.0.114:5555 root
+2026-09-09 23:00:27.934866:adb root 返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-09 23:00:27.936870:adb root 执行失败，无法继续 pull /tclconfig
+2026-09-09 23:00:27.938892:测试次数：1

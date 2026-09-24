@@ -1,0 +1,22 @@
+2026-09-09 23:16:44.180665:SID的列表sid_list: [1]
+2026-09-09 23:16:44.231100:当前测试SID: 1
+2026-09-09 23:16:44.232105:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 23:16:44.737017:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 23:16:44.739027:继电器命令成功
+2026-09-09 23:16:50.244583:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 23:16:50.246588:继电器命令成功
+2026-09-09 23:16:50.248587:第1/3次断电上电完成
+2026-09-09 23:17:25.251663:已发送命令: logcat |grep BootAnimation，正在等待抓取ZipFileName返回值...
+2026-09-09 23:17:28.256237:抓取到返回值: 01-07 11:06:51.254   815   887 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:17:28.258244:提取到的bootanimation zip路径: /tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:17:28.259747:已发送 ctrl+C 结束 logcat
+2026-09-09 23:17:28.261750:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 23:17:28.377662:adb connect 返回码: 0, 输出: connected to 192.168.0.114:5555
+2026-09-09 23:17:28.928284:adb root 首次返回码: 0, 输出: restarting adbd as root
+2026-09-09 23:17:33.994976:adb root 后重新 connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:17:34.060302:adb root 等待5s后获取返回码: 0, 输出: adbd is already running as root
+2026-09-09 23:17:34.105812:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\demo\image_recognition\machine
+2026-09-09 23:19:43.784723:adb pull 返回码: 0, 输出: /tclconfig/: 10438 files pulled, 0 skipped. 2.4 MB/s (325256047 bytes in 129.581s)
+2026-09-09 23:19:43.787231:/tclconfig 数据已成功 pull 到: d:\demo\image_recognition\machine\tclconfig
+2026-09-09 23:19:43.789735:拉取 /tclconfig 完成
+2026-09-09 23:19:43.791742:测试次数：1

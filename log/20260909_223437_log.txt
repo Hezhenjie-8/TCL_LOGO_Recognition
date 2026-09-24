@@ -1,0 +1,16 @@
+2026-09-09 22:34:37.647009:SID的列表sid_list: [1]
+2026-09-09 22:34:37.650008:当前测试SID: 1
+2026-09-09 22:34:37.652008:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 22:34:38.156931:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 22:34:38.158439:继电器命令成功
+2026-09-09 22:34:40.666045:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 22:34:40.668553:继电器命令成功
+2026-09-09 22:34:53.979504:进入uboot模式成功
+2026-09-09 22:34:54.986751:logo得到的地址tcl_logo_path: ['console:/ $ ']
+2026-09-09 22:34:54.991755:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 22:34:54.992755:执行 adb connect 命令: adb connect 192.168.0.114
+2026-09-09 22:35:02.216939:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 22:35:02.219943:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\XXX项目\demo脚本\图像识别\machine
+2026-09-09 22:35:07.433049:adb pull 返回码: 1, 输出: adb: error: failed to stat remote object '/tclconfig': Permission denied
+2026-09-09 22:35:07.435557:adb pull 失败: adb: error: failed to stat remote object '/tclconfig': Permission denied
+2026-09-09 22:35:07.437557:测试次数：1

@@ -1,0 +1,305 @@
+[BEGIN] 2026/09/09 21:42:11
+[2026/09/09 21:42:11] 发送(hex): 0d
+[2026/09/09 21:42:11] 发送(hex): 0d
+[2026/09/09 21:42:12] 发送(hex): 0d
+[2026/09/09 21:42:13] 发送(hex): 0d
+[2026/09/09 21:42:14] 发送(hex): 0d
+[2026/09/09 21:42:15] 发送(hex): 0d
+[2026/09/09 21:42:16] 发送(hex): 0d
+[2026/09/09 21:42:17] 发送(hex): 0d
+[2026/09/09 21:42:18] 发送(hex): 0d
+[2026/09/09 21:42:19] 发送(hex): 0d
+[2026/09/09 21:42:26] UART
+[2026/09/09 21:42:26] <.
+[2026/09/09 21:42:26] AC_ON
+[2026/09/09 21:42:26] HASH1_VERSION=0x00000000 64bit
+[2026/09/09 21:42:26] E-A
+[2026/09/09 21:42:26] [ETT_Main] Clock MPLL Init
+[2026/09/09 21:42:26] [ETT_Main]MIU_ver 20240215-8664140-OneBin-V20.4
+[2026/09/09 21:42:26] [DRAMC] AC ON-0
+[2026/09/09 21:42:26] [FAST_K]
+[2026/09/09 21:42:26] [MOBF] Gen SW key
+[2026/09/09 21:42:26] CH0 DramsizeFlag_CH0 DUMMY_REG = 0x1
+[2026/09/09 21:42:26] dramc_channel0 restore dramsize_flag = 0x1
+[2026/09/09 21:42:26] [FAST_K]
+[2026/09/09 21:42:26] CH2 DramsizeFlag_CH2 DUMMY_REG = 0x0
+[2026/09/09 21:42:26] dramc_channel2 restore dramsize_flag = 0x0
+[2026/09/09 21:42:26] dispatch to 1 EMI 2 CH
+[2026/09/09 21:42:26] MIUP set area: 3GB
+[2026/09/09 21:42:26] EMI bist: [32mM0 pass[0m
+[2026/09/09 21:42:26] EMI bist: [32mM2 pass[0m
+[2026/09/09 21:42:26] fake engine: [32mpass[00000000][0m
+[2026/09/09 21:42:26] fake engine: [32mpass[00000001][0m
+[2026/09/09 21:42:26] u4dram_info=0x2406
+[2026/09/09 21:42:26] TEELOADER_VERSION=0x00000000
+[2026/09/09 21:42:26] optee teeloader entry
+[2026/09/09 21:42:26] MultiOptee image detected, ModelID=17B06E0B
+[2026/09/09 21:42:26] MultiOpt
+[2026/09/09 21:42:26] ee image detected, ModelID=17B06E0B
+[2026/09/09 21:42:26] CusConfig
+[2026/09/09 21:42:26] ARMFW_VERSION=0x00000000
+[2026/09/09 21:42:26] OPTEE_VERSION=0x00000000
+[2026/09/09 21:42:26] OPTEECUST_VERSION=0x00000000
+[2026/09/09 21:42:26] REELOADER_VERSION=0x00000000
+[2026/09/09 21:42:26] ns_uboot_boot
+[2026/09/09 21:42:26] NOTICE:  BL31: v2.4(debug):f102f7cc7
+[2026/09/09 21:42:26] NOTICE:  BL31: Built : 19:08:16, Jan  3 2026
+[2026/09/09 21:42:26] INFO:    BL31: Initializing runtime services
+[2026/09/09 21:42:26] INFO:    BL31: Initializing BL32
+[2026/09/09 21:42:26] [TEE] TRIAL BOOT: 0
+[2026/09/09 21:42:26] [DynRamlog] wait for configuring by tee driver
+[2026/09/09 21:42:26] INFO:    BL31: Preparing for EL3 exit to normal world
+[2026/09/09 21:42:26] INFO:    Entry point address = 0x20100010
+[2026/09/09 21:42:26] ree_entry
+[2026/09/09 21:42:26] Check WDT....
+[2026/09/09 21:42:26] UBOOT_VERSION=0x00000000
+[2026/09/09 21:42:27] U-Boot2019.04-g68a86a7d-dirty (Jan 07 2026 - 18:53:01 +0800)
+[2026/09/09 21:42:27] Model: MediaTek MT5896 RFB
+[2026/09/09 21:42:27] DRAM:  3 GiB
+[2026/09/09 21:42:27] MMC:   mtk-mmc-fcie@1c660000: 0
+[2026/09/09 21:42:27] Loading Environment from EXT4...
+[2026/09/09 21:42:27] OK
+[2026/09/09 21:42:27] [0;31m[ERROR] get_data_separation_info:254: [0m[data spr][start:1238][end:1245][total time:7]
+[2026/09/09 21:42:27] [0;31m[ERROR] parse_tcl_ffvoice_lednum:1106: [0mdrive_item is not exist!
+[2026/09/09 21:42:27] [0;31m[ERROR] parse_tcl_ffvoice_lednum:1126: [0muse default ffvoice lednum: 4!!!
+[2026/09/09 21:42:27] [0;31m[ERROR] parse_tcl_led_stagespacetim
+[2026/09/09 21:42:27] e:1013: [0mdrive_item is not exist!
+[2026/09/09 21:42:27] [0;31m[ERROR] parse_tcl_led_stagespacetime:1033: [0muse default_ledstage: 0!!!
+[2026/09/09 21:42:27] [0;31m[ERROR] parse_tcl_led_stagespacetime:1035: [0mset uenv led_stagespace : 0
+[2026/09/09 21:42:27] device properties match:sid = "5"
+[2026/09/09 21:42:27] [0;31m[ERROR] get_data_separation_info:270: [0mRead ini file success !
+[2026/09/09 21:42:27] [0;31m[ERROR] To_parse_tcl_standby_qhb_support:210: [0mtcl_env_qhb = 0 or null or other,not support TCL  QHB
+[2026/09/09 21:42:27] [0;31m[ERROR] dataindex_dtbo_overlay:644: [0m[DATAINDEX DTBO LOAD][start:1659][end:1737][total time:78]
+[2026/09/09 21:42:27] Model: MediaTek MT5896 RFB
+[2026/09/09 21:42:27] Net:
+[2026/09/09 21:42:27] Warning: ethernet@1c700000 using MAC address from ROM
+[2026/09/09 21:42:27] eth0: ethernet@1c700000
+[2026/09/09 21:42:28] slot:0 slot retry:0 a_corrupt:0 b_corrupt:0 successful:[1:0]
+[2026/09/09 21:42:28] 00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+[2026/09/09 21:42:28] 00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+[2026/09/09 21:42:28] [0;31m[ERROR] get_boot_mode_from_partition:354: [0mdump  OK
+[2026/09/09 21:42:28] androidboot boot reason = ac
+[2026/09/09 21:42:28] Reboot reason == PM_BR_AC
+[2026/09/09 21:42:28] upgrade status:ERROR
+[2026/09/09 21:42:28] [0;31m[ERROR] standby_mode_enter_standby:176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:28] Normal booting mode!
+[2026/09/09 21:42:28] [wei] mtk_panel_probe 991, PANEL LIB VER 5
+[2026/09/09 21:42:28] [wei] BOOT_PNL_VERSION OLD
+[2026/09/09 21:42:28] [0;31m[ERROR] standby_mode_enter_qhb:250: [0mThis PID   unsupport  TCL QHB !!!
+[2026/09/09 21:42:28] [0;31m[ERROR] mt
+[2026/09/09 21:42:28] k_panel_init_device:998: [0m[BEFORE DEMURA][start:1966][end:2002][total time:36]
+[2026/09/09 21:42:28] [0;31m[ERROR] mtk_panel_e
+[2026/09/09 21:42:28] nable:1149: [0m
+[2026/09/09 21:42:28] ---mtk_panel_enable:1149 Set mtk_panel_enable DelayTask 10
+[2026/09/09 21:42:28] Hit any key
+[2026/09/09 21:42:28] to stop autoboot:  0
+[2026/09/09 21:42:28] [0;31m[ERROR] do_check_upgrade_mode:216: [0mresolve path fail: /mnt/vendor/tvconfig/bsp/common/misc/upgrade_mode.ini
+[2026/09/09 21:42:28] check_auto_update
+[2026/09/09 21:42:28] seconds : 2
+[2026/09/09 21:42:28] Ticking:
+[2026/09/09 21:42:28] jpd_api: [ERR] _MApi_NJPD_Decoder_PrintError: data
+[2026/09/09 21:42:28] loss error!!
+[2026/09/09 21:42:28] jpd_api: [ERR] _MApi_NJPD_Decoder_PrintError: bitstream error!!
+[2026/09/09 21:42:28] [0;31m[ERROR] mtk_jpd_decode:361: [0mJPEG decode failed!!
+[2026/09/09 21:42:28] [0;31m[ERROR] standby_mode_enter_standb
+[2026/09/09 21:42:28] y:176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:28] Normal booting mode!
+[2026/09/09 21:42:28] [0;31m[ERROR] get_panel_pwm_duty_info:2489: [0mRead ini file to DRAM failure
+[2026/09/09 21:42:28] [0;31m[ERROR] Check_TSR_PMIC_Version:229: [0mThis PID   unsupport   TSR IC !!!
+[2026/09/09 21:42:28] [0;31m[ERROR] _mtk_pnl_cust_backlight_i2c_init:2450: [0mRead subnode (backlight_i2c_info) FAIL
+[2026/09/09 21:42:28] kfault cur reboot mode: 0x0
+[2026/09/09 21:42:28] kfault tcllog size: 0x4000000
+[2026/09/09 21:42:28] kfault io buf 0x5bdc3160, size 0x400, pos 0x0, is_read 1, ret 0
+[2026/09/09 21:42:28] kfault io buf 0x5bdc3570, size 0x2000, pos 0x400, is_read 1, ret 0
+[2026/09/09 21:42:28] kfault io buf 0x5bdc7590, size 0x1000, pos 0x37ff000, is_read 1, ret 0
+[2026/09/09 21:42:28] normal boot, just do tmp dump
+[2026/09/09 21:42:28] MMC write: dev # 0, block # 1480696, count 8 ... 8 blocks written: OK
+[2026/09/09 21:42:28] kfault io buf 0x5bdc7590, size 0x1000, pos 0x37ff000, is_read 0, ret 0
+[2026/09/09 21:42:28] kfault_boot->log_num = 0
+[2026/09/09 21:42:28] MMC write: dev # 0, block # 1366016, count 2 ... 2 blocks written: OK
+[2026/09/09 21:42:28] kfault io buf 0x5bdc3160, size 0x400, pos 0x0, is_read 0, ret 0
+[2026/09/09 21:42:28] [0;31m[ERROR] standby_mode_enter_standby:176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:28] Normal booting mode!
+[2026/09/09 21:42:28] check_auto_update
+[2026/09/09 21:42:28] seconds : 2
+[2026/09/09 21:42:28] Ticking: retry_count: 0
+[2026/09/09 21:42:28] ## Android Verified Boot 2.0 version 1.1.0
+[2026/09/09 21:42:28] Disable Flash Update Mode
+[2026/09/09 21:42:29] Verification passed suc
+[2026/09/09 21:42:29] cessfully
+[2026/09/09 21:42:29] Boot state is: Green !
+[2026/09/09 21:42:29] Kernel load addr 0x26000000 size 41887 KiB
+[2026/09/09 21:42:29] RAM disk load addr 0x01000000 size 2038 KiB
+[2026/09/09 21:42:29] [0;31m[ERROR] bootargs_append:2184: [0mset cfg is androidboot.device_name=G08 androidboot.series=C androidboot.product=C745 androidboot.product_name=G08_4K_GB androidboot.client_type=TCL-AP-MT9653-S1 androidboot.model_name=Smart*TV*Pro androidboot.code_name=AU14 androidboot.ecid=21454000 androidboot.tcl_brand=TCL androidboot.manufacturer=TCL androidboot.oem_tag=HK androidboot.certify=unknown androidboot.extension=unknown
+[2026/09/09 21:42:29] [0;31m[ERROR] bootargs_append:2184: [0mset cfg is androidboot.pid=1280
+[2026/09/09 21:42:29] device properties match:sid = "5"
+[2026/09/09 21:42:29] [0;31m[ERROR] set_crashkernel_rsvmem:2144: [0mError: Read kdump file to Dram failed
+[2026/09/09 21:42:29] do_tcl_crashkernel - tcl_crashkernel
+[2026/09/09 21:42:29] Usage:
+[2026/09/09 21:42:29] do_tcl_crashkernel command: set reserved memory for crashkernel
+[2026/09/09 21:42:29] Loading Kernel Image ... OK
+[2026/09/09 21:42:29] Loading Ramdisk to 29f29000, end 2bdff651 ... OK
+[2026/09/09 21:42:29] Loading Device Tree to 000000002c4e1000, end 000000002c5ff9ab ... OK
+[2026/09/09 21:42:29] [0;31m[ERROR] dataindex_dtbo_overlay:644: [0m[DATAINDEX DTBO LOAD][start:3384][end:3489][total time:105]
+[2026/09/09 21:42:29] [0;31m[ERROR] standby_mode_enter_qhb:250: [0mThis PID   unsupport  TCL QHB !!!
+[2026/09/09 21:42:29] [AutoTest][mboot][start kernel][3554]
+[2026/09/09 21:42:29] Starting kernel ...
+[2026/09/09 21:42:29] kfault io buf 0x5bdf5610, size 0x28, pos 0x400, is_read 1, ret 0
+[2026/09/09 21:42:29] last status:0x0
+[2026/09/09 21:42:29] MMC write: dev # 0, block # 1480632, count 7 ... 7 blocks written: OK
+[2026/09/09 21:42:29] MMC write: dev # 0, block # 1480639, count 1 ... 1 blocks written: OK
+[2026/09/09 21:42:29] kfault io buf 0x5bdec620, size 0xeb7, pos 0x37f7000, is_read 0, ret 0
+[2026/09/09 21:42:29] MMC write: dev # 0, block # 1366018, count 1 ... 1 blocks written: OK
+[2026/09/09 21:42:29] kfault io buf 0x5bd7ad50, size 0x28, pos 0x400, is_read 0, ret 0
+[2026/09/09 21:42:29] WARNING: Unimplemented Standard Service Call: 0x84000050
+[2026/09/09 21:42:30] 发送(hex): 0d
+[2026/09/09 21:42:31] 发送(hex): 0d
+[2026/09/09 21:42:32] 发送(hex): 0d
+[2026/09/09 21:42:33] 发送(hex): 0d
+[2026/09/09 21:42:34] 发送(hex): 0d
+[2026/09/09 21:42:35] 发送(hex): 0d
+[2026/09/09 21:42:36] 发送(hex): 0d
+[2026/09/09 21:42:38] 发送(hex): 0d
+[2026/09/09 21:42:39] 发送(hex): 0d
+[2026/09/09 21:42:40] 发送(hex): 0d
+[2026/09/09 21:42:46] UART
+[2026/09/09 21:42:46] <.
+[2026/09/09 21:42:46] AC_ON
+[2026/09/09 21:42:46] HASH1_VERSION=0x00000000 64bit
+[2026/09/09 21:42:46] E-A
+[2026/09/09 21:42:46] [ETT_Main] Clock MPLL Init
+[2026/09/09 21:42:46] [ETT_Main]MIU_ver 20240215-8664140-OneBin-V20.4
+[2026/09/09 21:42:46] [DRAMC] AC ON-0
+[2026/09/09 21:42:46] [FAST_K]
+[2026/09/09 21:42:46] [MOBF] Gen SW key
+[2026/09/09 21:42:46] CH0 DramsizeFlag_CH0 DUMMY_REG = 0x1
+[2026/09/09 21:42:46] dramc_channel0 restore dramsize_flag = 0x1
+[2026/09/09 21:42:46] [FAST_K]
+[2026/09/09 21:42:46] CH2 DramsizeFlag_CH2 DUMMY_REG = 0x0
+[2026/09/09 21:42:46] dramc_channel2 restore dramsize_flag = 0x0
+[2026/09/09 21:42:46] dispatch to 1 EMI 2 CH
+[2026/09/09 21:42:46] MIUP set area: 3GB
+[2026/09/09 21:42:46] EMI bist: [32mM0 pass[0m
+[2026/09/09 21:42:46] EMI bist: [32mM2 pass[0m
+[2026/09/09 21:42:46] fake engine: [32mpass[00000000][0m
+[2026/09/09 21:42:46] fake engine: [32mpass[00000001][0m
+[2026/09/09 21:42:46] u4dram_info=0x2406
+[2026/09/09 21:42:46] TEELOADER_VERSION=0x00000000
+[2026/09/09 21:42:46] optee teeloader entry
+[2026/09/09 21:42:46] MultiOptee image detected, ModelID=17B06E0B
+[2026/09/09 21:42:46] MultiOptee imag
+[2026/09/09 21:42:46] e detected, ModelID=17B06E0B
+[2026/09/09 21:42:46] CusConfig
+[2026/09/09 21:42:46] ARMFW_VERSION=0x00000000
+[2026/09/09 21:42:46] OPTEE_VERSION=0x00000000
+[2026/09/09 21:42:46] OPTEECUST_VERSION=0x00000000
+[2026/09/09 21:42:46] REELOADER_VERSION=0x00000000
+[2026/09/09 21:42:46] ns_uboot_boot
+[2026/09/09 21:42:46] NOTICE:  BL31: v2.4(debug):f102f7cc7
+[2026/09/09 21:42:46] NOTICE:  BL31: Built : 19:08:16, Jan  3 2026
+[2026/09/09 21:42:46] INFO:    BL31: Initializing runtime services
+[2026/09/09 21:42:46] INFO:    BL31: Initializing BL32
+[2026/09/09 21:42:46] [TEE] TRIAL BOOT: 0
+[2026/09/09 21:42:46] [DynRamlog] wait for configuring by tee driver
+[2026/09/09 21:42:46] INFO:    BL31: Preparing for EL3 exit to normal world
+[2026/09/09 21:42:46] INFO:    Entry point address = 0x20100010
+[2026/09/09 21:42:46] ree_entry
+[2026/09/09 21:42:46] Check WDT....
+[2026/09/09 21:42:46] UBOOT_VERSION=0x00000000
+[2026/09/09 21:42:47] U-Boot2019.04-g68a86a7d-dirty (Jan 07 2026 - 18:53:01 +0800)
+[2026/09/09 21:42:47] Model: MediaTek MT5896 RFB
+[2026/09/09 21:42:47] DRAM:  3 GiB
+[2026/09/09 21:42:47] MMC:   mtk-mmc-fcie@1c660000: 0
+[2026/09/09 21:42:47] Loading Environment from EXT4...
+[2026/09/09 21:42:47] OK
+[2026/09/09 21:42:47] [0;31m[ERROR] get_data_separation_info:254: [0m[data spr][start:1206][end:1213][total time:7]
+[2026/09/09 21:42:47] [0;31m[ERROR] parse_tcl_ffvoice_lednum:1106: [0mdrive_item is not exist!
+[2026/09/09 21:42:47] [0;31m[ERROR] parse_tcl_ffvoice_lednum:1126: [0muse default ffvoice lednum: 4!!!
+[2026/09/09 21:42:47] [0;31m[ERROR] parse_tcl_led_stagespacetime
+[2026/09/09 21:42:47] :1013: [0mdrive_item is not exist!
+[2026/09/09 21:42:47] [0;31m[ERROR] parse_tcl_led_stagespacetime:1033: [0muse default_ledstage: 0!!!
+[2026/09/09 21:42:47] [0;31m[ERROR] parse_tcl_led_stagespacetime:1035: [0mset uenv led_stagespace : 0
+[2026/09/09 21:42:47] device properties match:sid = "5"
+[2026/09/09 21:42:47] [0;31m[ERROR] get_data_separation_info:270: [0mRead ini file success !
+[2026/09/09 21:42:47] [0;31m[ERROR] To_parse_tcl_standby_qhb_support:210: [0mtcl_env_qhb = 0 or null or other,not support TCL  QHB
+[2026/09/09 21:42:47] [0;31m[ERROR] dataindex_dtbo_overlay:644: [0m[DATAINDEX DTBO LOAD][start:1627][end:1705][total time:78]
+[2026/09/09 21:42:47] Model: MediaTek MT5896 RFB
+[2026/09/09 21:42:47] Net:
+[2026/09/09 21:42:48] Warning: ethernet@1c700000 using MAC address from ROM
+[2026/09/09 21:42:48] eth0: ethernet@1c700000
+[2026/09/09 21:42:48] slot:0 slot retry:0 a_corrupt:0 b_corrupt:0 successful:[1:0]
+[2026/09/09 21:42:48] 00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+[2026/09/09 21:42:48] 00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+[2026/09/09 21:42:48] [0;31m[ERROR] get_boot_mode_from_partition:354: [0mdump  OK
+[2026/09/09 21:42:48] androidboot boot reason = ac
+[2026/09/09 21:42:48] Reboot reason == PM_BR_AC
+[2026/09/09 21:42:48] upgrade status:ERROR
+[2026/09/09 21:42:48] [0;31m[ERROR] standby_mode_enter_standby:176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:48] Normal booting mode!
+[2026/09/09 21:42:48] [wei] mtk_panel_probe 991, PANEL LIB VER 5
+[2026/09/09 21:42:48] [wei] BOOT_PNL_VERSION OLD
+[2026/09/09 21:42:48] [0;31m[ERROR] standby_mode_enter_qhb:250: [0mThis PID   unsupport  TCL QHB !!!
+[2026/09/09 21:42:48] [0;31m[ERROR] mtk
+[2026/09/09 21:42:48] _panel_init_device:998: [0m[BEFORE DEMURA][start:1933][end:1970][total time:37]
+[2026/09/09 21:42:48] [0;31m[ERROR] mtk_panel_enable:1149: [
+[2026/09/09 21:42:48] 0m
+[2026/09/09 21:42:48] ---mtk_panel_enable:1149 Set mtk_panel_enable DelayTask 9
+[2026/09/09 21:42:48] Hit any key to stop autob
+[2026/09/09 21:42:48] oot:  0
+[2026/09/09 21:42:48] [0;31m[ERROR] do_check_upgrade_mode:216: [0mresolve path fail: /mnt/vendor/tvconfig/bsp/common/misc/upgrade_mode.ini
+[2026/09/09 21:42:48] check_auto_update
+[2026/09/09 21:42:48] seconds : 2
+[2026/09/09 21:42:48] Ticking:
+[2026/09/09 21:42:48] jpd_api: [ERR] _MApi_NJPD_Decoder_PrintError: data loss error!!
+[2026/09/09 21:42:48] jpd_api: [ERR] _MApi_NJPD_Decoder_PrintError: bitstream error!!
+[2026/09/09 21:42:48] [0;31m[ERROR] mtk_jpd_decode:361: [0mJPEG decode failed!!
+[2026/09/09 21:42:48] [0;31m[ERROR] standby_mode_enter_standby
+[2026/09/09 21:42:48] :176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:48] Normal booting mode!
+[2026/09/09 21:42:48] [0;31m[ERROR] get_panel_pwm_duty_info:2489: [0mRead ini file to DRAM failure
+[2026/09/09 21:42:48] [0;31m[ERROR] Check_TSR_PMIC_Version:229: [0mThis PID   unsupport   TSR IC !!!
+[2026/09/09 21:42:48] [0;31m[ERROR] _mtk_pnl_cust_backlight_i2c_init:2450: [0mRead subnode (backlight_i2c_info) FAIL
+[2026/09/09 21:42:48] kfault cur reboot mode: 0x0
+[2026/09/09 21:42:48] kfault tcllog size: 0x4000000
+[2026/09/09 21:42:48] kfault io buf 0x5bdc3160, size 0x400, pos 0x0, is_read 1, ret 0
+[2026/09/09 21:42:48] kfault io buf 0x5bdc3570, size 0x2000, pos 0x400, is_read 1, ret 0
+[2026/09/09 21:42:48] kfault io buf 0x5bdc7590, size 0x1000, pos 0x37ff000, is_read 1, ret 0
+[2026/09/09 21:42:48] normal boot, just do tmp dump
+[2026/09/09 21:42:48] kfault_tmp_header->tmp_nums = 0
+[2026/09/09 21:42:48] MMC write: dev # 0, block # 1366016, count 2 ... 2 blocks written: OK
+[2026/09/09 21:42:48] kfault io buf 0x5bdc3160, size 0x400, pos 0x0, is_read 0, ret 0
+[2026/09/09 21:42:48] [0;31m[ERROR] standby_mode_enter_standby:176: [0m[panic case]: no panic occur, normal deal
+[2026/09/09 21:42:48] Normal booting mode!
+[2026/09/09 21:42:48] check_auto_update
+[2026/09/09 21:42:48] seconds : 2
+[2026/09/09 21:42:48] Ticking: retry_count: 0
+[2026/09/09 21:42:48] ## Android Verified Boot 2.0 version 1.1.0
+[2026/09/09 21:42:48] Disable Flash Update Mode
+[2026/09/09 21:42:49] Verification passed successfully
+[2026/09/09 21:42:49] Boot state is: Green !
+[2026/09/09 21:42:49] Kernel load addr 0x26000000 size 41887 KiB
+[2026/09/09 21:42:49] RAM disk load addr 0x01000000 size 2038 KiB
+[2026/09/09 21:42:49] [0;31m[ERROR] bootargs_append:2184: [0mset cfg is androidboot.device_name=G08 androidboot.series=C androidboot.product=C745 androidboot.product_name=G08_4K_GB androidboot.client_type=TCL-AP-MT9653-S1 androidboot.model_name=Smart*TV*Pro androidboot.code_name=AU14 androidboot.ecid=21454000 androidboot.tcl_brand=TCL androidboot.manufacturer=TCL androidboot.oem_tag=HK androidboot.certify=unknown androidboot.extension=unknown
+[2026/09/09 21:42:49] [0;31m[ERROR] bootargs_append:2184: [0mset cfg is androidboot.pid=1280
+[2026/09/09 21:42:49] device properties match:sid = "5"
+[2026/09/09 21:42:49] [0;31m[ERROR] set_crashkernel_rsvmem:2144: [0mError: Read kdump file to Dram failed
+[2026/09/09 21:42:49] do_tcl_crashkernel - tcl_crashkernel
+[2026/09/09 21:42:49] Usage:
+[2026/09/09 21:42:49] do_tcl_crashkernel command: set reserved memory for crashkernel
+[2026/09/09 21:42:49] Loading Kernel Image ... OK
+[2026/09/09 21:42:49] Loading Ramdisk to 29f29000, end 2bdff651 ... OK
+[2026/09/09 21:42:49] Loading Device Tree to 000000002c4e1000, end 000000002c5ff9ab ... OK
+[2026/09/09 21:42:49] [0;31m[ERROR] dataindex_dtbo_overlay:644: [0m[DATAINDEX DTBO LOAD][start:3336][end:3442][total time:106]
+[2026/09/09 21:42:49] [0;31m[ERROR] standby_mode_enter_qhb:250: [0mThis PID   unsupport  TCL QHB !!!
+[2026/09/09 21:42:49] [AutoTest][mboot][start kernel][3506]
+[2026/09/09 21:42:49] Starting kernel ...
+[2026/09/09 21:42:49] kfault io buf 0x5bdf5610, size 0x28, pos 0x400, is_read 1, ret 0
+[2026/09/09 21:42:49] last status:0x2000
+[2026/09/09 21:42:49] MMC write: dev # 0, block # 1480632, count 7 ... 7 blocks written: OK
+[2026/09/09 21:42:49] MMC write: dev # 0, block # 1480639, count 1 ... 1 blocks written: OK
+[2026/09/09 21:42:49] kfault io buf 0x5bdec620, size 0xe2f, pos 0x37f7000, is_read 0, ret 0
+[2026/09/09 21:42:49] MMC write: dev # 0, block # 1366018, count 1 ... 1 blocks written: OK
+[2026/09/09 21:42:49] kfault io buf 0x5bd7ad50, size 0x28, pos 0x400, is_read 0, ret 0
+[2026/09/09 21:42:49] WARNING: Unimplemented Standard Service Call: 0x84000050
+[2026/09/09 21:42:51] 发送(hex): 0d
+[2026/09/09 21:42:52] 发送(hex): 0d

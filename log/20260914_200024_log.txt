@@ -1,0 +1,17 @@
+2026-09-14 20:00:24.339962:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-14 20:00:45.471655:adb connect 返回码: 0, 输出: cannot connect to 192.168.0.124:5555: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 (10060)
+2026-09-14 20:00:45.475655:adb 连接失败，请检查设备是否开启网络 adb 调试: 192.168.0.124
+2026-09-14 20:00:45.477159:串口已就绪
+2026-09-14 20:00:45.480164:SID的列表sid_list: [0]
+2026-09-14 20:00:45.483164:platform: RTK
+2026-09-14 20:00:45.988138:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 20:00:45.990141:继电器命令成功
+2026-09-14 20:00:49.494557:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-14 20:00:49.495561:继电器命令成功
+2026-09-14 20:01:14.500403:data: []
+2026-09-14 20:01:14.503717:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 20:01:14.504718:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 20:01:14.506717:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 20:01:14.509718:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-14 20:01:15.013615:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-14 20:01:15.014621:继电器命令成功

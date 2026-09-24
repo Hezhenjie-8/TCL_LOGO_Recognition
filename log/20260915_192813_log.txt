@@ -1,0 +1,165 @@
+2026-09-15 19:28:13.436095:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-15 19:28:13.518221:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-15 19:28:20.148293:串口已就绪
+2026-09-15 19:28:20.152298:SID的列表sid_list: [66]
+2026-09-15 19:28:20.154808:platform: RTK
+2026-09-15 19:28:20.658030:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:28:20.660105:继电器命令成功
+2026-09-15 19:28:24.163620:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:28:24.168130:继电器命令成功
+2026-09-15 19:28:49.180896:data: ['get FW_VKERNEL flash start 0xc100200 ddr buf start 0x1a900000 image size 05f0300 ok!', 'get FW_VKERNEL2 flash start 0xd900200 ddr buf start 0x1af00000 image size 0f4920 ok!', 'get FW_AKERNEL flash start 0xa900200 ddr buf start 0x1b200000 image size 07fbf7c ok!']
+2026-09-15 19:28:49.185105:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:28:49.188104:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:28:49.191607:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:28:49.197543:data: ['Net:   r8168: REALTEK RTL8168 @0x18016000', '[Skip K] boot manual mode (execute "go all")', 'Enter console mode, disable watchdog ...']
+2026-09-15 19:28:49.704756:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:28:49.707761:继电器命令成功
+2026-09-15 19:28:53.220107:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:28:53.224654:继电器命令成功
+2026-09-15 19:29:18.245643:data: ['Realtek> ', 'Realtek> ', 'Realtek> ']
+2026-09-15 19:29:18.248649:进入uboot模式成功
+2026-09-15 19:29:18.252674:进入uboot模式成功
+2026-09-15 19:29:43.260462:data: ATF:0 1 NOTICE: 1st boot elapsed 4000ms
+console:/ $ factory auto test loop start
+2026-09-15 19:29:43.266502:进入Pmode模式成功
+2026-09-15 19:29:43.268502:进入Pmode模式成功
+2026-09-15 19:29:43.272009:发送key指令(hex): aa061001a7ef
+2026-09-15 19:29:43.693641:刷入key值成功(应答hex): ab050adf4e
+2026-09-15 19:29:43.695644:进工厂模式成功
+2026-09-15 19:29:44.700331:发送key指令(hex): aa09700000000092eb
+2026-09-15 19:29:45.088898:刷入key值成功(应答hex): ab050adf4e
+2026-09-15 19:29:45.091211:切换PID 0指令成功
+2026-09-15 19:29:55.093441:发送key指令(hex): aa06840063e1
+2026-09-15 19:29:55.225500:刷入key值成功(应答hex): ab050adf4eab0685002664
+2026-09-15 19:29:55.229503:查询PID指令成功
+2026-09-15 19:29:55.232504:PID应答数据(hex): 00 -> SID=0, HID=None
+2026-09-15 19:29:55.236011:当前机器的SID: 0 (HID: None)
+2026-09-15 19:29:55.240059:切换PID为 0 成功
+2026-09-15 19:29:55.243592:设置PID为0成功
+2026-09-15 19:29:55.748754:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:29:55.750762:继电器命令成功
+2026-09-15 19:29:58.255225:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:29:58.257228:继电器命令成功
+2026-09-15 19:30:23.259784:当前测试SID: 66
+2026-09-15 19:30:23.265520:发送key指令(hex): aa061001a7ef
+2026-09-15 19:30:23.776690:刷入key值成功(应答hex): ab050adf4e
+2026-09-15 19:30:23.781018:进工厂模式成功
+2026-09-15 19:30:24.784135:发送key指令(hex): aa06110194de
+2026-09-15 19:30:24.885486:刷入key值成功(应答hex): ab050adf4e
+2026-09-15 19:30:24.888203:显示工厂模式成功
+2026-09-15 19:30:26.237618:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-15 19:30:26.889046:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:26.891046:按键下已发送
+2026-09-15 19:30:27.570352:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:27.576911:按键下已发送
+2026-09-15 19:30:28.233136:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:28.235274:按键下已发送
+2026-09-15 19:30:28.854772:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:28.858780:按键下已发送
+2026-09-15 19:30:29.604319:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:29.607321:按键下已发送
+2026-09-15 19:30:30.261804:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:30.266287:按键下已发送
+2026-09-15 19:30:31.002702:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:31.009713:按键下已发送
+2026-09-15 19:30:31.714471:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:31.716978:按键下已发送
+2026-09-15 19:30:32.412897:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:32.415403:按键下已发送
+2026-09-15 19:30:33.110307:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-15 19:30:33.113329:按键OK已发送
+2026-09-15 19:30:33.877855:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-15 19:30:33.881710:按键下已发送
+2026-09-15 19:30:34.620415:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent 13 -> 返回码: 0
+2026-09-15 19:30:34.622418:SID数字6按键已发送(keycode=13)
+2026-09-15 19:30:34.882256:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.124 shell input keyevent 13 -> 返回码: 0
+2026-09-15 19:30:34.888118:SID数字6按键已发送(keycode=13)
+2026-09-15 19:30:44.942929:发送key指令(hex): aa06840063e1
+2026-09-15 19:30:45.088134:刷入key值成功(应答hex): ab050adf4eab078542003dbe
+2026-09-15 19:30:45.091125:查询PID指令成功
+2026-09-15 19:30:45.093125:PID应答数据(hex): 4200 -> SID=66, HID=None
+2026-09-15 19:30:45.095634:当前机器的SID: 66 (HID: None)
+2026-09-15 19:30:45.096918:切换SID为 66 成功
+2026-09-15 19:30:45.098918:设置SID 66 成功
+2026-09-15 19:30:45.610682:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:30:45.612191:继电器命令成功
+2026-09-15 19:30:48.121454:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:30:48.123600:继电器命令成功
+2026-09-15 19:31:13.127094:切换SID为 66 完成，等待设备启动完成
+2026-09-15 19:31:13.130098:uboot下获取开机logo的地址
+2026-09-15 19:31:13.636102:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:31:13.638231:继电器命令成功
+2026-09-15 19:31:16.142933:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:31:16.144943:继电器命令成功
+2026-09-15 19:31:16.147450:platform: RTK
+2026-09-15 19:31:16.654371:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:31:16.658379:继电器命令成功
+2026-09-15 19:31:20.163043:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:31:20.165669:继电器命令成功
+2026-09-15 19:31:45.175882:data: ['Realtek> ', 'Realtek> ', 'Realtek> ']
+2026-09-15 19:31:45.178396:进入uboot模式成功
+2026-09-15 19:31:45.183550:进入uboot模式成功
+2026-09-15 19:32:21.190277:data_text: ATF:0 1 NOTICE: 1st boot elapsed 2703ms
+console:/ $ 
+console:/ $ 
+console:/ $ 
+console:/ $ 
+2026-09-15 19:32:21.195331:退出Pmode模式成功
+2026-09-15 19:32:21.202332:退出Pmode模式成功
+2026-09-15 19:32:21.204834:已发送命令: logcat |grep mZipFileName，等待抓取 mZipFileName...
+2026-09-15 19:32:22.207838:从串口日志抓取到开机动画路径: 08-30 18:21:45.822  1040  1087 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K/bootanim/customized_bootanimation.zip
+2026-09-15 19:32:22.210877:已发送 ctrl+C 结束 logcat
+2026-09-15 19:32:22.211877:RTK 提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K/bootanim
+2026-09-15 19:32:22.716554:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:32:22.718560:继电器命令成功
+2026-09-15 19:32:25.222446:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:32:25.223956:继电器命令成功
+2026-09-15 19:32:25.226960:platform: RTK
+2026-09-15 19:32:25.731614:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-15 19:32:25.733646:继电器命令成功
+2026-09-15 19:32:29.236972:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-15 19:32:29.238976:继电器命令成功
+2026-09-15 19:32:54.246267:data: ['Realtek> ', 'Realtek> ', 'Realtek> ']
+2026-09-15 19:32:54.248274:进入uboot模式成功
+2026-09-15 19:32:54.251031:进入uboot模式成功
+2026-09-15 19:33:19.256151:data: ATF:0 1 NOTICE: 1st boot elapsed 4001ms
+console:/ $ factory auto test loop start
+2026-09-15 19:33:19.258151:进入Pmode模式成功
+2026-09-15 19:33:19.259151:进入Pmode模式成功
+2026-09-15 19:33:19.261659:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K/bootanim
+2026-09-15 19:33:19.265168:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-15 19:33:19.345551:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-15 19:33:19.416531:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-15 19:33:24.478487:设备已上线: 192.168.0.124:5555
+2026-09-15 19:33:24.538818:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-15 19:33:24.590838:等待设备上线中... 当前状态: error: device offline
+2026-09-15 19:33:27.785683:设备已上线: 192.168.0.124:5555
+2026-09-15 19:33:27.792190:执行 adb pull 命令: adb -s 192.168.0.124:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K d:\demo\image_recognition\machine\20260915_193327
+2026-09-15 19:33:28.130199:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K/: 3 files pulled, 0 skipped. 11.9 MB/s (3120501 bytes in 0.250s)
+2026-09-15 19:33:28.132372:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260915_193327
+2026-09-15 19:33:28.134598:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_2K 完成
+2026-09-15 19:33:28.137598:解压tcl_logo_path的压缩包的customized_bootanimation.zip，并且拿到最后一张开机动画的图片
+2026-09-15 19:33:28.140598:从 tcl_logo_path 解析出的机型目录: common_TCL_QDMINI_2K
+2026-09-15 19:33:28.216706:本批次机型目录: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K
+2026-09-15 19:33:28.218706:静态开机logo: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\logo\logo.jpg
+2026-09-15 19:33:28.221706:找到开机动画压缩包: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\bootanim\customized_bootanimation.zip
+2026-09-15 19:33:28.536638:解压开机动画压缩包完成: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\bootanim\customized_bootanimation
+2026-09-15 19:33:28.541088:开机动画帧目录: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\bootanim\customized_bootanimation\boot (共130张)
+2026-09-15 19:33:28.544085:开机动画最后一张图片: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\bootanim\customized_bootanimation\boot\loop_00131.png
+2026-09-15 19:33:28.548600:开机动画的图片last_bootanimation_image_path: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\bootanim\customized_bootanimation\boot\loop_00131.png
+2026-09-15 19:33:28.551133:静态logo图片logo_image_path: d:\demo\image_recognition\machine\20260915_193327\common_TCL_QDMINI_2K\logo\logo.jpg
+2026-09-15 19:33:28.566148:SID=66 对应的 template 目录: d:\demo\image_recognition\template\SID_66_C6KS
+2026-09-15 19:33:28.599780:template 开机logo图片: d:\demo\image_recognition\template\SID_66_C6KS\开机logo.png
+2026-09-15 19:33:28.601282:template 开机动画图片: d:\demo\image_recognition\template\SID_66_C6KS\开机动画.png
+2026-09-15 19:33:28.603800:标准库开机动画图片template_bootanimation_image_path: d:\demo\image_recognition\template\SID_66_C6KS\开机动画.png
+2026-09-15 19:33:28.605801:标准库静态logo图片template_logo_image_path: d:\demo\image_recognition\template\SID_66_C6KS\开机logo.png
+2026-09-15 19:33:30.424419:开机logo对比结果
+2026-09-15 19:33:30.444004:{'matched': True, 'decision_source': 'direct', 'llm_status': 'not_needed', 'score': 0.8976602551420139, 'pixel_similarity': 0.9086377910539216, 'structural_similarity': 0.8219524972258303, 'perceptual_hash_similarity': 0.96875, 'direct_match_threshold': 0.88, 'fallback_threshold': 0.88, 'decision_reason': '综合相似度达到直接判定相同阈值。', 'reference': {'filename': 'logo.jpg', 'width': 1920, 'height': 1080, 'mode': 'RGB'}, 'candidate': {'filename': '开机logo.png', 'width': 252, 'height': 150, 'mode': 'RGB'}}
+2026-09-15 19:33:30.446004:开机动画对比结果
+2026-09-15 19:33:30.451533:{'matched': True, 'decision_source': 'llm', 'llm_status': 'completed', 'score': 0.2896424628032527, 'pixel_similarity': 0.3575554941214767, 'structural_similarity': 0.012474968161960498, 'perceptual_hash_similarity': 0.5, 'direct_match_threshold': 0.88, 'fallback_threshold': 0.88, 'decision_reason': '综合相似度处于大模型介入区间，采用 Qwen 视觉复核结果。', 'reference': {'filename': 'loop_00131.png', 'width': 812, 'height': 776, 'mode': 'RGB'}, 'candidate': {'filename': '开机动画.png', 'width': 810, 'height': 265, 'mode': 'RGB'}, 'llm_match': True, 'llm_same_logo': True, 'llm_appearance_consistent': True, 'llm_confidence': 1.0, 'llm_reason': "两张图片均为黑色背景上的白色'QD-Mini LED'文字，其中'Q'字母内部有三条斜线装饰，字体、字号、间距、对齐方式及整体布局完全一致，无任何视觉差异。"}
+2026-09-15 19:33:30.455535:66对比成功
+2026-09-15 19:33:30.985193:SID=66 对比完成：通过；阈值[直判0.8800/降级0.8800]；开机logo=True(相似度0.8977，判定来源direct)，开机动画=True(相似度0.2896，判定来源llm)
+2026-09-15 19:33:30.988197:========================开始下一个SID测试========================
+2026-09-15 19:33:30.990197:共测试 1 个SID，对比通过 1 个，失败 0 个
+2026-09-15 19:33:30.992197:所有SID对比明细: [{"sid": 66, "matched": true, "logo": {"matched": true, "score": 0.8976602551420139, "direct_match_threshold": 0.88, "fallback_threshold": 0.88, "decision_source": "direct", "llm_status": "not_needed", "machine_image": "d:\\demo\\image_recognition\\machine\\20260915_193327\\common_TCL_QDMINI_2K\\logo\\logo.jpg", "template_image": "d:\\demo\\image_recognition\\template\\SID_66_C6KS\\开机logo.png", "error": ""}, "bootanimation": {"matched": true, "score": 0.2896424628032527, "direct_match_threshold": 0.88, "fallback_threshold": 0.88, "decision_source": "llm", "llm_status": "completed", "machine_image": "d:\\demo\\image_recognition\\machine\\20260915_193327\\common_TCL_QDMINI_2K\\bootanim\\customized_bootanimation\\boot\\loop_00131.png", "template_image": "d:\\demo\\image_recognition\\template\\SID_66_C6KS\\开机动画.png", "error": ""}, "thresholds": {"direct_match_threshold": 0.88, "fallback_threshold": 0.88}, "threshold_text": "直判0.8800/降级0.8800", "fail_reasons": []}]
+2026-09-15 19:33:31.505594:SID对比结果表格已导出: d:\demo\image_recognition\report\SID开机logo对比结果_20260915_193331.xlsx

@@ -1,0 +1,31 @@
+2026-09-10 01:09:25.681483:SID的列表sid_list: [1]
+2026-09-10 01:09:25.684483:当前测试SID: 1
+2026-09-10 01:09:25.687498:platform: MTK
+2026-09-10 01:09:26.192471:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:09:26.196474:继电器命令成功
+2026-09-10 01:09:29.701057:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:09:29.703564:继电器命令成功
+2026-09-10 01:10:04.715291:data: []
+2026-09-10 01:10:04.718292:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 01:10:04.719798:进入uboot模式失败
+2026-09-10 01:10:06.722475:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 01:10:06.724620:进入uboot模式失败
+2026-09-10 01:10:08.726646:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 01:10:08.728177:进入uboot模式失败
+2026-09-10 01:10:10.731398:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 01:10:10.734401:进入uboot模式失败
+2026-09-10 01:10:13.238561:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:10:13.240914:继电器命令成功
+2026-09-10 01:10:16.744938:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:10:16.746942:继电器命令成功
+2026-09-10 01:10:51.756024:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 01:10:51.758026:进入uboot模式成功
+2026-09-10 01:10:51.759530:进入uboot模式成功
+2026-09-10 01:11:16.762854:data: [   10.387617][  T516] PowerHAL: [AT][AN][DC finish boot]
+factory auto test loop start
+2026-09-10 01:11:16.764857:进入Pmode模式失败
+2026-09-10 01:11:16.767228:进入Pmode模式失败，重试一次
+2026-09-10 01:11:41.770455:data: [   10.387617][  T516] PowerHAL: [AT][AN][DC finish boot]
+factory auto test loop start
+2026-09-10 01:11:41.773964:进入Pmode模式失败
+2026-09-10 01:11:41.775965:发生错误: cannot access local variable 'data' where it is not associated with a value

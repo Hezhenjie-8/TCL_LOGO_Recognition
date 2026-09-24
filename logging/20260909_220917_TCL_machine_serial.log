@@ -1,0 +1,415 @@
+[BEGIN] 2026/09/09 22:09:24
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] en: OK
+[2026/09/09 22:09:24] kfault io buf 0x5bd7ad50, size 0x28, pos 0x400, is_read 0, ret 0
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] WARNING: Unimplemented Standard Service Call: 0x84000050
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:24] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] [    0.322586][    T1] clk_mt5896: we have : PM
+[2026/09/09 22:09:25] [    0.322609][    T1] clk_mt5896: we have : NONPM
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] [Ramlog] tee_config_dyn_ramlog_by_cookie is success
+[2026/09/09 22:09:25] [    0.471856][    T1] [K][EFUSE]mtk_efuse_init() ----- START
+[2026/09/09 22:09:25] [    0.477513][    T1] [K][EFUSE]mtk_efuse_init() ----> OK
+[2026/09/09 22:09:25] [    0.489949][    T1] ir set ir_arm_en to 1.
+[2026/09/09 22:09:25] [    0.494158][    T1] ir get boot status 2.
+[2026/09/09 22:09:25] [    0.498190][    T1] ir set boot status to 3.
+[2026/09/09 22:09:25] [    0.502466][    T1] ir get key 65535.
+[2026/09/09 22:09:25] [    0.506136][    T1] mtk-ir 1c080000.ir_in: ir probe done.
+[2026/09/09 22:09:25] [    0.517955][    T1] [0][0][0]
+[2026/09/09 22:09:25] [    0.528806][    T1] add null memory dma_heap with name mtk_nullmem_1
+[2026/09/09 22:09:25] [    0.535219][    T1]     range from 0x3000000 to 0x13000000
+[2026/09/09 22:09:25] [    0.535219][    T1]
+[2026/09/09 22:09:25] [    0.535219][    T1]
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] [    0.567633][    T1] we have : seal
+[2026/09/09 22:09:25] [    0.5891
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 46][   T67] mtk_mci 1c660000.mtk-mmc-fcie: [ mtk_fcie_set_ios() Ln.4351 ]
+[2026/09/09 22:09:25] [    0.596796][   T67] mtk_mci 1c660000.mtk-mmc-fcie: Ld HS400ES
+[2026/09/09 22:09:25] [    0.605011][   T67] mtk_mci 1c660000.mtk-mmc-fcie: eMMC: HS400 5.1 200MHz
+[2026/09/09 22:09:25] [    0.612137][   T67] mtk_mci 1c660000.mtk-mmc-fcie: eMMC: HS400 5.1 200MHz
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] [    0.670328][    T1] [Alg Debug] MApi_PQ_CLI_CFD_Init sucess!!
+[2026/09/09 22:09:25] [    0.679869][    T1] lizw pp 1
+[2026/09/09 22:09:25] [    0.685321][    T1] tcl_action_monitor: kfault kernel timeout init
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:25] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] [    1.670629][  T124] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:26] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] console:/ $
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:27] [    2.847842][  T124] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:09:27] [    2.856598][  T124] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:09:27] [    2.867900][  T124] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:09:27] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] [0;32;31m [ramlog] tee_get_ramlog_config 586 [m
+[2026/09/09 22:09:28] [ramlog] Chip ID: 48 e2 a3 c5 22 31 98 47 98 04 00 00
+[2026/09/09 22:09:28] [ramlog] TEE log is not enabled (I2C mode:1)
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:28] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:29] 发送(hex): 20
+[2026/09/09 22:09:30] [    4.959836][  T316] mtk_and: line 0: glide-disk-cach%com.google.android.apps.tv.launcherx=S:N-20
+[2026/09/09 22:09:30] [    4.968794][  T316] mtk_and: line 1: animation%com.netflix.ninja=S:N-10
+[2026/09/09 22:09:30] [    4.975455][  T316] mtk_and: line 2: CastV2_Signing_%com.google.android.apps.mediashell=S:N-10
+[2026/09/09 22:09:30] [    4.984069][  T316] mtk_and: line 3: Thread-17%com.amazon.amazonvideo.livingroom=S:R1
+[2026/09/09 22:09:30] [    4.991955][  T316] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] [    5.293374][  T124] mtu3 1c7a3e00.usb: ssusb clock enable
+[2026/09/09 22:09:30] [    5.306286][  T124] mtu3 1c1b3e00.usb: ssusb clock enable
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] Info: get MI daemon priority before System Init: [-20]
+[2026/09/09 22:09:30] [mi_daemon]!!!Enter MI daemon prcoess!! start time =5414
+[2026/09/09 22:09:30] [mi_daemon][HASHKEY]{_Bin_Hashkey_Init,692} ----- START not bGingaSupported
+[2026/09/09 22:09:30] [mi_daemon][HASHKEY]{_Bin_Hashkey_Init,697} ----- START
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] [mi_daemon][HASHKEY]{_getPathFromDataIndex,620} pszFilePath:/tclconfig/hardware/param/soc/dataIndex_00_WW_4K60_VbyOne.ini
+[2026/09/09 22:09:30] Cannot get key 'HASHKEY:hashkey_file' in dataIndex file /tclconfig/hardware/param/soc/dataIndex_00_WW_4K60_VbyOne.ini
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,580} (iBinSize:306)
+[2026/09/09 22:09:30] [IPAUTH]{_IPAUTH_ReadDebugFile,308} ----- START
+[2026/09/09 22:09:30] [IPAUTH]{_IPAUTH_ReadDebugFile,317} Debug file is not exist~(/data/vendor/ipauth_debug.txt)
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,631} u16CustomerId:0x19
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,693} u16HashkeyChipId:0x10D
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_Verify,406} call HASHKEY_Verify()
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_Verify,408} HASHKEY_Verify() return 0
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,750} set _u8_hashkey_verify_result=OK
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_set_BinDataToKernel,503} (u32Para1:1, pu8BinBuf:0xFF929950, u32BufSize:306)
+[2026/09/09 22:09:30] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_set_BinDataToKernel,523} cmd:0x8791, u32_para_1:0x1, u32BufSize_in:306
+[2026/09/09 22:09:30] [mi_daemon]!!!Enter MI daemon flow time=5414!!
+[2026/09/09 22:09:30] [mi_daemon]{_MI_SYS_Init,809} _MI_SYS_Init() ----- START
+[2026/09/09 22:09:30] !!!MI daemon prcoess start! MI daemon cost time=96!!!
+[2026/09/09 22:09:30] Info: get MI daemon priority after Module Init: [0]
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:30] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] [    6.122065][  T124] realtime_framework_init is invoked
+[2026/09/09 22:09:31] [    6.127365][  T124] realtime_module_init [538], REALTIME_UID=2941
+[2026/09/09 22:09:31] [    6.145263][  T397] tcl_vdf: vdf_send
+[2026/09/09 22:09:31] _task run..
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] [    6.294151][  T403] [austin_demod_dd][demod_probe] name = [austin_demod]
+[2026/09/09 22:09:31] [    6.301551][  T403] [demod_probe][120] austin_dev->client->addr = 0x79
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias mus[    6.324847][  T403] [austin_chk_exist][74] ret -121, --- 0 9 3 2
+[2026/09/09 22:09:31] t have 3 entries, not 4
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 7
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 4[    6.349860][  T402] of_node: mtk,apusys not found
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, no[    6.360152][  T403] [mdbgin_merak_demod_dd][mtk_demod_custom_file_open][2503] __entry__
+[2026/09/09 22:09:31] t 4
+[2026/09/09 22:09:31] modprobe: a[    6.369351][  T403] [mtk_demod_custom_file_open][2542] CUSTOM_EQ_TYPE7
+[2026/09/09 22:09:31] lias lines in mo[    6.377775][  T403] [mtk_demod_custom_file_open][2554] custom file open fail !
+[2026/09/09 22:09:31] dules.alias must[    6.386400][  T403] 1ce00000.mtk-demod is already registered, pass it
+[2026/09/09 22:09:31] have 3 entries, not 6
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:31] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:09:31] Loading module /vendor/lib/modules/spi-mtkdtv-ci.ko with args ''
+[2026/09/09 22:09:31] Loaded kernel module /vendor/lib/modules/spi-mtkdtv-ci.ko
+[2026/09/09 22:09:31] [    6.521466][  T401] drv_hwreg_srccap_hdmirx_at
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] tach b_attach = 1
+[2026/09/09 22:09:31] [    6.521468][  T401] drv_hwreg_srccap_hdmirx_attach size = 1
+[2026/09/09 22:09:31] [    6.528136][  T401] hal_hwreg_srccap_hdmirx_ops_array[0].hw_version = 6
+[2026/09/09 22:09:31] [    6.542953][  T401] u32_addr_min = eb00
+[2026/09/09 22:09:31] [    6.547249][  T401] u32_addr_max = ebf0
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:31] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] <modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 7
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in[    6.827145][  T124] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:09:32] modules.alias m[    6.834262][  T124] stall_debug: chip id 0
+[2026/09/09 22:09:32] ust have 3 entries, not 4
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alia[    6.844678][  T124] stall_debug: hook sysrq-c OK
+[2026/09/09 22:09:32] s must have 3 en[    6.845623][  T162] current tty: ttyS0, irq: 22
+[2026/09/09 22:09:32] tries, not 4
+[2026/09/09 22:09:32] mo[    6.850232][  T124] stall_debug: alloc 1000 memory ok
+[2026/09/09 22:09:32] dprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must [    6.876176][  T124] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:09:32] have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias[    6.894950][  T469] stall_debug: rd_pid_max is 32768
+[2026/09/09 22:09:32] must have 3 ent[    6.900509][  T469] stall_debug: ptr_task_scs=ffffffc00dcbe000,size=40000
+[2026/09/09 22:09:32] ries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] [    6.914565][  T124] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:09:32] modprobe: alias lines in modules[    6.923403][  T124] die_helper: log_buf is from ffffffc00a8f0060,len 20000
+[2026/09/09 22:09:32] .alias must have[    6.931612][  T124] die_helper: log_buf pa is from 0x00000000288f0060,len 20000
+[2026/09/09 22:09:32] 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:09:32] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtktv-regulator-mt5876.ko with args ''
+[2026/09/09 22:09:32] Loaded kernel module /vendor/lib/modules/mtktv-regulator-mt5876.ko
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtktv-thermal.ko with args ''
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtktv-cpufreq-ca.ko with args ''
+[2026/09/09 22:09:32] Loaded kernel module /vendor/lib/modules/mtktv-cpufreq-ca.ko
+[2026/09/09 22:09:32] Loading module /[    6.941705][  T162] current tty: ttyS0, irq: 22
+[2026/09/09 22:09:32] vendor/lib/modul[    6.989069][  T469] stall_debug: enable ip record by scs OK
+[2026/09/09 22:09:32] es/mtktv-cpufreq.ko with args ''
+[2026/09/09 22:09:32] Loaded kernel module /vendor/lib/modules/mtktv-cpufreq.ko
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtk-dramc.ko with args ''
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtk-mediator.ko with args ''
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/cpu-freq-adapter.ko with args ''
+[2026/09/09 22:09:32] Loaded kernel module /vendor/lib/modules/cpu-freq-adapter.ko
+[2026/09/09 22:09:32] Loading module /vendor/lib/modules/mtktv-gpu-thermal.ko with args ''
+[2026/09/09 22:09:32] Loaded kernel module /vendor/lib/modules/mtktv-gpu-thermal.ko
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:32] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] [    8.097426][  T581] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b
+[2026/09/09 22:09:33] [    8.161178][  T124] tcl_action_monitor: kfault stop kern
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] el init timeout
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] [    8.236363][  T581] [R842_I2C_Check][10202] NG!!
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] <[    8.306025][  T581] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b
+[2026/09/09 22:09:33] [    8.313954][  T581] [R842_InitReg][3250] NG!!
+[2026/09/09 22:09:33] [    8.318422][  T581] [R842_Init][3063] NG!!
+[2026/09/09 22:09:33] [    8.322633][  T581] [R842_tuner_init] fail
+[2026/09/09 22:09:33] [    8.35
+[2026/09/09 22:09:33] 4407][  T612] watchdog: watchdog0: watchdog did not stop!
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] [    8.590763][  T639] watchdog: watchdog0: watchdo
+[2026/09/09 22:09:33] g did not stop!
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] CPU_AUDIO is running!
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:33] 发送(hex): 20
+[2026/09/09 22:09:34] 发送(hex): 20
+[2026/09/09 22:09:34] 发送(hex): 20
+[2026/09/09 22:09:34] [8850908][_cpuAudio_ALSA_Driver_GetCardInfo][198]to open /proc/asound/cards
+[2026/09/09 22:09:34] [8851192][_cpuAudio_ALSA_Driver_GetCardInfo][225]Available Sound Cards:[
+[2026/09/09 22:09:34] 0 [mtktvsndcard   ]: mtk-tvsnd-card - mtk-tvsnd-card
+[2026/09/09 22:09:34] MTK-TV-SOUND-ASOC-AUDIO-DRV
+[2026/09/09 22:09:34] 1 [Loopback       ]: Loopback - Loopback
+[2026/09/09 22:09:34] Loopback 1
+[2026/09/09 22:09:34] 2 [mtkaloopsndcard]: mtkaloopsndcard - mtkaloopsndcard
+[2026/09/09 22:09:34] mtkaloopsndcard 1
+[2026/09/09 22:09:34] 3 [vocsndcard     ]: vocsndcard - vocsndcard
+[2026/09/09 22:09:34] vocsndcard 1
+[2026/09/09 22:09:34] ]
+[2026/09/09 22:09:34] [8851234][_cpuAudio_ALSA_Driver_GetCardInfo][239]index of mtktvsndcard : 0
+[2026/09/09 22:09:34] [8851243][_cpuAudio_ALSA_Driver_GetCardInfo][254]mtktvsndcard : /dev/snd/controlC0
+[2026/09/09 22:09:34] [8851264][_cpuAudio_ALSA_Driver_GetCardInfo][273]close /proc/asound/cards done
+[2026/09/09 22:09:34] [8851381][_cpuAudio_ALSA_Driver_GetKcontolId][400]pKControl:Utopia controls,fd:3,elist.count:42
+[2026/09/09 22:09:34] [8851393][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM RATE
+[2026/09/09 22:09:34] [8851398][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM GET PB BUF LEVEL
+[2026/09/09 22:09:34] [8851404][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM GET CAP BUF LEVEL
+[2026/09/09 22:09:34] [8851409][_cpuAudio_ALSA_Driver_GetKcontolId][403]Duplex mm controls
+[2026/09/09 22:09:34] [8851413][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture MUTE EVENT
+[2026/09/09 22:09:34] [8851418][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture NONPCM EVENT
+[2026/09/09 22:09:34] [8851423][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture NONPCM FLAG
+[2026/09/09 22:09:34] [8851428][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture FASTLOCK MODE
+[2026/09/09 22:09:34] [8851433][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture TIMESTAMP
+[2026/09/09 22:09:34] [8851437][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture controls
+[2026/09/09 22:09:34] [8851442][_cpuAudio_ALSA_Driver_GetKcontolId][403]DSP Reload
+[2026/09/09 22:09:34] [8851447][_cpuAudio_ALSA_Driver_GetKcontolId][403]Utopia controls
+[2026/09/09 22:09:34] [8851452][_cpuA[    8.998071][  T713] [mzc] init done
+[2026/09/09 22:09:34] udio_ALSA_Driver_GetKcontolId][407]got Kcontrol[Utopia controls] at id[12]
+[2026/09/09 22:09:34] [8851477][cpuAudio_ALSA_Driver_Init][690]Audio memory size(0x2E57000) phyAudioBase(0x200000) busAudioBase(0x20200000)
+[2026/09/09 22:09:34] [8851488][_cpuAudio_ALSA_Driver_InitPcmDevice][301]Opening PCM device node=0/2, period=11863/1024, format=2/48000/0
+[2026/09/09 22:09:34] [8856379][cpuAudio_ALSA_Driver_Init][701]phyAudioBase(0x200000) => UserVirtualAddr(0xea829000)
+[2026/09/09 22:09:34] [8866539][cpuAudio_getInfo][562][1;35m cpuAudio[Info](thread-name:)(pid:0)(tid:0) [0m
+[2026/09/09 22:09:34] [8866586][cpuAudio_getInfo][566][1;35m cpuAudio[decR2:0x2396,sndR2:0xd263][Version](0x20) [0m
+[2026/09/09 22:09:34] [cpuAudio_postprocess_init][16] dec_base(ea829000) DEC_R2_SHM_DDR_OFFSET(0x1911000) snd_base(eb9e9000) SND_R2_SHM_DDR_OFFSET(0x753000) p_decR2_shm(0xec13a000) p_sndR2_shm(0xec13c000)
+[2026/09/09 22:09:34] [1;35m [cpuAudioPostProcess_main][327]Enter while(1) loop. [0m
+[2026/09/09 22:09:34] [cpuAudio_createPostprocessMonitorThread][370]armAudio_postprocessrMonitor_ver: 0xff20 thread created successfully
+[2026/09/09 22:09:34] 发送(hex): 7072696e74656e762074636c5f6c6f676f5f70617468
+[2026/09/09 22:09:34] printenv tcl                                         printenv tcl                         <_logo_path
+
+[END] 2026/09/09 22:09:34

@@ -1,0 +1,1848 @@
+2026-09-11 00:42:59.475943:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:43:00.063860:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:43:10.763340:串口已就绪
+2026-09-11 00:43:10.766342:SID的列表sid_list: [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306]
+2026-09-11 00:43:10.769341:platform: MTK
+2026-09-11 00:43:11.273950:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:43:11.277954:继电器命令成功
+2026-09-11 00:43:14.781972:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:43:14.784479:继电器命令成功
+2026-09-11 00:43:39.800154:data: ['CH0 DramsizeFlag_CH0 DUMMY_REG = 0x1 ', 'dramc_channel0 restore dramsize_flag = 0x1', '[FAST_K]']
+2026-09-11 00:43:39.807187:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 00:43:39.809177:进入uboot模式失败
+2026-09-11 00:43:41.811172:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 00:43:41.813178:进入uboot模式失败
+2026-09-11 00:43:43.814820:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 00:43:43.816823:进入uboot模式失败
+2026-09-11 00:43:45.818561:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 00:43:45.820563:进入uboot模式失败
+2026-09-11 00:43:48.323407:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:43:48.325152:继电器命令成功
+2026-09-11 00:43:51.829291:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:43:51.831294:继电器命令成功
+2026-09-11 00:44:16.837122:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:44:16.847843:进入uboot模式成功
+2026-09-11 00:44:16.850590:进入uboot模式成功
+2026-09-11 00:44:41.853954:data: [   11.297784][  T527] PowerHAL: [AT][AN][DC finish boot]
+factory auto test loop start
+2026-09-11 00:44:41.856962:进入Pmode模式成功
+2026-09-11 00:44:41.859469:进入Pmode模式成功
+2026-09-11 00:44:41.861473:发送key指令(hex): aa061001a7ef
+2026-09-11 00:44:42.175622:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:44:42.177871:进工厂模式成功
+2026-09-11 00:44:43.181079:发送key指令(hex): aa09700000000092eb
+2026-09-11 00:44:43.717215:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:44:43.719869:切换PID 0指令成功
+2026-09-11 00:44:43.723872:当前测试SID: 78
+2026-09-11 00:44:44.228080:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:44:44.230620:继电器命令成功
+2026-09-11 00:44:46.734842:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:44:46.737043:继电器命令成功
+2026-09-11 00:45:11.740466:发送key指令(hex): aa061001a7ef
+2026-09-11 00:45:12.290582:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:45:12.292587:进工厂模式成功
+2026-09-11 00:45:13.296412:发送key指令(hex): aa06110194de
+2026-09-11 00:45:13.409640:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:45:13.412881:显示工厂模式成功
+2026-09-11 00:45:14.496172:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:45:15.214464:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:15.217971:按键下已发送
+2026-09-11 00:45:15.894933:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:15.895945:按键下已发送
+2026-09-11 00:45:16.602530:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:16.606529:按键下已发送
+2026-09-11 00:45:17.259317:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:17.261547:按键下已发送
+2026-09-11 00:45:17.920390:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:17.922393:按键下已发送
+2026-09-11 00:45:18.599808:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:18.602313:按键下已发送
+2026-09-11 00:45:19.305260:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:19.306775:按键下已发送
+2026-09-11 00:45:19.948349:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:19.951349:按键下已发送
+2026-09-11 00:45:20.586619:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:20.588622:按键下已发送
+2026-09-11 00:45:21.223854:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:45:21.226854:按键OK已发送
+2026-09-11 00:45:21.865064:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:45:21.867567:按键下已发送
+2026-09-11 00:45:22.498425:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 14 -> 返回码: 0
+2026-09-11 00:45:22.500535:SID数字7按键已发送(keycode=14)
+2026-09-11 00:45:22.672196:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 00:45:22.674703:SID数字8按键已发送(keycode=15)
+2026-09-11 00:45:32.728750:发送key指令(hex): aa06840063e1
+2026-09-11 00:45:33.188358:刷入key值成功(应答hex): ab050adf4eab07854e0078d3
+2026-09-11 00:45:33.194684:查询PID指令成功
+2026-09-11 00:45:33.196685:当前机器的SID: 20088
+2026-09-11 00:45:33.197685:切换SID为 78 失败
+2026-09-11 00:45:33.701502:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:45:33.703009:继电器命令成功
+2026-09-11 00:45:36.207923:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:45:36.209427:继电器命令成功
+2026-09-11 00:46:01.213699:切换SID为 78 完成，等待设备启动完成
+2026-09-11 00:46:01.216202:uboot下获取开机logo的地址
+2026-09-11 00:46:01.218704:platform: MTK
+2026-09-11 00:46:01.722857:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:46:01.724945:继电器命令成功
+2026-09-11 00:46:05.228170:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:46:05.231677:继电器命令成功
+2026-09-11 00:46:30.237655:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:46:30.239675:进入uboot模式成功
+2026-09-11 00:46:30.240676:进入uboot模式成功
+2026-09-11 00:46:30.244184:第1/3次获取开机动画路径完成
+2026-09-11 00:46:30.246184:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:46:31.248957:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:46:31.250960:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:46:31.251960:已发送 ctrl+C 结束 logcat
+2026-09-11 00:46:31.253960:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:46:31.758446:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:46:31.761098:继电器命令成功
+2026-09-11 00:46:34.265251:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:46:34.268799:继电器命令成功
+2026-09-11 00:47:09.274288:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:47:09.397662:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:47:09.465188:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 00:47:14.525684:设备已上线: 192.168.0.155:5555
+2026-09-11 00:47:14.596297:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 00:47:14.665468:等待设备上线中... 当前状态: error: device offline
+2026-09-11 00:47:17.855598:设备已上线: 192.168.0.155:5555
+2026-09-11 00:47:17.858597:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_004717
+2026-09-11 00:47:18.218305:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 11.1 MB/s (3538000 bytes in 0.305s)
+2026-09-11 00:47:18.221436:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_004717
+2026-09-11 00:47:18.223437:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 00:47:18.226512:拉取78tclconfig完成
+2026-09-11 00:47:18.229016:当前测试SID: 79
+2026-09-11 00:47:18.732865:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:47:18.734887:继电器命令成功
+2026-09-11 00:47:21.239012:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:47:21.241015:继电器命令成功
+2026-09-11 00:47:46.243457:发送key指令(hex): aa061001a7ef
+2026-09-11 00:47:46.431318:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:47:46.433834:进工厂模式成功
+2026-09-11 00:47:47.436953:发送key指令(hex): aa06110194de
+2026-09-11 00:47:47.539889:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:47:47.543908:显示工厂模式成功
+2026-09-11 00:47:48.624421:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:47:49.307652:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:49.310021:按键下已发送
+2026-09-11 00:47:49.991947:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:49.993948:按键下已发送
+2026-09-11 00:47:50.697794:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:50.700243:按键下已发送
+2026-09-11 00:47:51.402408:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:51.404410:按键下已发送
+2026-09-11 00:47:52.061139:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:52.062642:按键下已发送
+2026-09-11 00:47:52.723210:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:52.725213:按键下已发送
+2026-09-11 00:47:53.369729:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:53.372237:按键下已发送
+2026-09-11 00:47:53.997571:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:53.998571:按键下已发送
+2026-09-11 00:47:54.621893:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:54.623398:按键下已发送
+2026-09-11 00:47:55.269260:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:47:55.271263:按键OK已发送
+2026-09-11 00:47:55.890078:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:47:55.892583:按键下已发送
+2026-09-11 00:47:56.508119:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 14 -> 返回码: 0
+2026-09-11 00:47:56.511626:SID数字7按键已发送(keycode=14)
+2026-09-11 00:47:56.666204:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 00:47:56.668710:SID数字9按键已发送(keycode=16)
+2026-09-11 00:48:06.721672:发送key指令(hex): aa06840063e1
+2026-09-11 00:48:06.856726:刷入key值成功(应答hex): ab050adf4eab07854f004be2
+2026-09-11 00:48:06.859029:查询PID指令成功
+2026-09-11 00:48:06.861029:当前机器的SID: 20299
+2026-09-11 00:48:06.863029:切换SID为 79 失败
+2026-09-11 00:48:07.366780:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:48:07.368287:继电器命令成功
+2026-09-11 00:48:09.873051:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:48:09.875069:继电器命令成功
+2026-09-11 00:48:34.877130:切换SID为 79 完成，等待设备启动完成
+2026-09-11 00:48:34.879147:uboot下获取开机logo的地址
+2026-09-11 00:48:34.882334:platform: MTK
+2026-09-11 00:48:35.386383:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:48:35.389021:继电器命令成功
+2026-09-11 00:48:38.892929:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:48:38.899456:继电器命令成功
+2026-09-11 00:49:03.916657:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:49:03.918672:进入uboot模式成功
+2026-09-11 00:49:03.921672:进入uboot模式成功
+2026-09-11 00:49:03.923692:第1/3次获取开机动画路径完成
+2026-09-11 00:49:03.926691:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:49:04.932228:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:49:04.934733:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:49:04.935734:已发送 ctrl+C 结束 logcat
+2026-09-11 00:49:04.937748:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:49:05.441409:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:49:05.443425:继电器命令成功
+2026-09-11 00:49:07.947360:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:49:07.950050:继电器命令成功
+2026-09-11 00:49:42.953312:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:49:43.043025:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:49:43.112865:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 00:49:48.206808:设备已上线: 192.168.0.155:5555
+2026-09-11 00:49:48.284572:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 00:49:48.349644:等待设备上线中... 当前状态: error: device offline
+2026-09-11 00:49:51.588044:设备已上线: 192.168.0.155:5555
+2026-09-11 00:49:51.593117:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_004951
+2026-09-11 00:49:51.914898:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.8 MB/s (3538000 bytes in 0.245s)
+2026-09-11 00:49:51.916898:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_004951
+2026-09-11 00:49:51.918897:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 00:49:51.919897:拉取79tclconfig完成
+2026-09-11 00:49:51.922403:当前测试SID: 80
+2026-09-11 00:49:52.427180:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:49:52.429188:继电器命令成功
+2026-09-11 00:49:54.933269:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:49:54.938796:继电器命令成功
+2026-09-11 00:50:19.943799:发送key指令(hex): aa061001a7ef
+2026-09-11 00:50:20.465771:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:50:20.470771:进工厂模式成功
+2026-09-11 00:50:21.474348:发送key指令(hex): aa06110194de
+2026-09-11 00:50:21.708791:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:50:21.714755:显示工厂模式成功
+2026-09-11 00:50:22.826324:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:50:23.459145:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:23.461149:按键下已发送
+2026-09-11 00:50:24.094472:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:24.098073:按键下已发送
+2026-09-11 00:50:24.792965:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:24.797490:按键下已发送
+2026-09-11 00:50:25.448611:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:25.453118:按键下已发送
+2026-09-11 00:50:26.087888:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:26.090893:按键下已发送
+2026-09-11 00:50:26.736507:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:26.738506:按键下已发送
+2026-09-11 00:50:27.378355:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:27.380355:按键下已发送
+2026-09-11 00:50:27.995917:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:27.998418:按键下已发送
+2026-09-11 00:50:28.622304:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:28.624641:按键下已发送
+2026-09-11 00:50:29.238013:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:50:29.240012:按键OK已发送
+2026-09-11 00:50:29.870134:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:50:29.872260:按键下已发送
+2026-09-11 00:50:30.482719:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 00:50:30.490223:SID数字8按键已发送(keycode=15)
+2026-09-11 00:50:30.684471:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 7 -> 返回码: 0
+2026-09-11 00:50:30.689249:SID数字0按键已发送(keycode=7)
+2026-09-11 00:50:40.743932:发送key指令(hex): aa06840063e1
+2026-09-11 00:50:40.920622:刷入key值成功(应答hex): ab050adf4eab0785500058af
+2026-09-11 00:50:40.922689:查询PID指令成功
+2026-09-11 00:50:40.924688:当前机器的SID: 20568
+2026-09-11 00:50:40.926687:切换SID为 80 失败
+2026-09-11 00:50:41.431013:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:50:41.741853:继电器命令成功
+2026-09-11 00:50:44.247627:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:50:44.251637:继电器命令成功
+2026-09-11 00:51:09.254253:切换SID为 80 完成，等待设备启动完成
+2026-09-11 00:51:09.256760:uboot下获取开机logo的地址
+2026-09-11 00:51:09.261267:platform: MTK
+2026-09-11 00:51:09.765588:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:51:09.768134:继电器命令成功
+2026-09-11 00:51:13.274178:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:51:13.276724:继电器命令成功
+2026-09-11 00:51:38.296185:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:51:38.298204:进入uboot模式成功
+2026-09-11 00:51:38.299204:进入uboot模式成功
+2026-09-11 00:51:38.301204:第1/3次获取开机动画路径完成
+2026-09-11 00:51:38.302532:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:51:39.305603:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:51:39.308121:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:51:39.310122:已发送 ctrl+C 结束 logcat
+2026-09-11 00:51:39.311121:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:51:39.815667:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:51:39.818690:继电器命令成功
+2026-09-11 00:51:42.322240:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:51:42.324249:继电器命令成功
+2026-09-11 00:52:17.326404:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:52:17.427382:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:52:17.498958:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 00:52:22.557757:设备已上线: 192.168.0.155:5555
+2026-09-11 00:52:22.638971:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 00:52:22.712313:等待设备上线中... 当前状态: error: device offline
+2026-09-11 00:52:25.894948:设备已上线: 192.168.0.155:5555
+2026-09-11 00:52:25.896948:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_005225
+2026-09-11 00:52:26.234253:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.3 MB/s (3538000 bytes in 0.275s)
+2026-09-11 00:52:26.236252:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_005225
+2026-09-11 00:52:26.238253:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 00:52:26.240252:拉取80tclconfig完成
+2026-09-11 00:52:26.242253:当前测试SID: 81
+2026-09-11 00:52:26.747752:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:52:26.751369:继电器命令成功
+2026-09-11 00:52:29.255281:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:52:29.258284:继电器命令成功
+2026-09-11 00:52:54.260876:发送key指令(hex): aa061001a7ef
+2026-09-11 00:52:54.444888:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:52:54.446896:进工厂模式成功
+2026-09-11 00:52:55.449389:发送key指令(hex): aa06110194de
+2026-09-11 00:52:55.550617:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:52:55.552678:显示工厂模式成功
+2026-09-11 00:52:56.608534:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:52:57.304659:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:52:57.308163:按键下已发送
+2026-09-11 00:52:57.945451:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:52:57.948559:按键下已发送
+2026-09-11 00:52:58.572409:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:52:58.574922:按键下已发送
+2026-09-11 00:52:59.203586:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:52:59.206586:按键下已发送
+2026-09-11 00:52:59.811728:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:52:59.813727:按键下已发送
+2026-09-11 00:53:00.447015:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:53:00.449014:按键下已发送
+2026-09-11 00:53:01.061211:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:53:01.064212:按键下已发送
+2026-09-11 00:53:01.712650:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:53:01.714649:按键下已发送
+2026-09-11 00:53:02.337678:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:53:02.339679:按键下已发送
+2026-09-11 00:53:02.986137:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:53:02.988137:按键OK已发送
+2026-09-11 00:53:03.607219:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:53:03.610219:按键下已发送
+2026-09-11 00:53:04.224759:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 00:53:04.226759:SID数字8按键已发送(keycode=15)
+2026-09-11 00:53:04.416111:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 8 -> 返回码: 0
+2026-09-11 00:53:04.418115:SID数字1按键已发送(keycode=8)
+2026-09-11 00:53:14.470784:发送key指令(hex): aa06840063e1
+2026-09-11 00:53:14.774746:刷入key值成功(应答hex): ab050adf4eab078551006b9e
+2026-09-11 00:53:14.777256:查询PID指令成功
+2026-09-11 00:53:14.779257:当前机器的SID: 20843
+2026-09-11 00:53:14.781257:切换SID为 81 失败
+2026-09-11 00:53:15.285422:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:53:15.287432:继电器命令成功
+2026-09-11 00:53:17.791725:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:53:17.793732:继电器命令成功
+2026-09-11 00:53:42.796106:切换SID为 81 完成，等待设备启动完成
+2026-09-11 00:53:42.798234:uboot下获取开机logo的地址
+2026-09-11 00:53:42.800234:platform: MTK
+2026-09-11 00:53:43.305312:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:53:43.309693:继电器命令成功
+2026-09-11 00:53:46.813696:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:53:46.815698:继电器命令成功
+2026-09-11 00:54:11.824340:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:54:11.826343:进入uboot模式成功
+2026-09-11 00:54:11.827344:进入uboot模式成功
+2026-09-11 00:54:11.830849:第1/3次获取开机动画路径完成
+2026-09-11 00:54:11.831850:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:54:12.834843:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:54:12.836847:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:54:12.840355:已发送 ctrl+C 结束 logcat
+2026-09-11 00:54:12.842354:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:54:13.346196:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:54:13.347201:继电器命令成功
+2026-09-11 00:54:15.853280:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:54:15.854787:继电器命令成功
+2026-09-11 00:54:50.858480:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:54:50.932354:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:54:51.016348:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 00:54:56.127799:设备已上线: 192.168.0.155:5555
+2026-09-11 00:54:56.199985:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 00:54:56.273480:等待设备上线中... 当前状态: error: device offline
+2026-09-11 00:54:59.498019:设备已上线: 192.168.0.155:5555
+2026-09-11 00:54:59.500019:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_005459
+2026-09-11 00:54:59.858082:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 11.8 MB/s (3538000 bytes in 0.286s)
+2026-09-11 00:54:59.861105:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_005459
+2026-09-11 00:54:59.862609:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 00:54:59.864612:拉取81tclconfig完成
+2026-09-11 00:54:59.866611:当前测试SID: 82
+2026-09-11 00:55:00.370508:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:55:00.372515:继电器命令成功
+2026-09-11 00:55:02.876957:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:55:02.884609:继电器命令成功
+2026-09-11 00:55:27.887811:发送key指令(hex): aa061001a7ef
+2026-09-11 00:55:28.087824:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:55:28.090330:进工厂模式成功
+2026-09-11 00:55:29.092144:发送key指令(hex): aa06110194de
+2026-09-11 00:55:29.180093:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:55:29.182304:显示工厂模式成功
+2026-09-11 00:55:30.368246:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:55:30.993934:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:30.995938:按键下已发送
+2026-09-11 00:55:31.672180:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:31.674180:按键下已发送
+2026-09-11 00:55:32.288950:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:32.290950:按键下已发送
+2026-09-11 00:55:32.905403:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:32.907404:按键下已发送
+2026-09-11 00:55:33.541503:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:33.543502:按键下已发送
+2026-09-11 00:55:34.158268:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:34.160776:按键下已发送
+2026-09-11 00:55:34.825302:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:34.827809:按键下已发送
+2026-09-11 00:55:35.502439:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:35.504577:按键下已发送
+2026-09-11 00:55:36.126769:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:36.128768:按键下已发送
+2026-09-11 00:55:36.778225:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:55:36.780733:按键OK已发送
+2026-09-11 00:55:37.390249:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:55:37.392252:按键下已发送
+2026-09-11 00:55:38.010522:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 00:55:38.017533:SID数字8按键已发送(keycode=15)
+2026-09-11 00:55:38.210067:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 9 -> 返回码: 0
+2026-09-11 00:55:38.213756:SID数字2按键已发送(keycode=9)
+2026-09-11 00:55:48.267054:发送key指令(hex): aa06840063e1
+2026-09-11 00:55:48.499196:刷入key值成功(应答hex): ab050adf4eab078552003ecd
+2026-09-11 00:55:48.501591:查询PID指令成功
+2026-09-11 00:55:48.502591:当前机器的SID: 21054
+2026-09-11 00:55:48.505093:切换SID为 82 失败
+2026-09-11 00:55:49.009011:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:55:49.011234:继电器命令成功
+2026-09-11 00:55:51.515036:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:55:51.517043:继电器命令成功
+2026-09-11 00:56:16.519452:切换SID为 82 完成，等待设备启动完成
+2026-09-11 00:56:16.520963:uboot下获取开机logo的地址
+2026-09-11 00:56:16.523967:platform: MTK
+2026-09-11 00:56:17.026818:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:56:17.028327:继电器命令成功
+2026-09-11 00:56:20.532298:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:56:20.534301:继电器命令成功
+2026-09-11 00:56:45.541265:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:56:45.543575:进入uboot模式成功
+2026-09-11 00:56:45.544996:进入uboot模式成功
+2026-09-11 00:56:45.546500:第1/3次获取开机动画路径完成
+2026-09-11 00:56:45.550524:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:56:46.554069:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:56:46.555576:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:56:46.557576:已发送 ctrl+C 结束 logcat
+2026-09-11 00:56:46.560577:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:56:47.065053:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:56:47.067057:继电器命令成功
+2026-09-11 00:56:49.571238:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:56:49.572751:继电器命令成功
+2026-09-11 00:57:24.576057:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:57:24.641365:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:57:24.698414:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 00:57:29.752085:设备已上线: 192.168.0.155:5555
+2026-09-11 00:57:29.822203:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 00:57:29.881433:等待设备上线中... 当前状态: error: device offline
+2026-09-11 00:57:33.071231:设备已上线: 192.168.0.155:5555
+2026-09-11 00:57:33.073234:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_005733
+2026-09-11 00:57:33.395284:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.7 MB/s (3538000 bytes in 0.266s)
+2026-09-11 00:57:33.398285:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_005733
+2026-09-11 00:57:33.401284:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 00:57:33.403284:拉取82tclconfig完成
+2026-09-11 00:57:33.406796:当前测试SID: 83
+2026-09-11 00:57:33.910270:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:57:33.911286:继电器命令成功
+2026-09-11 00:57:36.415922:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:57:36.417930:继电器命令成功
+2026-09-11 00:58:01.420064:发送key指令(hex): aa061001a7ef
+2026-09-11 00:58:01.759810:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:58:01.761948:进工厂模式成功
+2026-09-11 00:58:02.764275:发送key指令(hex): aa06110194de
+2026-09-11 00:58:02.959647:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 00:58:02.962655:显示工厂模式成功
+2026-09-11 00:58:04.022414:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 00:58:04.661190:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:04.667692:按键下已发送
+2026-09-11 00:58:05.284024:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:05.285531:按键下已发送
+2026-09-11 00:58:05.904260:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:05.906259:按键下已发送
+2026-09-11 00:58:06.572560:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:06.574566:按键下已发送
+2026-09-11 00:58:07.221419:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:07.223732:按键下已发送
+2026-09-11 00:58:07.846295:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:07.849295:按键下已发送
+2026-09-11 00:58:08.481402:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:08.483401:按键下已发送
+2026-09-11 00:58:09.093362:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:09.095594:按键下已发送
+2026-09-11 00:58:09.723444:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:09.725445:按键下已发送
+2026-09-11 00:58:10.353067:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 00:58:10.355066:按键OK已发送
+2026-09-11 00:58:11.011713:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 00:58:11.013712:按键下已发送
+2026-09-11 00:58:11.620254:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 00:58:11.623278:SID数字8按键已发送(keycode=15)
+2026-09-11 00:58:11.783691:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 10 -> 返回码: 0
+2026-09-11 00:58:11.785689:SID数字3按键已发送(keycode=10)
+2026-09-11 00:58:21.839122:发送key指令(hex): aa06840063e1
+2026-09-11 00:58:22.167355:刷入key值成功(应答hex): ab050adf4eab078553000dfc
+2026-09-11 00:58:22.169359:查询PID指令成功
+2026-09-11 00:58:22.171361:当前机器的SID: 21261
+2026-09-11 00:58:22.173584:切换SID为 83 失败
+2026-09-11 00:58:22.678572:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:58:22.680579:继电器命令成功
+2026-09-11 00:58:25.184494:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:58:25.186715:继电器命令成功
+2026-09-11 00:58:50.189458:切换SID为 83 完成，等待设备启动完成
+2026-09-11 00:58:50.192466:uboot下获取开机logo的地址
+2026-09-11 00:58:50.197537:platform: MTK
+2026-09-11 00:58:50.701641:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:58:50.702986:继电器命令成功
+2026-09-11 00:58:54.206918:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:58:54.208941:继电器命令成功
+2026-09-11 00:59:19.226612:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 00:59:19.228861:进入uboot模式成功
+2026-09-11 00:59:19.231010:进入uboot模式成功
+2026-09-11 00:59:19.233011:第1/3次获取开机动画路径完成
+2026-09-11 00:59:19.235010:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 00:59:20.238430:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:59:20.240942:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:59:20.242944:已发送 ctrl+C 结束 logcat
+2026-09-11 00:59:20.244942:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 00:59:20.751614:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 00:59:20.753616:继电器命令成功
+2026-09-11 00:59:23.257028:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 00:59:23.259035:继电器命令成功
+2026-09-11 00:59:58.261301:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 00:59:58.342582:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 00:59:58.397714:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:00:03.479100:设备已上线: 192.168.0.155:5555
+2026-09-11 01:00:03.553666:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:00:03.609329:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:00:06.774815:设备已上线: 192.168.0.155:5555
+2026-09-11 01:00:06.803365:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_010006
+2026-09-11 01:00:07.121351:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.5 MB/s (3538000 bytes in 0.251s)
+2026-09-11 01:00:07.123351:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_010006
+2026-09-11 01:00:07.125351:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:00:07.127858:拉取83tclconfig完成
+2026-09-11 01:00:07.129858:当前测试SID: 84
+2026-09-11 01:00:07.633231:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:00:07.636235:继电器命令成功
+2026-09-11 01:00:10.141968:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:00:10.143108:继电器命令成功
+2026-09-11 01:00:35.147444:发送key指令(hex): aa061001a7ef
+2026-09-11 01:00:35.368265:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:00:35.370781:进工厂模式成功
+2026-09-11 01:00:36.372910:发送key指令(hex): aa06110194de
+2026-09-11 01:00:36.479877:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:00:36.481881:显示工厂模式成功
+2026-09-11 01:00:37.560007:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:00:38.246454:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:38.248454:按键下已发送
+2026-09-11 01:00:38.858941:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:38.865940:按键下已发送
+2026-09-11 01:00:39.473082:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:39.475081:按键下已发送
+2026-09-11 01:00:40.098707:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:40.099706:按键下已发送
+2026-09-11 01:00:40.721324:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:40.722826:按键下已发送
+2026-09-11 01:00:41.350000:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:41.352005:按键下已发送
+2026-09-11 01:00:41.995515:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:41.997984:按键下已发送
+2026-09-11 01:00:42.621689:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:42.623688:按键下已发送
+2026-09-11 01:00:43.241933:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:43.243937:按键下已发送
+2026-09-11 01:00:43.858696:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:00:43.860696:按键OK已发送
+2026-09-11 01:00:44.481216:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:00:44.483215:按键下已发送
+2026-09-11 01:00:45.123396:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:00:45.126395:SID数字8按键已发送(keycode=15)
+2026-09-11 01:00:45.299839:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 11 -> 返回码: 0
+2026-09-11 01:00:45.301838:SID数字4按键已发送(keycode=11)
+2026-09-11 01:00:55.355041:发送key指令(hex): aa06840063e1
+2026-09-11 01:00:55.692575:刷入key值成功(应答hex): ab050adf4eab07855400946b
+2026-09-11 01:00:55.695082:查询PID指令成功
+2026-09-11 01:00:55.696082:当前机器的SID: 21652
+2026-09-11 01:00:55.698083:切换SID为 84 失败
+2026-09-11 01:00:56.201298:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:00:56.203306:继电器命令成功
+2026-09-11 01:00:58.706811:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:00:58.711478:继电器命令成功
+2026-09-11 01:01:23.715490:切换SID为 84 完成，等待设备启动完成
+2026-09-11 01:01:23.717499:uboot下获取开机logo的地址
+2026-09-11 01:01:23.722585:platform: MTK
+2026-09-11 01:01:24.226910:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:01:24.228419:继电器命令成功
+2026-09-11 01:01:27.732013:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:01:27.734525:继电器命令成功
+2026-09-11 01:01:52.751493:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  factory auto test loop start']
+2026-09-11 01:01:52.752997:进入uboot模式失败
+2026-09-11 01:01:54.755762:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  factory auto test loop start']
+2026-09-11 01:01:54.757797:进入uboot模式失败
+2026-09-11 01:01:56.760033:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  factory auto test loop start']
+2026-09-11 01:01:56.764036:进入uboot模式失败
+2026-09-11 01:01:58.766482:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  factory auto test loop start']
+2026-09-11 01:01:58.769018:进入uboot模式失败
+2026-09-11 01:02:00.776725:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  factory auto test loop start']
+2026-09-11 01:02:00.778729:进入uboot模式失败
+2026-09-11 01:02:03.282430:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:02:03.284434:继电器命令成功
+2026-09-11 01:02:06.788829:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:02:06.791833:继电器命令成功
+2026-09-11 01:02:31.798346:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:02:31.801352:进入uboot模式成功
+2026-09-11 01:02:31.802526:进入uboot模式成功
+2026-09-11 01:02:31.804409:第1/3次获取开机动画路径完成
+2026-09-11 01:02:31.807034:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:02:32.810753:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:02:32.811836:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:02:32.813836:已发送 ctrl+C 结束 logcat
+2026-09-11 01:02:32.817343:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:02:33.321338:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:02:33.326357:继电器命令成功
+2026-09-11 01:02:35.830533:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:02:35.832536:继电器命令成功
+2026-09-11 01:03:10.835099:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:03:10.897728:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:03:10.962421:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:03:16.104841:设备已上线: 192.168.0.155:5555
+2026-09-11 01:03:16.668654:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:03:16.768310:设备已上线: 192.168.0.155:5555
+2026-09-11 01:03:16.771310:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_010316
+2026-09-11 01:03:17.150482:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.0 MB/s (3538000 bytes in 0.280s)
+2026-09-11 01:03:17.152493:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_010316
+2026-09-11 01:03:17.154481:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:03:17.158995:拉取84tclconfig完成
+2026-09-11 01:03:17.161502:当前测试SID: 85
+2026-09-11 01:03:17.668382:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:03:17.669892:继电器命令成功
+2026-09-11 01:03:20.174638:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:03:20.175791:继电器命令成功
+2026-09-11 01:03:45.179090:发送key指令(hex): aa061001a7ef
+2026-09-11 01:03:45.411095:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:03:45.413104:进工厂模式成功
+2026-09-11 01:03:46.415741:发送key指令(hex): aa06110194de
+2026-09-11 01:03:46.625478:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:03:46.627486:显示工厂模式成功
+2026-09-11 01:03:47.733686:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:03:48.483520:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:48.485520:按键下已发送
+2026-09-11 01:03:49.148704:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:49.150207:按键下已发送
+2026-09-11 01:03:49.815747:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:49.818253:按键下已发送
+2026-09-11 01:03:50.486063:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:50.488565:按键下已发送
+2026-09-11 01:03:51.149533:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:51.151533:按键下已发送
+2026-09-11 01:03:51.796158:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:51.799216:按键下已发送
+2026-09-11 01:03:52.638354:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:52.639856:按键下已发送
+2026-09-11 01:03:53.264489:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:53.266492:按键下已发送
+2026-09-11 01:03:53.887954:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:53.889954:按键下已发送
+2026-09-11 01:03:54.556188:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:03:54.558192:按键OK已发送
+2026-09-11 01:03:55.188005:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:03:55.190009:按键下已发送
+2026-09-11 01:03:55.794055:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:03:55.796055:SID数字8按键已发送(keycode=15)
+2026-09-11 01:03:55.958570:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 12 -> 返回码: 0
+2026-09-11 01:03:55.960574:SID数字5按键已发送(keycode=12)
+2026-09-11 01:04:06.014105:发送key指令(hex): aa06840063e1
+2026-09-11 01:04:06.385692:刷入key值成功(应答hex): ab050adf4eab07855500a75a
+2026-09-11 01:04:06.387696:查询PID指令成功
+2026-09-11 01:04:06.389695:当前机器的SID: 21927
+2026-09-11 01:04:06.390695:切换SID为 85 失败
+2026-09-11 01:04:06.894740:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:04:06.896743:继电器命令成功
+2026-09-11 01:04:09.400758:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:04:09.405765:继电器命令成功
+2026-09-11 01:04:34.408784:切换SID为 85 完成，等待设备启动完成
+2026-09-11 01:04:34.410787:uboot下获取开机logo的地址
+2026-09-11 01:04:34.416294:platform: MTK
+2026-09-11 01:04:34.920229:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:04:34.922737:继电器命令成功
+2026-09-11 01:04:38.427456:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:04:38.433185:继电器命令成功
+2026-09-11 01:05:03.449213:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:05:03.452246:进入uboot模式成功
+2026-09-11 01:05:03.454755:进入uboot模式成功
+2026-09-11 01:05:03.456754:第1/3次获取开机动画路径完成
+2026-09-11 01:05:03.459257:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:05:04.461825:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:05:04.463641:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:05:04.464645:已发送 ctrl+C 结束 logcat
+2026-09-11 01:05:04.468154:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:05:04.972333:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:05:04.974368:继电器命令成功
+2026-09-11 01:05:07.479166:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:05:07.480170:继电器命令成功
+2026-09-11 01:05:42.483735:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:05:42.548589:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:05:42.599148:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:05:47.764147:设备已上线: 192.168.0.155:5555
+2026-09-11 01:05:47.865216:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:05:47.920944:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:05:51.262634:设备已上线: 192.168.0.155:5555
+2026-09-11 01:05:51.266161:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_010551
+2026-09-11 01:05:51.813709:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 7.3 MB/s (3538000 bytes in 0.464s)
+2026-09-11 01:05:51.815711:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_010551
+2026-09-11 01:05:51.818214:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:05:51.821729:拉取85tclconfig完成
+2026-09-11 01:05:51.824728:当前测试SID: 86
+2026-09-11 01:05:52.329234:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:05:52.361984:继电器命令成功
+2026-09-11 01:05:54.910062:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:05:54.912065:继电器命令成功
+2026-09-11 01:06:19.915047:发送key指令(hex): aa061001a7ef
+2026-09-11 01:06:20.221099:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:06:20.222604:进工厂模式成功
+2026-09-11 01:06:21.225980:发送key指令(hex): aa06110194de
+2026-09-11 01:06:21.449719:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:06:21.451733:显示工厂模式成功
+2026-09-11 01:06:22.536826:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:06:23.188269:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:23.190268:按键下已发送
+2026-09-11 01:06:23.896379:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:23.899379:按键下已发送
+2026-09-11 01:06:24.565628:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:24.566627:按键下已发送
+2026-09-11 01:06:25.199269:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:25.202273:按键下已发送
+2026-09-11 01:06:25.821226:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:25.823226:按键下已发送
+2026-09-11 01:06:26.458718:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:26.460820:按键下已发送
+2026-09-11 01:06:27.082283:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:27.085283:按键下已发送
+2026-09-11 01:06:27.707485:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:27.710489:按键下已发送
+2026-09-11 01:06:28.373178:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:28.376199:按键下已发送
+2026-09-11 01:06:29.001465:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:06:29.003465:按键OK已发送
+2026-09-11 01:06:29.647032:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:06:29.649031:按键下已发送
+2026-09-11 01:06:30.266234:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:06:30.269234:SID数字8按键已发送(keycode=15)
+2026-09-11 01:06:30.445763:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 13 -> 返回码: 0
+2026-09-11 01:06:30.449270:SID数字6按键已发送(keycode=13)
+2026-09-11 01:06:40.501891:发送key指令(hex): aa06840063e1
+2026-09-11 01:06:40.666766:刷入key值成功(应答hex): ab050adf4eab07855600f209
+2026-09-11 01:06:40.669419:查询PID指令成功
+2026-09-11 01:06:40.673418:当前机器的SID: 22258
+2026-09-11 01:06:40.675420:切换SID为 86 失败
+2026-09-11 01:06:41.179526:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:06:41.182530:继电器命令成功
+2026-09-11 01:06:43.687536:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:06:43.689555:继电器命令成功
+2026-09-11 01:07:08.692421:切换SID为 86 完成，等待设备启动完成
+2026-09-11 01:07:08.693425:uboot下获取开机logo的地址
+2026-09-11 01:07:08.696933:platform: MTK
+2026-09-11 01:07:09.200684:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:07:09.202203:继电器命令成功
+2026-09-11 01:07:12.706768:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:07:12.708861:继电器命令成功
+2026-09-11 01:07:37.724254:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:07:37.726257:进入uboot模式成功
+2026-09-11 01:07:37.729769:进入uboot模式成功
+2026-09-11 01:07:37.731279:第1/3次获取开机动画路径完成
+2026-09-11 01:07:37.735279:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:07:38.738757:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:07:38.740760:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:07:38.742913:已发送 ctrl+C 结束 logcat
+2026-09-11 01:07:38.744913:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:07:39.250046:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:07:39.252552:继电器命令成功
+2026-09-11 01:07:41.757290:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:07:41.759521:继电器命令成功
+2026-09-11 01:08:16.765129:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:08:16.905871:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:08:17.080657:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:08:22.285368:设备已上线: 192.168.0.155:5555
+2026-09-11 01:08:22.379647:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:08:22.445857:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:08:25.672971:设备已上线: 192.168.0.155:5555
+2026-09-11 01:08:25.675970:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_010825
+2026-09-11 01:08:26.023657:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.1 MB/s (3538000 bytes in 0.278s)
+2026-09-11 01:08:26.025657:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_010825
+2026-09-11 01:08:26.027857:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:08:26.030857:拉取86tclconfig完成
+2026-09-11 01:08:26.032877:当前测试SID: 87
+2026-09-11 01:08:26.536857:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:08:26.539721:继电器命令成功
+2026-09-11 01:08:29.044834:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:08:29.046837:继电器命令成功
+2026-09-11 01:08:54.050232:发送key指令(hex): aa061001a7ef
+2026-09-11 01:08:54.267099:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:08:54.269103:进工厂模式成功
+2026-09-11 01:08:55.272092:发送key指令(hex): aa06110194de
+2026-09-11 01:08:55.457148:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:08:55.459729:显示工厂模式成功
+2026-09-11 01:08:56.560898:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:08:57.185141:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:08:57.187647:按键下已发送
+2026-09-11 01:08:57.800372:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:08:57.802372:按键下已发送
+2026-09-11 01:08:58.410139:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:08:58.412612:按键下已发送
+2026-09-11 01:08:59.023513:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:08:59.026014:按键下已发送
+2026-09-11 01:08:59.707537:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:08:59.710556:按键下已发送
+2026-09-11 01:09:00.336348:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:09:00.338540:按键下已发送
+2026-09-11 01:09:00.950144:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:09:00.952368:按键下已发送
+2026-09-11 01:09:01.604587:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:09:01.606587:按键下已发送
+2026-09-11 01:09:02.232954:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:09:02.236461:按键下已发送
+2026-09-11 01:09:02.856234:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:09:02.858234:按键OK已发送
+2026-09-11 01:09:03.607271:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:09:03.609778:按键下已发送
+2026-09-11 01:09:04.282669:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:09:04.285175:SID数字8按键已发送(keycode=15)
+2026-09-11 01:09:04.448030:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 14 -> 返回码: 0
+2026-09-11 01:09:04.450030:SID数字7按键已发送(keycode=14)
+2026-09-11 01:09:14.503310:发送key指令(hex): aa06840063e1
+2026-09-11 01:09:14.663457:刷入key值成功(应答hex): ab050adf4eab07855700c138
+2026-09-11 01:09:14.665460:查询PID指令成功
+2026-09-11 01:09:14.667461:当前机器的SID: 22465
+2026-09-11 01:09:14.669461:切换SID为 87 失败
+2026-09-11 01:09:15.173350:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:09:15.175696:继电器命令成功
+2026-09-11 01:09:17.683804:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:09:17.687162:继电器命令成功
+2026-09-11 01:09:42.689460:切换SID为 87 完成，等待设备启动完成
+2026-09-11 01:09:42.690968:uboot下获取开机logo的地址
+2026-09-11 01:09:42.692968:platform: MTK
+2026-09-11 01:09:43.196830:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:09:43.198833:继电器命令成功
+2026-09-11 01:09:46.702998:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:09:46.705106:继电器命令成功
+2026-09-11 01:10:11.717467:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:10:11.720470:进入uboot模式成功
+2026-09-11 01:10:11.722341:进入uboot模式成功
+2026-09-11 01:10:11.723979:第1/3次获取开机动画路径完成
+2026-09-11 01:10:11.727977:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:10:12.731091:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:10:12.733597:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:10:12.737598:已发送 ctrl+C 结束 logcat
+2026-09-11 01:10:12.739598:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:10:13.249218:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:10:13.252229:继电器命令成功
+2026-09-11 01:10:15.756736:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:10:15.758741:继电器命令成功
+2026-09-11 01:10:50.762718:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:10:50.851462:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:10:50.918005:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:10:55.970848:设备已上线: 192.168.0.155:5555
+2026-09-11 01:10:56.021099:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:10:56.080340:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:10:59.253893:设备已上线: 192.168.0.155:5555
+2026-09-11 01:10:59.258401:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_011059
+2026-09-11 01:10:59.581003:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.1 MB/s (3538000 bytes in 0.257s)
+2026-09-11 01:10:59.584003:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_011059
+2026-09-11 01:10:59.587003:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:10:59.589025:拉取87tclconfig完成
+2026-09-11 01:10:59.591024:当前测试SID: 88
+2026-09-11 01:11:00.094712:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:11:00.095988:继电器命令成功
+2026-09-11 01:11:02.601355:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:11:02.603364:继电器命令成功
+2026-09-11 01:11:27.606305:发送key指令(hex): aa061001a7ef
+2026-09-11 01:11:27.771146:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:11:27.773224:进工厂模式成功
+2026-09-11 01:11:28.777293:发送key指令(hex): aa06110194de
+2026-09-11 01:11:28.876929:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:11:28.879474:显示工厂模式成功
+2026-09-11 01:11:29.937363:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:11:30.582032:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:30.584031:按键下已发送
+2026-09-11 01:11:31.193956:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:31.195955:按键下已发送
+2026-09-11 01:11:31.850436:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:31.852938:按键下已发送
+2026-09-11 01:11:32.479628:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:32.481627:按键下已发送
+2026-09-11 01:11:33.105142:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:33.107142:按键下已发送
+2026-09-11 01:11:33.734980:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:33.736982:按键下已发送
+2026-09-11 01:11:34.368922:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:34.370922:按键下已发送
+2026-09-11 01:11:35.011424:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:35.013426:按键下已发送
+2026-09-11 01:11:35.621051:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:35.623454:按键下已发送
+2026-09-11 01:11:36.248449:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:11:36.251448:按键OK已发送
+2026-09-11 01:11:36.859724:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:11:36.862226:按键下已发送
+2026-09-11 01:11:37.474699:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:11:37.476698:SID数字8按键已发送(keycode=15)
+2026-09-11 01:11:37.636588:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:11:37.638587:SID数字8按键已发送(keycode=15)
+2026-09-11 01:11:47.694390:发送key指令(hex): aa06840063e1
+2026-09-11 01:11:48.203571:刷入key值成功(应答hex): ab050adf4eab07855800d106
+2026-09-11 01:11:48.206347:查询PID指令成功
+2026-09-11 01:11:48.209337:当前机器的SID: 22737
+2026-09-11 01:11:48.211337:切换SID为 88 失败
+2026-09-11 01:11:48.715714:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:11:48.717760:继电器命令成功
+2026-09-11 01:11:51.222273:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:11:51.224278:继电器命令成功
+2026-09-11 01:12:16.227620:切换SID为 88 完成，等待设备启动完成
+2026-09-11 01:12:16.229691:uboot下获取开机logo的地址
+2026-09-11 01:12:16.235198:platform: MTK
+2026-09-11 01:12:16.738684:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:12:16.740189:继电器命令成功
+2026-09-11 01:12:20.246936:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:12:20.249051:继电器命令成功
+2026-09-11 01:12:45.253195:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:12:45.255521:进入uboot模式成功
+2026-09-11 01:12:45.257521:进入uboot模式成功
+2026-09-11 01:12:45.259024:第1/3次获取开机动画路径完成
+2026-09-11 01:12:45.261028:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:12:46.264970:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:12:46.267102:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:12:46.269103:已发送 ctrl+C 结束 logcat
+2026-09-11 01:12:46.271102:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:12:46.775547:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:12:46.777561:继电器命令成功
+2026-09-11 01:12:49.281883:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:12:49.283927:继电器命令成功
+2026-09-11 01:13:24.287125:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:13:24.366285:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:13:24.431760:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:13:29.486637:设备已上线: 192.168.0.155:5555
+2026-09-11 01:13:29.543877:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:13:29.600352:设备已上线: 192.168.0.155:5555
+2026-09-11 01:13:29.603531:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_011329
+2026-09-11 01:13:29.665261:adb pull 返回码: 1, 输出: adb: error: failed to get feature set: device offline
+2026-09-11 01:13:29.667300:第1/3次 adb pull 失败: adb: error: failed to get feature set: device offline
+2026-09-11 01:13:29.746098:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:13:32.953041:设备已上线: 192.168.0.155:5555
+2026-09-11 01:13:32.955041:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_011329
+2026-09-11 01:13:33.293777:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.7 MB/s (3538000 bytes in 0.266s)
+2026-09-11 01:13:33.295281:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_011329
+2026-09-11 01:13:33.297284:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:13:33.299337:拉取88tclconfig完成
+2026-09-11 01:13:33.301338:当前测试SID: 89
+2026-09-11 01:13:33.805737:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:13:33.807258:继电器命令成功
+2026-09-11 01:13:36.311991:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:13:36.313994:继电器命令成功
+2026-09-11 01:14:01.317471:发送key指令(hex): aa061001a7ef
+2026-09-11 01:14:01.615024:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:14:01.617029:进工厂模式成功
+2026-09-11 01:14:02.619840:发送key指令(hex): aa06110194de
+2026-09-11 01:14:02.843039:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:14:02.846052:显示工厂模式成功
+2026-09-11 01:14:03.909841:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:14:04.541178:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:04.544188:按键下已发送
+2026-09-11 01:14:05.170310:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:05.172310:按键下已发送
+2026-09-11 01:14:05.795018:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:05.797636:按键下已发送
+2026-09-11 01:14:06.412455:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:06.415613:按键下已发送
+2026-09-11 01:14:07.029490:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:07.035997:按键下已发送
+2026-09-11 01:14:07.697328:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:07.698832:按键下已发送
+2026-09-11 01:14:08.327336:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:08.328838:按键下已发送
+2026-09-11 01:14:08.957935:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:08.960934:按键下已发送
+2026-09-11 01:14:09.584028:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:09.587028:按键下已发送
+2026-09-11 01:14:10.220743:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:14:10.224743:按键OK已发送
+2026-09-11 01:14:10.845574:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:14:10.848578:按键下已发送
+2026-09-11 01:14:11.529244:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:14:11.531359:SID数字8按键已发送(keycode=15)
+2026-09-11 01:14:11.734653:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:14:11.736654:SID数字9按键已发送(keycode=16)
+2026-09-11 01:14:21.789721:发送key指令(hex): aa06840063e1
+2026-09-11 01:14:22.070649:刷入key值成功(应答hex): ab050adf4eab07855900e237
+2026-09-11 01:14:22.072658:查询PID指令成功
+2026-09-11 01:14:22.074791:当前机器的SID: 23010
+2026-09-11 01:14:22.076792:切换SID为 89 失败
+2026-09-11 01:14:22.580872:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:14:22.582875:继电器命令成功
+2026-09-11 01:14:25.087324:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:14:25.089328:继电器命令成功
+2026-09-11 01:14:50.092057:切换SID为 89 完成，等待设备启动完成
+2026-09-11 01:14:50.093566:uboot下获取开机logo的地址
+2026-09-11 01:14:50.097564:platform: MTK
+2026-09-11 01:14:50.601294:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:14:50.602496:继电器命令成功
+2026-09-11 01:14:54.108454:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:14:54.110462:继电器命令成功
+2026-09-11 01:15:19.124784:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:15:19.126794:进入uboot模式成功
+2026-09-11 01:15:19.128795:进入uboot模式成功
+2026-09-11 01:15:19.131300:第1/3次获取开机动画路径完成
+2026-09-11 01:15:19.133818:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:15:20.136039:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:15:20.137572:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:15:20.139577:已发送 ctrl+C 结束 logcat
+2026-09-11 01:15:20.141576:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:15:20.646362:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:15:20.649370:继电器命令成功
+2026-09-11 01:15:23.154642:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:15:23.157148:继电器命令成功
+2026-09-11 01:15:58.159619:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:15:58.260399:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:15:58.323240:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:16:03.378497:设备已上线: 192.168.0.155:5555
+2026-09-11 01:16:03.444254:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:16:03.515053:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:16:06.685125:设备已上线: 192.168.0.155:5555
+2026-09-11 01:16:06.689124:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_011606
+2026-09-11 01:16:07.018378:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 14.3 MB/s (3538000 bytes in 0.237s)
+2026-09-11 01:16:07.020381:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_011606
+2026-09-11 01:16:07.023382:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:16:07.026382:拉取89tclconfig完成
+2026-09-11 01:16:07.028886:当前测试SID: 90
+2026-09-11 01:16:07.533174:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:16:07.536178:继电器命令成功
+2026-09-11 01:16:10.039877:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:16:10.041213:继电器命令成功
+2026-09-11 01:16:35.044461:发送key指令(hex): aa061001a7ef
+2026-09-11 01:16:35.289670:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:16:35.291673:进工厂模式成功
+2026-09-11 01:16:36.294205:发送key指令(hex): aa06110194de
+2026-09-11 01:16:36.569402:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:16:36.571405:显示工厂模式成功
+2026-09-11 01:16:37.629967:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:16:38.359454:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:38.362960:按键下已发送
+2026-09-11 01:16:38.983251:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:38.986252:按键下已发送
+2026-09-11 01:16:39.743826:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:39.748825:按键下已发送
+2026-09-11 01:16:40.367984:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:40.369984:按键下已发送
+2026-09-11 01:16:40.993084:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:40.997101:按键下已发送
+2026-09-11 01:16:41.621685:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:41.623685:按键下已发送
+2026-09-11 01:16:42.248607:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:42.250606:按键下已发送
+2026-09-11 01:16:43.021538:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:43.023537:按键下已发送
+2026-09-11 01:16:43.637409:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:43.639412:按键下已发送
+2026-09-11 01:16:44.277602:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:16:44.279603:按键OK已发送
+2026-09-11 01:16:44.899047:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:16:44.927083:按键下已发送
+2026-09-11 01:16:45.549017:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:16:45.552021:SID数字9按键已发送(keycode=16)
+2026-09-11 01:16:45.712406:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 7 -> 返回码: 0
+2026-09-11 01:16:45.714411:SID数字0按键已发送(keycode=7)
+2026-09-11 01:16:55.767796:发送key指令(hex): aa06840063e1
+2026-09-11 01:16:55.894038:刷入key值成功(应答hex): ab050adf4eab07855a00b764
+2026-09-11 01:16:55.897044:查询PID指令成功
+2026-09-11 01:16:55.899044:当前机器的SID: 23223
+2026-09-11 01:16:55.901044:切换SID为 90 失败
+2026-09-11 01:16:56.405375:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:16:56.406885:继电器命令成功
+2026-09-11 01:16:58.911147:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:16:58.913150:继电器命令成功
+2026-09-11 01:17:23.920073:切换SID为 90 完成，等待设备启动完成
+2026-09-11 01:17:23.922077:uboot下获取开机logo的地址
+2026-09-11 01:17:23.928077:platform: MTK
+2026-09-11 01:17:24.432530:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:17:24.434543:继电器命令成功
+2026-09-11 01:17:27.939153:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:17:27.943697:继电器命令成功
+2026-09-11 01:17:52.953524:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:17:52.959527:进入uboot模式成功
+2026-09-11 01:17:52.963046:进入uboot模式成功
+2026-09-11 01:17:52.965034:第1/3次获取开机动画路径完成
+2026-09-11 01:17:52.967034:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:17:53.969936:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:17:53.971459:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:17:53.974458:已发送 ctrl+C 结束 logcat
+2026-09-11 01:17:53.975459:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:17:54.479602:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:17:54.481111:继电器命令成功
+2026-09-11 01:17:56.985530:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:17:56.987176:继电器命令成功
+2026-09-11 01:18:31.991441:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:18:32.062905:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:18:32.129783:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:18:37.185970:设备已上线: 192.168.0.155:5555
+2026-09-11 01:18:37.252094:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:18:37.331748:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:18:40.501975:设备已上线: 192.168.0.155:5555
+2026-09-11 01:18:40.504482:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_011840
+2026-09-11 01:18:40.823983:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.2 MB/s (3538000 bytes in 0.256s)
+2026-09-11 01:18:40.825983:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_011840
+2026-09-11 01:18:40.827984:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:18:40.829984:拉取90tclconfig完成
+2026-09-11 01:18:40.836493:当前测试SID: 91
+2026-09-11 01:18:41.341850:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:18:41.343853:继电器命令成功
+2026-09-11 01:18:43.847631:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:18:43.849637:继电器命令成功
+2026-09-11 01:19:08.855688:发送key指令(hex): aa061001a7ef
+2026-09-11 01:19:09.066544:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:19:09.068643:进工厂模式成功
+2026-09-11 01:19:10.071187:发送key指令(hex): aa06110194de
+2026-09-11 01:19:10.284297:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:19:10.286302:显示工厂模式成功
+2026-09-11 01:19:11.333176:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:19:11.979325:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:11.982334:按键下已发送
+2026-09-11 01:19:12.603842:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:12.605894:按键下已发送
+2026-09-11 01:19:13.256320:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:13.259321:按键下已发送
+2026-09-11 01:19:13.885212:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:13.886213:按键下已发送
+2026-09-11 01:19:14.510981:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:14.512982:按键下已发送
+2026-09-11 01:19:15.154929:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:15.157259:按键下已发送
+2026-09-11 01:19:15.842615:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:15.844619:按键下已发送
+2026-09-11 01:19:16.577882:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:16.579881:按键下已发送
+2026-09-11 01:19:17.238642:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:17.240641:按键下已发送
+2026-09-11 01:19:17.893320:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:19:17.896323:按键OK已发送
+2026-09-11 01:19:18.603767:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:19:18.605769:按键下已发送
+2026-09-11 01:19:19.500908:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:19:19.502908:SID数字9按键已发送(keycode=16)
+2026-09-11 01:19:19.719987:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 8 -> 返回码: 0
+2026-09-11 01:19:19.722004:SID数字1按键已发送(keycode=8)
+2026-09-11 01:19:29.774982:发送key指令(hex): aa06840063e1
+2026-09-11 01:19:30.036353:刷入key值成功(应答hex): ab050adf4eab07855b008455
+2026-09-11 01:19:30.038030:查询PID指令成功
+2026-09-11 01:19:30.041028:当前机器的SID: 23428
+2026-09-11 01:19:30.043028:切换SID为 91 失败
+2026-09-11 01:19:30.548408:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:19:30.549602:继电器命令成功
+2026-09-11 01:19:33.053962:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:19:33.055666:继电器命令成功
+2026-09-11 01:19:58.059168:切换SID为 91 完成，等待设备启动完成
+2026-09-11 01:19:58.066187:uboot下获取开机logo的地址
+2026-09-11 01:19:58.069691:platform: MTK
+2026-09-11 01:19:58.573045:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:19:58.575056:继电器命令成功
+2026-09-11 01:20:02.079517:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:20:02.081632:继电器命令成功
+2026-09-11 01:20:27.084006:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:20:27.086011:进入uboot模式成功
+2026-09-11 01:20:27.088011:进入uboot模式成功
+2026-09-11 01:20:27.092519:第1/3次获取开机动画路径完成
+2026-09-11 01:20:27.093520:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:20:28.097796:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:20:28.099798:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:20:28.101799:已发送 ctrl+C 结束 logcat
+2026-09-11 01:20:28.109838:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:20:28.614890:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:20:28.616898:继电器命令成功
+2026-09-11 01:20:31.121108:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:20:31.123111:继电器命令成功
+2026-09-11 01:21:06.125662:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:21:06.186566:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:21:06.244306:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:21:11.295333:设备已上线: 192.168.0.155:5555
+2026-09-11 01:21:11.353941:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:21:11.419774:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:21:14.618776:设备已上线: 192.168.0.155:5555
+2026-09-11 01:21:14.621778:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_012114
+2026-09-11 01:21:14.951912:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.6 MB/s (3538000 bytes in 0.249s)
+2026-09-11 01:21:14.954349:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_012114
+2026-09-11 01:21:14.955348:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:21:14.957349:拉取91tclconfig完成
+2026-09-11 01:21:14.959348:当前测试SID: 92
+2026-09-11 01:21:15.463575:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:21:15.465696:继电器命令成功
+2026-09-11 01:21:17.969685:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:21:17.971745:继电器命令成功
+2026-09-11 01:21:42.976242:发送key指令(hex): aa061001a7ef
+2026-09-11 01:21:43.388668:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:21:43.390671:进工厂模式成功
+2026-09-11 01:21:44.393389:发送key指令(hex): aa06110194de
+2026-09-11 01:21:44.482855:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:21:44.484554:显示工厂模式成功
+2026-09-11 01:21:45.651401:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:21:46.364173:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:46.367173:按键下已发送
+2026-09-11 01:21:47.015299:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:47.017298:按键下已发送
+2026-09-11 01:21:47.663969:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:47.665972:按键下已发送
+2026-09-11 01:21:48.356233:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:48.358233:按键下已发送
+2026-09-11 01:21:49.017106:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:49.020108:按键下已发送
+2026-09-11 01:21:49.742597:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:49.745596:按键下已发送
+2026-09-11 01:21:50.366715:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:50.368715:按键下已发送
+2026-09-11 01:21:51.017024:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:51.019527:按键下已发送
+2026-09-11 01:21:51.687764:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:51.689766:按键下已发送
+2026-09-11 01:21:52.354798:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:21:52.356799:按键OK已发送
+2026-09-11 01:21:52.975572:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:21:52.978073:按键下已发送
+2026-09-11 01:21:53.587121:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:21:53.589120:SID数字9按键已发送(keycode=16)
+2026-09-11 01:21:53.744765:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 9 -> 返回码: 0
+2026-09-11 01:21:53.749274:SID数字2按键已发送(keycode=9)
+2026-09-11 01:22:03.804648:发送key指令(hex): aa06840063e1
+2026-09-11 01:22:04.247700:刷入key值成功(应答hex): ab050adf4eab07855c001dc2
+2026-09-11 01:22:04.250207:查询PID指令成功
+2026-09-11 01:22:04.251211:当前机器的SID: 23581
+2026-09-11 01:22:04.253213:切换SID为 92 失败
+2026-09-11 01:22:04.757707:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:22:04.759838:继电器命令成功
+2026-09-11 01:22:07.270709:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:22:07.272713:继电器命令成功
+2026-09-11 01:22:32.275543:切换SID为 92 完成，等待设备启动完成
+2026-09-11 01:22:32.277547:uboot下获取开机logo的地址
+2026-09-11 01:22:32.279547:platform: MTK
+2026-09-11 01:22:32.783519:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:22:32.786202:继电器命令成功
+2026-09-11 01:22:36.291478:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:22:36.293487:继电器命令成功
+2026-09-11 01:23:01.302464:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:23:01.304465:进入uboot模式成功
+2026-09-11 01:23:01.306972:进入uboot模式成功
+2026-09-11 01:23:01.308972:第1/3次获取开机动画路径完成
+2026-09-11 01:23:01.312477:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:23:02.315870:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:23:02.318872:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:23:02.320874:已发送 ctrl+C 结束 logcat
+2026-09-11 01:23:02.323874:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:23:02.828372:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:23:02.830377:继电器命令成功
+2026-09-11 01:23:05.334947:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:23:05.337032:继电器命令成功
+2026-09-11 01:23:40.340176:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:23:40.423032:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:23:40.485691:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:23:45.537196:设备已上线: 192.168.0.155:5555
+2026-09-11 01:23:45.590858:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:23:45.691638:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:23:49.062237:设备已上线: 192.168.0.155:5555
+2026-09-11 01:23:49.065237:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_012349
+2026-09-11 01:23:49.459416:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 14.0 MB/s (3538000 bytes in 0.241s)
+2026-09-11 01:23:49.461417:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_012349
+2026-09-11 01:23:49.463418:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:23:49.466924:拉取92tclconfig完成
+2026-09-11 01:23:49.468924:当前测试SID: 93
+2026-09-11 01:23:49.973468:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:23:49.975471:继电器命令成功
+2026-09-11 01:23:52.479288:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:23:52.481291:继电器命令成功
+2026-09-11 01:24:17.483982:发送key指令(hex): aa061001a7ef
+2026-09-11 01:24:18.024455:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:24:18.026960:进工厂模式成功
+2026-09-11 01:24:19.029647:发送key指令(hex): aa06110194de
+2026-09-11 01:24:19.505902:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:24:19.508174:显示工厂模式成功
+2026-09-11 01:24:20.593807:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:24:21.291514:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:21.293515:按键下已发送
+2026-09-11 01:24:21.942949:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:21.945451:按键下已发送
+2026-09-11 01:24:22.564514:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:22.567514:按键下已发送
+2026-09-11 01:24:23.182727:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:23.184728:按键下已发送
+2026-09-11 01:24:23.882145:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:23.885308:按键下已发送
+2026-09-11 01:24:24.508256:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:24.510256:按键下已发送
+2026-09-11 01:24:25.133873:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:25.136892:按键下已发送
+2026-09-11 01:24:25.811058:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:25.813020:按键下已发送
+2026-09-11 01:24:26.498678:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:26.501715:按键下已发送
+2026-09-11 01:24:27.121185:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:24:27.123186:按键OK已发送
+2026-09-11 01:24:27.732367:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:24:27.734870:按键下已发送
+2026-09-11 01:24:28.343977:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:24:28.346978:SID数字9按键已发送(keycode=16)
+2026-09-11 01:24:28.525932:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 10 -> 返回码: 0
+2026-09-11 01:24:28.527435:SID数字3按键已发送(keycode=10)
+2026-09-11 01:24:38.580436:发送key指令(hex): aa06840063e1
+2026-09-11 01:24:38.721857:刷入key值成功(应答hex): ab050adf4eab07855d002ef3
+2026-09-11 01:24:38.724549:查询PID指令成功
+2026-09-11 01:24:38.726548:当前机器的SID: 23854
+2026-09-11 01:24:38.728548:切换SID为 93 失败
+2026-09-11 01:24:39.232834:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:24:39.235055:继电器命令成功
+2026-09-11 01:24:41.739226:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:24:41.741230:继电器命令成功
+2026-09-11 01:25:06.744557:切换SID为 93 完成，等待设备启动完成
+2026-09-11 01:25:06.746645:uboot下获取开机logo的地址
+2026-09-11 01:25:06.747644:platform: MTK
+2026-09-11 01:25:07.253199:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:25:07.254833:继电器命令成功
+2026-09-11 01:25:10.759700:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:25:10.761725:继电器命令成功
+2026-09-11 01:25:35.772551:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:25:35.774555:进入uboot模式成功
+2026-09-11 01:25:35.776555:进入uboot模式成功
+2026-09-11 01:25:35.778555:第1/3次获取开机动画路径完成
+2026-09-11 01:25:35.780481:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:25:36.783511:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:25:36.785585:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:25:36.787585:已发送 ctrl+C 结束 logcat
+2026-09-11 01:25:36.788586:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:25:37.293975:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:25:37.295993:继电器命令成功
+2026-09-11 01:25:39.799474:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:25:39.801004:继电器命令成功
+2026-09-11 01:26:14.808674:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:26:14.871792:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:26:14.932985:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:26:20.026413:设备已上线: 192.168.0.155:5555
+2026-09-11 01:26:20.121354:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:26:20.244287:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:26:23.504437:设备已上线: 192.168.0.155:5555
+2026-09-11 01:26:23.506944:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_012623
+2026-09-11 01:26:23.861574:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.3 MB/s (3538000 bytes in 0.275s)
+2026-09-11 01:26:23.863578:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_012623
+2026-09-11 01:26:23.865578:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:26:23.867081:拉取93tclconfig完成
+2026-09-11 01:26:23.870084:当前测试SID: 94
+2026-09-11 01:26:24.373767:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:26:24.375281:继电器命令成功
+2026-09-11 01:26:26.880321:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:26:26.883354:继电器命令成功
+2026-09-11 01:26:51.885813:发送key指令(hex): aa061001a7ef
+2026-09-11 01:26:52.253694:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:26:52.256798:进工厂模式成功
+2026-09-11 01:26:53.259274:发送key指令(hex): aa06110194de
+2026-09-11 01:26:53.577200:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:26:53.579204:显示工厂模式成功
+2026-09-11 01:26:54.645340:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:26:55.307599:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:55.310599:按键下已发送
+2026-09-11 01:26:55.929407:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:55.932083:按键下已发送
+2026-09-11 01:26:56.540549:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:56.542052:按键下已发送
+2026-09-11 01:26:57.276105:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:57.278608:按键下已发送
+2026-09-11 01:26:57.912879:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:57.916888:按键下已发送
+2026-09-11 01:26:58.539515:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:58.542515:按键下已发送
+2026-09-11 01:26:59.189163:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:59.191163:按键下已发送
+2026-09-11 01:26:59.813077:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:26:59.816077:按键下已发送
+2026-09-11 01:27:00.455413:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:27:00.457413:按键下已发送
+2026-09-11 01:27:01.081398:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:27:01.083905:按键OK已发送
+2026-09-11 01:27:01.704026:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:27:01.706025:按键下已发送
+2026-09-11 01:27:02.311936:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:27:02.313938:SID数字9按键已发送(keycode=16)
+2026-09-11 01:27:02.481406:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 11 -> 返回码: 0
+2026-09-11 01:27:02.485428:SID数字4按键已发送(keycode=11)
+2026-09-11 01:27:12.538556:发送key指令(hex): aa06840063e1
+2026-09-11 01:27:12.810391:刷入key值成功(应答hex): ab050adf4eab07855e007ba0
+2026-09-11 01:27:12.812400:查询PID指令成功
+2026-09-11 01:27:12.814472:当前机器的SID: 24187
+2026-09-11 01:27:12.816472:切换SID为 94 失败
+2026-09-11 01:27:13.320945:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:27:13.322956:继电器命令成功
+2026-09-11 01:27:15.827217:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:27:15.829221:继电器命令成功
+2026-09-11 01:27:40.834430:切换SID为 94 完成，等待设备启动完成
+2026-09-11 01:27:40.836437:uboot下获取开机logo的地址
+2026-09-11 01:27:40.838787:platform: MTK
+2026-09-11 01:27:41.341965:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:27:41.343973:继电器命令成功
+2026-09-11 01:27:44.848191:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:27:44.850195:继电器命令成功
+2026-09-11 01:28:09.854109:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:28:09.856113:进入uboot模式成功
+2026-09-11 01:28:09.858113:进入uboot模式成功
+2026-09-11 01:28:09.859642:第1/3次获取开机动画路径完成
+2026-09-11 01:28:09.861646:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:28:10.864590:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:28:10.866594:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:28:10.868593:已发送 ctrl+C 结束 logcat
+2026-09-11 01:28:10.870594:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:28:11.375505:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:28:11.377512:继电器命令成功
+2026-09-11 01:28:13.882055:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:28:13.883074:继电器命令成功
+2026-09-11 01:28:48.887676:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:28:48.978716:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:28:49.098536:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:28:54.180787:设备已上线: 192.168.0.155:5555
+2026-09-11 01:28:54.245339:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:28:54.302860:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:28:57.482014:设备已上线: 192.168.0.155:5555
+2026-09-11 01:28:57.485521:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_012857
+2026-09-11 01:28:57.795491:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.9 MB/s (3538000 bytes in 0.243s)
+2026-09-11 01:28:57.797997:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_012857
+2026-09-11 01:28:57.800382:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:28:57.801383:拉取94tclconfig完成
+2026-09-11 01:28:57.803890:当前测试SID: 95
+2026-09-11 01:28:58.308059:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:28:58.309590:继电器命令成功
+2026-09-11 01:29:00.813178:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:29:00.815310:继电器命令成功
+2026-09-11 01:29:25.818258:发送key指令(hex): aa061001a7ef
+2026-09-11 01:29:26.106090:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:29:26.114112:进工厂模式成功
+2026-09-11 01:29:27.116397:发送key指令(hex): aa06110194de
+2026-09-11 01:29:27.293228:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:29:27.300236:显示工厂模式成功
+2026-09-11 01:29:28.462270:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:29:29.086121:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:29.088285:按键下已发送
+2026-09-11 01:29:29.702215:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:29.705215:按键下已发送
+2026-09-11 01:29:30.323031:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:30.325538:按键下已发送
+2026-09-11 01:29:30.953536:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:30.955051:按键下已发送
+2026-09-11 01:29:31.669194:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:31.671702:按键下已发送
+2026-09-11 01:29:32.390429:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:32.393429:按键下已发送
+2026-09-11 01:29:33.008266:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:33.010266:按键下已发送
+2026-09-11 01:29:33.623965:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:33.624965:按键下已发送
+2026-09-11 01:29:34.235433:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:34.237433:按键下已发送
+2026-09-11 01:29:34.871213:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:29:34.874214:按键OK已发送
+2026-09-11 01:29:35.498227:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:29:35.501227:按键下已发送
+2026-09-11 01:29:36.131554:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:29:36.133558:SID数字9按键已发送(keycode=16)
+2026-09-11 01:29:36.296068:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 12 -> 返回码: 0
+2026-09-11 01:29:36.298068:SID数字5按键已发送(keycode=12)
+2026-09-11 01:29:46.351823:发送key指令(hex): aa06840063e1
+2026-09-11 01:29:46.488476:刷入key值成功(应答hex): ab050adf4eab07855f004891
+2026-09-11 01:29:46.490805:查询PID指令成功
+2026-09-11 01:29:46.491805:当前机器的SID: 24392
+2026-09-11 01:29:46.495312:切换SID为 95 失败
+2026-09-11 01:29:46.999100:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:29:47.001108:继电器命令成功
+2026-09-11 01:29:49.505626:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:29:49.507641:继电器命令成功
+2026-09-11 01:30:14.511162:切换SID为 95 完成，等待设备启动完成
+2026-09-11 01:30:14.513164:uboot下获取开机logo的地址
+2026-09-11 01:30:14.516164:platform: MTK
+2026-09-11 01:30:15.020516:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:30:15.022518:继电器命令成功
+2026-09-11 01:30:18.526200:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:30:18.528711:继电器命令成功
+2026-09-11 01:30:43.542564:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:30:43.544569:进入uboot模式成功
+2026-09-11 01:30:43.546570:进入uboot模式成功
+2026-09-11 01:30:43.548073:第1/3次获取开机动画路径完成
+2026-09-11 01:30:43.551078:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:30:44.554675:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:30:44.558192:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:30:44.561697:已发送 ctrl+C 结束 logcat
+2026-09-11 01:30:44.565206:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:30:45.070040:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:30:45.071558:继电器命令成功
+2026-09-11 01:30:47.576441:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:30:47.578449:继电器命令成功
+2026-09-11 01:31:22.582194:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:31:22.634555:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:31:22.708368:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:31:27.757837:设备已上线: 192.168.0.155:5555
+2026-09-11 01:31:27.845375:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:31:27.932831:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:31:31.124022:设备已上线: 192.168.0.155:5555
+2026-09-11 01:31:31.127022:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_013131
+2026-09-11 01:31:31.438918:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.8 MB/s (3538000 bytes in 0.244s)
+2026-09-11 01:31:31.441425:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_013131
+2026-09-11 01:31:31.443459:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:31:31.446463:拉取95tclconfig完成
+2026-09-11 01:31:31.447971:当前测试SID: 96
+2026-09-11 01:31:31.952554:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:31:31.954561:继电器命令成功
+2026-09-11 01:31:34.458408:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:31:34.459413:继电器命令成功
+2026-09-11 01:31:59.463632:发送key指令(hex): aa061001a7ef
+2026-09-11 01:31:59.807858:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:31:59.809798:进工厂模式成功
+2026-09-11 01:32:00.812474:发送key指令(hex): aa06110194de
+2026-09-11 01:32:00.909908:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:32:00.916414:显示工厂模式成功
+2026-09-11 01:32:01.978590:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:32:02.605631:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:02.607630:按键下已发送
+2026-09-11 01:32:03.226880:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:03.228880:按键下已发送
+2026-09-11 01:32:03.852408:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:03.856913:按键下已发送
+2026-09-11 01:32:04.473875:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:04.475875:按键下已发送
+2026-09-11 01:32:05.092851:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:05.094851:按键下已发送
+2026-09-11 01:32:05.716357:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:05.718356:按键下已发送
+2026-09-11 01:32:06.358043:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:06.360546:按键下已发送
+2026-09-11 01:32:06.986551:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:06.988758:按键下已发送
+2026-09-11 01:32:07.610842:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:07.612841:按键下已发送
+2026-09-11 01:32:08.325333:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:32:08.327333:按键OK已发送
+2026-09-11 01:32:08.951519:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:32:08.953518:按键下已发送
+2026-09-11 01:32:09.567032:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:32:09.569033:SID数字9按键已发送(keycode=16)
+2026-09-11 01:32:09.731603:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 13 -> 返回码: 0
+2026-09-11 01:32:09.733603:SID数字6按键已发送(keycode=13)
+2026-09-11 01:32:19.786862:发送key指令(hex): aa06840063e1
+2026-09-11 01:32:20.127293:刷入key值成功(应答hex): ab050adf4eab078560005d3a
+2026-09-11 01:32:20.129611:查询PID指令成功
+2026-09-11 01:32:20.131599:当前机器的SID: 24669
+2026-09-11 01:32:20.133597:切换SID为 96 失败
+2026-09-11 01:32:20.637484:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:32:20.639028:继电器命令成功
+2026-09-11 01:32:23.143950:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:32:23.146095:继电器命令成功
+2026-09-11 01:32:48.149395:切换SID为 96 完成，等待设备启动完成
+2026-09-11 01:32:48.153901:uboot下获取开机logo的地址
+2026-09-11 01:32:48.157001:platform: MTK
+2026-09-11 01:32:48.660467:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:32:48.662588:继电器命令成功
+2026-09-11 01:32:52.166723:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:32:52.168726:继电器命令成功
+2026-09-11 01:33:17.176682:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:33:17.178685:进入uboot模式成功
+2026-09-11 01:33:17.180685:进入uboot模式成功
+2026-09-11 01:33:17.183905:第1/3次获取开机动画路径完成
+2026-09-11 01:33:17.186905:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:33:18.189800:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:33:18.192827:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:33:18.194827:已发送 ctrl+C 结束 logcat
+2026-09-11 01:33:18.196827:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:33:18.701283:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:33:18.703292:继电器命令成功
+2026-09-11 01:33:21.207778:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:33:21.210289:继电器命令成功
+2026-09-11 01:33:56.213163:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:33:56.282574:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:33:56.446665:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:34:01.505536:设备已上线: 192.168.0.155:5555
+2026-09-11 01:34:01.573645:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:34:01.673807:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:34:04.952888:设备已上线: 192.168.0.155:5555
+2026-09-11 01:34:04.956391:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_013404
+2026-09-11 01:34:05.300074:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.3 MB/s (3538000 bytes in 0.253s)
+2026-09-11 01:34:05.302074:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_013404
+2026-09-11 01:34:05.304094:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:34:05.307095:拉取96tclconfig完成
+2026-09-11 01:34:05.309095:当前测试SID: 97
+2026-09-11 01:34:05.812754:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:34:05.814379:继电器命令成功
+2026-09-11 01:34:08.318866:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:34:08.320870:继电器命令成功
+2026-09-11 01:34:33.323590:发送key指令(hex): aa061001a7ef
+2026-09-11 01:34:33.749551:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:34:33.751348:进工厂模式成功
+2026-09-11 01:34:34.754112:发送key指令(hex): aa06110194de
+2026-09-11 01:34:35.405004:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:34:35.409011:显示工厂模式成功
+2026-09-11 01:34:36.461199:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:34:37.158062:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:37.160570:按键下已发送
+2026-09-11 01:34:37.771971:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:37.774474:按键下已发送
+2026-09-11 01:34:38.391017:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:38.395523:按键下已发送
+2026-09-11 01:34:39.022740:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:39.024742:按键下已发送
+2026-09-11 01:34:39.634397:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:39.636905:按键下已发送
+2026-09-11 01:34:40.275153:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:40.278314:按键下已发送
+2026-09-11 01:34:40.917047:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:40.919128:按键下已发送
+2026-09-11 01:34:41.672163:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:41.674167:按键下已发送
+2026-09-11 01:34:42.366872:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:42.368872:按键下已发送
+2026-09-11 01:34:43.663763:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:34:43.666942:按键OK已发送
+2026-09-11 01:34:44.344787:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:34:44.346799:按键下已发送
+2026-09-11 01:34:44.979706:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:34:44.981706:SID数字9按键已发送(keycode=16)
+2026-09-11 01:34:45.161328:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 14 -> 返回码: 0
+2026-09-11 01:34:45.164345:SID数字7按键已发送(keycode=14)
+2026-09-11 01:34:55.217482:发送key指令(hex): aa06840063e1
+2026-09-11 01:34:55.713029:刷入key值成功(应答hex): ab050adf4eab078561006e0b
+2026-09-11 01:34:55.715546:查询PID指令成功
+2026-09-11 01:34:55.717550:当前机器的SID: 24942
+2026-09-11 01:34:55.718550:切换SID为 97 失败
+2026-09-11 01:34:56.222205:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:34:56.224714:继电器命令成功
+2026-09-11 01:34:58.729078:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:34:58.732592:继电器命令成功
+2026-09-11 01:35:23.736558:切换SID为 97 完成，等待设备启动完成
+2026-09-11 01:35:23.738560:uboot下获取开机logo的地址
+2026-09-11 01:35:23.742064:platform: MTK
+2026-09-11 01:35:24.246359:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:35:24.247866:继电器命令成功
+2026-09-11 01:35:27.752008:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:35:27.754012:继电器命令成功
+2026-09-11 01:35:52.773478:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:35:52.775609:进入uboot模式成功
+2026-09-11 01:35:52.777613:进入uboot模式成功
+2026-09-11 01:35:52.778613:第1/3次获取开机动画路径完成
+2026-09-11 01:35:52.780960:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:35:53.783635:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:35:53.785641:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:35:53.787653:已发送 ctrl+C 结束 logcat
+2026-09-11 01:35:53.790387:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:35:54.294934:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:35:54.295953:继电器命令成功
+2026-09-11 01:35:56.801274:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:35:56.802951:继电器命令成功
+2026-09-11 01:36:31.807326:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:36:32.056971:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:36:32.117515:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:36:37.225559:设备已上线: 192.168.0.155:5555
+2026-09-11 01:36:37.284256:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:36:37.344372:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:36:40.570760:设备已上线: 192.168.0.155:5555
+2026-09-11 01:36:40.572759:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_013640
+2026-09-11 01:36:40.921589:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.2 MB/s (3538000 bytes in 0.277s)
+2026-09-11 01:36:40.923663:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_013640
+2026-09-11 01:36:40.925676:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:36:40.927664:拉取97tclconfig完成
+2026-09-11 01:36:40.930169:当前测试SID: 98
+2026-09-11 01:36:41.433890:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:36:41.436262:继电器命令成功
+2026-09-11 01:36:43.946376:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:36:43.947883:继电器命令成功
+2026-09-11 01:37:08.951176:发送key指令(hex): aa061001a7ef
+2026-09-11 01:37:09.172438:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:37:09.175451:进工厂模式成功
+2026-09-11 01:37:10.181024:发送key指令(hex): aa06110194de
+2026-09-11 01:37:10.857342:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:37:10.860643:显示工厂模式成功
+2026-09-11 01:37:11.980468:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:37:12.606403:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:12.609911:按键下已发送
+2026-09-11 01:37:13.232552:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:13.234561:按键下已发送
+2026-09-11 01:37:13.855438:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:13.857438:按键下已发送
+2026-09-11 01:37:14.470776:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:14.472776:按键下已发送
+2026-09-11 01:37:15.094806:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:15.097315:按键下已发送
+2026-09-11 01:37:15.759214:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:15.762215:按键下已发送
+2026-09-11 01:37:16.419245:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:16.421246:按键下已发送
+2026-09-11 01:37:17.080121:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:17.083121:按键下已发送
+2026-09-11 01:37:17.710188:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:17.712189:按键下已发送
+2026-09-11 01:37:18.425258:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:37:18.428261:按键OK已发送
+2026-09-11 01:37:19.098831:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:37:19.100831:按键下已发送
+2026-09-11 01:37:19.812397:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:37:19.815397:SID数字9按键已发送(keycode=16)
+2026-09-11 01:37:19.984119:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 15 -> 返回码: 0
+2026-09-11 01:37:19.985500:SID数字8按键已发送(keycode=15)
+2026-09-11 01:37:30.039462:发送key指令(hex): aa06840063e1
+2026-09-11 01:37:30.626126:刷入key值成功(应答hex): ab050adf4eab078562003b58
+2026-09-11 01:37:30.628660:查询PID指令成功
+2026-09-11 01:37:30.630662:当前机器的SID: 25147
+2026-09-11 01:37:30.632661:切换SID为 98 失败
+2026-09-11 01:37:31.137025:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:37:31.139028:继电器命令成功
+2026-09-11 01:37:33.643577:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:37:33.645585:继电器命令成功
+2026-09-11 01:37:58.662242:切换SID为 98 完成，等待设备启动完成
+2026-09-11 01:37:58.667242:uboot下获取开机logo的地址
+2026-09-11 01:37:58.670243:platform: MTK
+2026-09-11 01:37:59.175416:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:37:59.177935:继电器命令成功
+2026-09-11 01:38:02.685288:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:38:02.687292:继电器命令成功
+2026-09-11 01:38:27.706641:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 01:38:27.711644:进入uboot模式失败
+2026-09-11 01:38:29.714023:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 01:38:29.717026:进入uboot模式失败
+2026-09-11 01:38:31.719891:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 01:38:31.722398:进入uboot模式失败
+2026-09-11 01:38:33.725333:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 01:38:33.727455:进入uboot模式失败
+2026-09-11 01:38:35.730306:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-11 01:38:35.731840:进入uboot模式失败
+2026-09-11 01:38:38.236284:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:38:38.238796:继电器命令成功
+2026-09-11 01:38:41.744070:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:38:41.746074:继电器命令成功
+2026-09-11 01:39:06.755534:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:39:06.762562:进入uboot模式成功
+2026-09-11 01:39:06.764566:进入uboot模式成功
+2026-09-11 01:39:06.767074:第1/3次获取开机动画路径完成
+2026-09-11 01:39:06.769075:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:39:07.771698:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:39:07.774203:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:39:07.776203:已发送 ctrl+C 结束 logcat
+2026-09-11 01:39:07.779711:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:39:08.283436:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:39:08.285444:继电器命令成功
+2026-09-11 01:39:10.789215:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:39:10.791219:继电器命令成功
+2026-09-11 01:39:45.794789:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:39:45.886260:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:39:45.956760:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:39:51.044575:设备已上线: 192.168.0.155:5555
+2026-09-11 01:39:51.133893:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:39:51.202463:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:39:54.474329:设备已上线: 192.168.0.155:5555
+2026-09-11 01:39:54.476835:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_013954
+2026-09-11 01:39:54.821575:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.5 MB/s (3538000 bytes in 0.269s)
+2026-09-11 01:39:54.824093:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_013954
+2026-09-11 01:39:54.826597:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:39:54.828601:拉取98tclconfig完成
+2026-09-11 01:39:54.830602:当前测试SID: 99
+2026-09-11 01:39:55.335479:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:39:55.337483:继电器命令成功
+2026-09-11 01:39:57.841833:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:39:57.844003:继电器命令成功
+2026-09-11 01:40:22.848472:发送key指令(hex): aa061001a7ef
+2026-09-11 01:40:23.337485:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:40:23.340492:进工厂模式成功
+2026-09-11 01:40:24.343324:发送key指令(hex): aa06110194de
+2026-09-11 01:40:24.962167:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:40:24.964183:显示工厂模式成功
+2026-09-11 01:40:26.045167:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:40:26.719116:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:26.722116:按键下已发送
+2026-09-11 01:40:27.468693:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:27.471201:按键下已发送
+2026-09-11 01:40:28.086256:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:28.093760:按键下已发送
+2026-09-11 01:40:28.732067:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:28.734067:按键下已发送
+2026-09-11 01:40:29.356885:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:29.358889:按键下已发送
+2026-09-11 01:40:29.972951:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:29.975997:按键下已发送
+2026-09-11 01:40:30.598280:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:30.602280:按键下已发送
+2026-09-11 01:40:31.219235:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:31.223743:按键下已发送
+2026-09-11 01:40:31.892762:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:31.895268:按键下已发送
+2026-09-11 01:40:32.523478:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:40:32.525477:按键OK已发送
+2026-09-11 01:40:33.155166:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:40:33.158669:按键下已发送
+2026-09-11 01:40:33.774084:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:40:33.777590:SID数字9按键已发送(keycode=16)
+2026-09-11 01:40:33.932755:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 16 -> 返回码: 0
+2026-09-11 01:40:33.934753:SID数字9按键已发送(keycode=16)
+2026-09-11 01:40:43.988284:发送key指令(hex): aa06840063e1
+2026-09-11 01:40:44.274858:刷入key值成功(应答hex): ab050adf4eab078563000869
+2026-09-11 01:40:44.277862:查询PID指令成功
+2026-09-11 01:40:44.279861:当前机器的SID: 25352
+2026-09-11 01:40:44.282365:切换SID为 99 失败
+2026-09-11 01:40:44.785639:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:40:44.787145:继电器命令成功
+2026-09-11 01:40:47.292084:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:40:47.294325:继电器命令成功
+2026-09-11 01:41:12.297019:切换SID为 99 完成，等待设备启动完成
+2026-09-11 01:41:12.299572:uboot下获取开机logo的地址
+2026-09-11 01:41:12.302088:platform: MTK
+2026-09-11 01:41:12.805976:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:41:12.808984:继电器命令成功
+2026-09-11 01:41:16.313653:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:41:16.315265:继电器命令成功
+2026-09-11 01:41:41.319461:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 01:41:41.321698:进入uboot模式成功
+2026-09-11 01:41:41.323699:进入uboot模式成功
+2026-09-11 01:41:41.326511:第1/3次获取开机动画路径完成
+2026-09-11 01:41:41.328208:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 01:41:42.332070:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:41:42.334076:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:41:42.336079:已发送 ctrl+C 结束 logcat
+2026-09-11 01:41:42.338405:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 01:41:42.842608:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:41:42.845114:继电器命令成功
+2026-09-11 01:41:45.349276:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:41:45.352280:继电器命令成功
+2026-09-11 01:42:20.355267:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 01:42:20.468362:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 01:42:20.526722:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 01:42:25.583755:设备已上线: 192.168.0.155:5555
+2026-09-11 01:42:25.666810:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 01:42:25.727021:等待设备上线中... 当前状态: error: device offline
+2026-09-11 01:42:28.897147:设备已上线: 192.168.0.155:5555
+2026-09-11 01:42:28.899147:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_014228
+2026-09-11 01:42:29.217203:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 13.2 MB/s (3538000 bytes in 0.256s)
+2026-09-11 01:42:29.219206:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_014228
+2026-09-11 01:42:29.221206:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 01:42:29.223206:拉取99tclconfig完成
+2026-09-11 01:42:29.226207:当前测试SID: 100
+2026-09-11 01:42:29.730455:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 01:42:29.732459:继电器命令成功
+2026-09-11 01:42:32.237176:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 01:42:32.240709:继电器命令成功
+2026-09-11 01:42:57.244150:发送key指令(hex): aa061001a7ef
+2026-09-11 01:42:57.405048:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:42:57.409298:进工厂模式成功
+2026-09-11 01:42:58.413463:发送key指令(hex): aa06110194de
+2026-09-11 01:42:58.597716:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 01:42:58.599721:显示工厂模式成功
+2026-09-11 01:42:59.660688:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 01:43:00.302535:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:00.304847:按键下已发送
+2026-09-11 01:43:00.928067:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:00.929571:按键下已发送
+2026-09-11 01:43:01.540623:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:01.542623:按键下已发送
+2026-09-11 01:43:02.283584:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:02.286608:按键下已发送
+2026-09-11 01:43:02.907017:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:02.909520:按键下已发送
+2026-09-11 01:43:03.536546:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:03.538761:按键下已发送
+2026-09-11 01:43:04.174873:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:04.177876:按键下已发送
+2026-09-11 01:43:04.798290:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:04.800294:按键下已发送
+2026-09-11 01:43:05.462258:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:05.464257:按键下已发送
+2026-09-11 01:43:06.093242:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 01:43:06.096242:按键OK已发送
+2026-09-11 01:43:06.737151:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 01:43:06.739657:按键下已发送
+2026-09-11 01:43:07.381414:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 8 -> 返回码: 0
+2026-09-11 01:43:07.384413:SID数字1按键已发送(keycode=8)
+2026-09-11 01:43:07.553405:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 7 -> 返回码: 0
+2026-09-11 01:43:07.554909:SID数字0按键已发送(keycode=7)
+2026-09-11 01:43:07.719060:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 7 -> 返回码: 0
+2026-09-11 01:43:07.721060:SID数字0按键已发送(keycode=7)
+2026-09-11 01:43:17.774111:发送key指令(hex): aa06840063e1
+2026-09-11 01:43:18.347709:刷入key值成功(应答hex): ab050adf4eab
+2026-09-11 01:43:18.350595:查询PID指令成功
+2026-09-11 01:43:18.352595:发生错误: invalid literal for int() with base 16: ''

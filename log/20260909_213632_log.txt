@@ -1,0 +1,1 @@
+2026-09-09 21:36:32.493967:发生错误: cannot pickle '_thread.lock' object

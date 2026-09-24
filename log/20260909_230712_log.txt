@@ -1,0 +1,21 @@
+2026-09-09 23:07:12.427857:SID的列表sid_list: [1]
+2026-09-09 23:07:12.444072:当前测试SID: 1
+2026-09-09 23:07:12.445579:开始进入uboot模式，并且获取开机logo的地址
+2026-09-09 23:07:12.950187:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-09 23:07:12.951190:继电器命令成功
+2026-09-09 23:07:15.455663:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-09 23:07:15.457667:继电器命令成功
+2026-09-09 23:07:15.459667:第1/3次断电上电完成
+2026-09-09 23:07:50.462446:已发送命令: logcat |grep BootAnimation，正在等待抓取ZipFileName返回值...
+2026-09-09 23:07:55.467089:抓取到返回值: 01-07 11:06:51.406   833   883 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:07:55.469091:提取到的bootanimation zip路径: /tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+2026-09-09 23:07:55.470594:已发送 ctrl+C 结束 logcat
+2026-09-09 23:07:55.473102:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-09 23:07:55.645764:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:07:55.751103:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-09 23:08:00.818856:adb root 后重新 connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-09 23:08:00.884439:adb root 等待5s后获取返回码: 0, 输出: restarting adbd as root
+2026-09-09 23:08:00.886443:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\demo\image_recognition\machine
+2026-09-09 23:08:00.954838:adb pull 返回码: 1, 输出: adb: error: failed to get feature set: device offline
+2026-09-09 23:08:00.957838:adb pull 失败: adb: error: failed to get feature set: device offline
+2026-09-09 23:08:00.958914:测试次数：1

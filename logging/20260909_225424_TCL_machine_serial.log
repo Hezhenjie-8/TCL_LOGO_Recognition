@@ -1,0 +1,227 @@
+[BEGIN] 2026/09/09 22:54:31
+[2026/09/09 22:54:31] [0;31m[ERROR] standby_mode_enter_qhb:250: [0mThis PID   unsupport  TCL QHB !!!
+[2026/09/09 22:54:31] [AutoTest][mboot][start kernel][3572]
+[2026/09/09 22:54:31] Starting kernel ...
+[2026/09/09 22:54:31] kfault io buf 0x5bdf5610, size 0x28, pos 0x400, is_read 1, ret 0
+[2026/09/09 22:54:31] last status:0x0
+[2026/09/09 22:54:31] MMC write: dev # 0, block # 1480632, count 7 ... 7 blocks written: OK
+[2026/09/09 22:54:31] MMC write: dev # 0, block # 1480639, count 1 ... 1 blocks written: OK
+[2026/09/09 22:54:31] kfault io buf 0x5bdec620, size 0xeb7, pos 0x37f7000, is_read 0, ret 0
+[2026/09/09 22:54:31] MMC write: dev # 0, block # 1366018, count 1 ... 1 blocks written: OK
+[2026/09/09 22:54:31] kfault io buf 0x5bd7ad50, size 0x28, pos 0x400, is_read 0, ret 0
+[2026/09/09 22:54:31] WARNING: Unimplemented Standard Service Call: 0x84000050
+[2026/09/09 22:54:32] [    0.322354][    T1] clk_mt5896: we have : PM
+[2026/09/09 22:54:32] [    0.322376][    T1] clk_mt5896: we have : NONPM
+[2026/09/09 22:54:32] [Ramlog] tee_config_dyn_ramlog_by_cookie is success
+[2026/09/09 22:54:32] [    0.471758][    T1] [K][EFUSE]mtk_efuse_init() ----- START
+[2026/09/09 22:54:32] [    0.477418][    T1] [K][EFUSE]mtk_efuse_init() ----> OK
+[2026/09/09 22:54:32] [    0.489850][    T1] ir set ir_arm_en to 1.
+[2026/09/09 22:54:32] [    0.494062][    T1] ir get boot status 2.
+[2026/09/09 22:54:32] [    0.498088][    T1] ir set boot status to 3.
+[2026/09/09 22:54:32] [    0.502414][    T1] ir get key 65535.
+[2026/09/09 22:54:32] [    0.506086][    T1] mtk-ir 1c080000.ir_in: ir probe done.
+[2026/09/09 22:54:32] [    0.517842][    T1] [0][0][0]
+[2026/09/09 22:54:32] [    0.528772][    T1] add null memory dma_heap with name mtk_nullmem_1
+[2026/09/09 22:54:32] [    0.535156][    T1]     range from 0x3000000 to 0x13000000
+[2026/09/09 22:54:32] [    0.535156][    T1]
+[2026/09/09 22:54:32] [    0.535156][    T1]
+[2026/09/09 22:54:32] [    0.567822][    T1] we have : seal
+[2026/09/09 22:54:32] [    0.595230][   T67] mtk_mci 1c660000.mtk-mmc-fcie: [ mtk_fcie_set_ios() Ln.4351 ]
+[2026/09/09 22:54:32] [    0.602859][   T67] mtk_mci 1c660000.mtk-mmc-fcie: Ld HS400ES
+[2026/09/09 22:54:32] [    0.610703][   T67] mtk_mci 1c660000.mtk-mmc-fcie: eMMC: HS400 5.1 200MHz
+[2026/09/09 22:54:32] [    0.617852][   T67] mtk_mci 1c660000.mtk-mmc-fcie: eMMC: HS400 5.1 200MHz
+[2026/09/09 22:54:32] [    0.676196][    T1] [Alg Debug] MApi_PQ_CLI_CFD_Init sucess!!
+[2026/09/09 22:54:32] [    0.685725][    T1] lizw pp 1
+[2026/09/09 22:54:32] [    0.691088][    T1] tcl_action_monitor: kfault kernel timeout init
+[2026/09/09 22:54:33] [    1.666706][  T125] tc
+[2026/09/09 22:54:33] l_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:54:34] console:/ $
+[2026/09/09 22:54:34] [    2.857498][  T125] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:54:34] [    2.866295][  T125] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:54:34] [    2.877336][  T125] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:54:35] [0;32;31m [ramlog] tee_get_ramlog_config 586 [m
+[2026/09/09 22:54:35] [ramlog] Chip ID: 48 e2 a3 c5 22 31 98 47 98 04 00 00
+[2026/09/09 22:54:35] [ramlog] TEE log is not enabled (I2C mode:1)
+[2026/09/09 22:54:37] [    5.088858][  T318] mtk_and: line 0: glide-disk-cach%com.google.android.apps.tv.launcherx=S:N-20
+[2026/09/09 22:54:37] [    5.097968][  T318] mtk_and: line 1: animation%com.netflix.ninja=S:N-10
+[2026/09/09 22:54:37] [    5.104684][  T318] mtk_and: line 2: CastV2_Signing_%com.google.android.apps.mediashell=S:N-10
+[2026/09/09 22:54:37] [    5.113297][  T318] mtk_and: line 3: Thread-17%com.amazon.amazonvideo.livingroom=S:R1
+[2026/09/09 22:54:37] [    5.121137][  T318] mtk_and: line 4: Thread-18%com.amazon.amazonvideo.livingroom=S:R1
+[2026/09/09 22:54:37] [    5.436031][  T125] mtu3 1c7a3e00.usb: ssusb clock enable
+[2026/09/09 22:54:37] [    5.445874][  T125] mtu3 1c1b3e00.usb: ssusb clock enable
+[2026/09/09 22:54:37] Info: get MI daemon priority before System Init: [-20]
+[2026/09/09 22:54:37] [mi_daemon]!!!Enter MI daemon prcoess!! start time =5532
+[2026/09/09 22:54:37] [mi_daemon][HASHKEY]{_Bin_Hashkey_Init,692} ----- START not bGingaSupported
+[2026/09/09 22:54:37] [mi_daemon][HASHKEY]{_Bin_Hashkey_Init,697} ----- START
+[2026/09/09 22:54:37] [mi_daemon][HASHKEY]{_getPathFromDataIndex,620} pszFilePath:/tclconfig/hardware/param/soc/dataIndex_00_WW_4K60_VbyOne.ini
+[2026/09/09 22:54:37] Cannot get key 'HASHKEY:hashkey_file' in dataIndex file /tclconfig/hardware/param/soc/dataIndex_00_WW_4K60_VbyOne.ini
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,580} (iBinSize:306)
+[2026/09/09 22:54:37] [IPAUTH]{_IPAUTH_ReadDebugFile,308} ----- START
+[2026/09/09 22:54:37] [IPAUTH]{_IPAUTH_ReadDebugFile,317} Debug file is not exist~(/data/vendor/ipauth_debug.txt)
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,631} u16CustomerId:0x19
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,693} u16HashkeyChipId:0x10D
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_Verify,406} call HASHKEY_Verify()
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_Verify,408} HASHKEY_Verify() return 0
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{MApi_IPAUTH_Init_by_bin,750} set _u8_hashkey_verify_result=OK
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_set_BinDataToKernel,503} (u32Para1:1, pu8BinBuf:0xFFAC99F0, u32BufSize:306)
+[2026/09/09 22:54:37] [IPAUTH][HASHKEY]{_IPAUTH_HASHKEY_set_BinDataToKernel,523} cmd:0x8791, u32_para_1:0x1, u32BufSize_in:306
+[2026/09/09 22:54:37] [mi_daemon]!!!Enter MI daemon flow time=5532!!
+[2026/09/09 22:54:37] [mi_daemon]{_MI_SYS_Init,809} _MI_SYS_Init() ----- START
+[2026/09/09 22:54:37] !!!MI daemon prcoess start! MI daemon cost time=127!!!
+[2026/09/09 22:54:37] Info: get MI daemon priority after Module Init: [0]
+[2026/09/09 22:54:38] [    6.246132][  T125] realtime_framework_init is invoked
+[2026/09/09 22:54:38] [    6.251396][  T125] realtime_module_init [538], REALTIME_UID=2941
+[2026/09/09 22:54:38] [    6.270759][  T397]
+[2026/09/09 22:54:38] tcl_vdf: vdf_send_task run..
+[2026/09/09 22:54:38] [    6.421275][  T403] [austin_demod_dd][demod_probe] name = [austin_demod]
+[2026/09/09 22:54:38] [    6.431925][  T403] [demod_probe][120] austin_dev->client->addr = 0x79
+[2026/09/09 22:54:38] [    6.462962][  T403] [austin_chk_exist][74] ret -121,
+[2026/09/09 22:54:38] --- 0 9 3 2
+[2026/09/09 22:54:38] modprobe: alias lines in modules[    6.470581][  T402] of_node: mtk,apusys not found
+[2026/09/09 22:54:38] .alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 7
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias li[    6.532231][  T403] [mdbgin_merak_demod_dd][mtk_demod_custom_file_open][2503] __entry__
+[2026/09/09 22:54:38] nes in modules.a[    6.541418][  T403] [mtk_demod_custom_file_open][2542] CUSTOM_EQ_TYPE7
+[2026/09/09 22:54:38] lias must have 3[    6.549436][  T403] [mtk_demod_custom_file_open][2554] custom file open fail !
+[2026/09/09 22:54:38] entries, not 4[    6.557948][  T403] 1ce00000.mtk-demod is already registered, pass it
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:38] Loading module /vendor/lib/modules/spi-mtkdtv-ci.ko with args ''
+[2026/09/09 22:54:38] Loaded kernel module /vendor/lib/modules/spi-mtkdtv-ci.ko
+[2026/09/09 22:54:38] [    6.703598][  T401] drv_hwreg_srccap_hdmirx_attach b_attach = 1
+[2026/09/09 22:54:38] [    6.703601][  T401] drv_hwreg_srccap_hdmirx_attach size = 1
+[2026/09/09 22:54:38] [    6.709735][  T401] hal_hwreg_srccap_hdmirx_ops_array[0].hw_version = 6
+[2026/09/09 22:54:38] [    6.728944][  T401] u32_addr_min = eb00
+[2026/09/09 22:54:38] [    6.732855][  T401] u32_addr_max = ebf0
+[2026/09/09 22:54:38] modprobe: alias lines in modules.alias must have 3 ent
+[2026/09/09 22:54:39] ries, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 7
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:54:39] modprobe[    6.996853][  T125] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:54:39] : alias lines in[    7.004824][  T125] stall_debug: chip id 0
+[2026/09/09 22:54:39] modules.alias m[    7.010991][  T125] stall_debug: hook sysrq-c OK
+[2026/09/09 22:54:39] ust have 3 entri[    7.010988][  T162] current tty: ttyS0, irq: 22
+[2026/09/09 22:54:39] es, not 5
+[2026/09/09 22:54:39] modpr[    7.016417][  T125] stall_debug: alloc 1000 memory ok
+[2026/09/09 22:54:39] obe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not[    7.043809][  T125] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:54:39] 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias mu[    7.060775][  T471] stall_debug: rd_pid_max is 32768
+[2026/09/09 22:54:39] st have 3 entrie[    7.066838][  T471] stall_debug: ptr_task_scs=ffffffc00d8fb000,size=40000
+[2026/09/09 22:54:39] s, not 5
+[2026/09/09 22:54:39] modprobe: alias lines in modules.alias must have 3 entries, not 6
+[2026/09/09 22:54:39] modprobe: alias lines in modules.al[    7.083966][  T125] kallsyms_lookup_name with kp ffffffc00822d210,ret=0
+[2026/09/09 22:54:39] ias must have 3 entries, not 5
+[2026/09/09 22:54:39] [    7.092807][  T125] die_helper: log_buf is from ffffffc00a8f0060,len 20000
+[2026/09/09 22:54:39] modprobe: alias [    7.100986][  T125] die_helper: log_buf pa is from 0x00000000288f0060,len 20000
+[2026/09/09 22:54:39] lines in modules.alias must have 3 entries, not 4
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtktv-regulator-mt5876.ko with args ''
+[2026/09/09 22:54:39] Loaded kernel module /vendor/lib/modules/mtktv-regulator-mt5876.ko
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtktv-thermal.ko with args ''
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtktv-cpufreq-ca.ko with args ''
+[2026/09/09 22:54:39] Loaded kernel module /vendor/lib/modules/mtktv-cpufreq-ca.ko
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtktv-cpufreq.ko with args ''
+[2026/09/09 22:54:39] Loaded kernel module /vendor/lib/modules/mtktv-cpufreq.ko
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtk-dramc.ko with args ''
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtk-mediator.ko with args ''
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/cpu-freq-adapter.ko with args ''
+[2026/09/09 22:54:39] Loaded kernel module /vendor/lib/modules/cpu-freq-adapter.ko
+[2026/09/09 22:54:39] Loading module /vendor/lib/modules/mtktv-gpu-thermal.ko with args ''
+[2026/09/09 22:54:39] Loaded kernel module /vendor/lib/modules/mtktv-gpu-thermal.ko
+[2026/09/09 22:54:39] [    7.111630][
+[2026/09/09 22:54:39] T162] current tty: ttyS0, irq: 22
+[2026/09/09 22:54:39] [    7.217107][  T471] stall_debug: enable ip record by scs OK
+[2026/09/09 22:54:40] [    8.171140][  T575] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b
+[2026/09/09 22:54:40] [    8.261966][  T125] tcl_action_monitor: kfault stop kernel init timeout
+[2026/09/09 22:54:40] [    8.339190][  T575] [UserWrittenI2CRead]: [IIC] TUNER READ : NG, SlaveAddr=0x7b
+[2026/09/09 22:54:40] [    8.408686][  T575] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b
+[2026/09/09 22:54:40] [    8.414625][  T604] watchdog: watchdog0: watchdog did not stop!
+[2026/09/09 22:54:40] [    8.547521][  T575] [R842_I2C_Check][10232] NG!!
+[2026/09/09 22:54:40] [    8.617374][  T575] [UserWrittenI2CWrite]: [IIC] TUNER WRITE : NG, aSlaveAddr=0x7b
+[2026/09/09 22:54:40] [    8.629724][  T575] [R842_InitReg][3250] NG!!
+[2026/09/09 22:54:40] [    8.637388][  T575] [R842_Init][3063] NG!!
+[2026/09/09 22:54:40] [    8.643043][  T575] [R842_tuner_init] fail
+[2026/09/09 22:54:40] [    8.730192][  T645] watchdog: watchdog0: watchdog did not stop!
+[2026/09/09 22:54:40] CPU_AUDIO is running!
+[2026/09/09 22:54:41] [8902600][_cpuAudio_ALSA_Driver_GetCardInfo][198]to open /proc/asound/cards
+[2026/09/09 22:54:41] [8902932][_cpuAudio_ALSA_Driver_GetCardInfo][225]Available Sound Cards:[
+[2026/09/09 22:54:41] 0 [mtktvsndcard   ]: mtk-tvsnd-card - mtk-tvsnd-card
+[2026/09/09 22:54:41] MTK-TV-SOUND-ASOC-AUDIO-DRV
+[2026/09/09 22:54:41] 1 [Loopback       ]: Loopback - Loopback
+[2026/09/09 22:54:41] Loopback 1
+[2026/09/09 22:54:41] 2 [vocsndcard     ]: vocsndcard - vocsndcard
+[2026/09/09 22:54:41] vocsndcard 1
+[2026/09/09 22:54:41] 3 [mtkaloopsndcard]: mtkaloopsndcard - mtkaloopsndcard
+[2026/09/09 22:54:41] mtkaloopsndcard 1
+[2026/09/09 22:54:41] ]
+[2026/09/09 22:54:41] [8902975][_cpuAudio_ALSA_Driver_GetCardInfo][239]index of mtktvsndcard : 0
+[2026/09/09 22:54:41] [8902984][_cpuAudio_ALSA_Driver_GetCardInfo][254]mtktvsndcard : /dev/snd/controlC0
+[2026/09/09 22:54:41] [8902999][_cpuAudio_ALSA_Driver_GetCardInfo][273]close /proc/asound/cards done
+[2026/09/09 22:54:41] [8903092][_cpuAudio_ALSA_Driver_GetKcontolId][400]pKControl:Utopia controls,fd:3,elist.count:42
+[2026/09/09 22:54:41] [8903102][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM RATE
+[2026/09/09 22:54:41] [8903108][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM GET PB BUF LEVEL
+[2026/09/09 22:54:41] [8903113][_cpuAudio_ALSA_Driver_GetKcontolId][403]MM GET CAP BUF LEVEL
+[2026/09/09 22:54:41] [8903118][_cpuAudio_ALSA_Driver_GetKcontolId][403]Duplex mm controls
+[2026/09/09 22:54:41] [8903123][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture MUTE EVENT
+[2026/09/09 22:54:41] [8903128][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture NONPCM EVENT
+[2026/09/09 22:54:41] [8903133][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture NONPCM FLAG
+[2026/09/09 22:54:41] [8903137][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture FASTLOCK MODE
+[2026/09/09 22:54:41] [8903142][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture TIMESTAMP
+[2026/09/09 22:54:41] [8903147][_cpuAudio_ALSA_Driver_GetKcontolId][403]Capture controls
+[2026/09/09 22:54:41] [8903151][_cpuAudio_ALSA_Driver_GetKcontolId][403]DSP Reload
+[2026/09/09 22:54:41] [8903156][_cpuAudio_ALSA_Driver_GetKcontolId][403]Utopia controls
+[2026/09/09 22:54:41] [8903162][_cpuAudio_ALSA_Driver_GetKcontolId][407]got Kcontrol[Utopia controls] at id[12]
+[2026/09/09 22:54:41] [8903186][cpuAudio_ALSA_Driver_Init][690]Audio memory size(0x2E57000) phyAudioBase(0x200000) busAudioBase(0x20200000)
+[2026/09/09 22:54:41] [8903194][_cpuAudio_ALSA_Driver_InitPcmDevice][301]Opening PCM device node=0/2, period=11863/1024, format=2/48000/0
+[2026/09/09 22:54:41] [8903853][cpuAudio_ALSA_Driver_Init][701]phyAudioBase(0x[    9.081607][  T711] [mzc] init done
+[2026/09/09 22:54:41] 200000) => UserVirtualAddr(0xe7ae9000)
+[2026/09/09 22:54:41] [8915256][cpuAudio_getInfo][562][1;35m cpuAudio[Info](thread-name:)(pid:0)(tid:0) [0m
+[2026/09/09 22:54:41] [8915311][cpuAudio_getInfo][566][1;35m cpuAudio[decR2:0x2396,sndR2:0xd263][Version](0x20) [0m
+[2026/09/09 22:54:41] [cpuAudio_createPostprocessMonitorThread][370]armAudio_postprocessrMonitor_ver: 0xff20 thread created successfully
+[2026/09/09 22:54:41] [cpuAudio_postprocess_init][16] dec_base(e7ae9000) DEC_R2_SHM_DDR_OFFSET(0x1911000) snd_base(e8ca9000) SND_R2_SHM_DDR_OFFSET(0x753000) p_decR2_shm(0xe93fa000) p_sndR2_shm(0xe93fc000)
+[2026/09/09 22:54:41] [1;35m [cpuAudioPostProcess_main][327]Enter while(1) loop. [0m
+[2026/09/09 22:54:41] [    9.85293
+[2026/09/09 22:54:41] 3][  T448] ir set boot status to 5.
+[2026/09/09 22:54:42] [   10.579347][  T508] PowerHAL: [AT][AN][DC finish boot]
+[2026/09/09 22:54:47] [armAudio_postprocess_allocate][
+[2026/09/09 22:54:47] 63] allocate arm AudioPostProcess (type=0xff01)
+[2026/09/09 22:54:47] [armAudio_postprocess_allocate][82] 1906464 bytes is needed by AudioPostProcess (type=0xff01)
+[2026/09/09 22:54:47] [armAudio_postprocess_allocate][97] AudioPostProcess (type=0xff01) allocate 0x1d1720 bytes ok!!,va(0xe74a88e0) ok
+[2026/09/09 22:54:47] [armAudio_postprocess_allocate][105] AudioPostProcess (type=0xff01) hook
+[2026/09/09 22:54:49] [   17.388907][  T125] [AT][AN][finish boot]
+[2026/09/09 22:54:50] insmod: /vendor/lib/modules/mtk-pmu-key
+[2026/09/09 22:54:50] pad.ko: No such file or directory
+[2026/09/09 22:54:50] insmod: /vendor/lib/modules/mtk-smi-tv.ko: No such file or directory
+[2026/09/09 22:54:50] insmod: /vendor/lib/modules/test_power.ko
+[2026/09/09 22:54:50] : No such file or directory
+[2026/09/09 22:55:02] 发送(hex): 6c6f67636174207c6772657020426f6f74416e696d6174696f6e0d
+[2026/09/09 22:55:02] logcat |grep BootAnimation
+[2026/09/09 22:55:02] 01-07 11:06:33.305   833   883 V BootAnimation: Surface size has been limited to [1920x1080] from [3840x2160]
+[2026/09/09 22:55:02] 01-07 11:06:33.580   833   883 D BootAnimation: BootAnimationShownTiming start time: 10578ms
+[2026/09/09 22:55:02] 01-07 11:06:36.509   833
+[2026/09/09 22:55:02] 883 D BootAnimation: BootAnimationShownTiming start time: 13507ms
+[2026/09/09 22:55:03] 01-07 11:06:40.448   833   883 D BootAnimation: cxtest mZipFileName:/tvcust/aio_resources/resource/brand/common_TCL/bootanim/customized_bootanimation.zip
+[2026/09/09 22:55:04] 发送(hex): 03
+[2026/09/09 22:55:04] ^C
+[2026/09/09 22:55:04] 130|console:/ $
+
+[END] 2026/09/09 22:55:10

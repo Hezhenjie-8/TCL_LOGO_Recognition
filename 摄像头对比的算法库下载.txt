@@ -1,0 +1,64 @@
+pip install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+https://www.lzltool.cn/Toolkit/CropPng
+库的调用
+import torch
+import torchvision.transforms as transforms
+from torchvision import models
+from PIL import Image
+
+def Torchstart(image1, image2):
+    # 载入 MobileNet 预训练模型
+    model = models.mobilenet_v3_large(pretrained=True).features.eval()
+    
+    def preprocess(image_path):
+        transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ToTensor()
+        ])
+        return transform(Image.open(image_path)).unsqueeze(0)
+    
+    # 提取特征
+    feat1 = model(preprocess(image1))
+    feat2 = model(preprocess(image2))
+    
+    # 计算余弦相似度
+    similarity = torch.nn.functional.cosine_similarity(feat1.view(1, -1), feat2.view(1, -1))
+    return similarity * 100
+
+
+
+similarity = Torchstart('picture//Compare_20250210_111049_.jpg', 'picture//Compare_20250210_110742_.jpg')
+# print(f'Similarity Percentage: {similarity:.2f}%')
+print(f"深度学习相似度: {similarity.item():.2f}%")
+
+该模型（MobileNetV3）主要通过以下步骤对两张图片进行相似度对比：
+
+1. **特征提取**：
+   - 使用预训练的MobileNetV3的卷积层部分（`features`）作为特征提取器
+   - 模型是在ImageNet数据集上预训练的，其卷积层已经学会了提取通用的图像特征
+
+2. **预处理**：
+   - 将两张图片统一调整为224x224分辨率（MobileNet的标准输入尺寸）
+   - 转换为PyTorch张量（Tensor）
+   - 添加一个批次维度（batch dimension）
+
+3. **特征生成**：
+   - 将预处理后的图片输入MobileNetV3的卷积层
+   - 获取网络最后一层输出的特征图（feature map）
+
+4. **相似度计算**：
+   - 将特征图展平为一维向量
+   - 使用余弦相似度计算这两个特征向量的相似程度
+   - 余弦相似度衡量的是两个向量在方向上的相似性（取值范围[-1,1]，1表示完全相同）
+
+5. **结果输出**：
+   - 将相似度值乘以100转换为百分比形式
+
+关键点说明：
+- 这种方法比较的是图片的"高级特征"而非像素级相似
+- 相似的图片会在特征空间中距离较近
+- 预训练模型已经包含了通用的图像理解能力
+- 更适合比较内容/语义层面的相似性，而非严格的外观相似
+
+这种方法的优势是可以识别经过缩放、旋转或轻微改动的相似图片，但对风格变化较大但内容相同的图片可能不如人类判断准确。

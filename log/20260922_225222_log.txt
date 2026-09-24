@@ -1,0 +1,98 @@
+2026-09-22 22:52:22.791392:从 config.json 获取到 ipAddress: 192.168.0.124
+2026-09-22 22:52:22.952927:adb connect 返回码: 0, 输出: already connected to 192.168.0.124:5555
+2026-09-22 22:52:30.080929:串口已就绪
+2026-09-22 22:52:30.084934:SID的列表sid_list: [0, 21, 98]
+2026-09-22 22:52:30.087934:platform: MTK
+2026-09-22 22:52:30.592559:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:52:30.594563:继电器命令成功
+2026-09-22 22:52:34.099946:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:52:34.101955:继电器命令成功
+2026-09-22 22:52:59.106578:data: ['[  692.403018][ T3697] t_vplug_thread: 1']
+2026-09-22 22:52:59.114097:data: ['130|console:/ $ ', '130|console:/ $ ^C', '130|console:/ $ ']
+2026-09-22 22:52:59.116102:进入uboot模式失败
+2026-09-22 22:53:01.118670:data: ['130|console:/ $ ', '130|console:/ $ [   17.285074][  T168] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:53:01.122177:进入uboot模式失败
+2026-09-22 22:53:03.124893:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.274685][ T1152] optee_invoke_func task:HwBinder:744_2 ret=ffff0000 ori=4', '[   24.777004][ T1152] optee_invoke_func task:HwBinder:744_2 ret=ffff0000 ori=4']
+2026-09-22 22:53:03.126951:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.274685][ T1152] optee_invoke_func task:HwBinder:744_2 ret=ffff0000 ori=4', '[   24.777004][ T1152] optee_invoke_func task:HwBinder:744_2 ret=ffff0000 ori=4']
+2026-09-22 22:53:03.631426:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:53:03.633429:继电器命令成功
+2026-09-22 22:53:07.140316:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:53:07.142859:继电器命令成功
+2026-09-22 22:53:32.150211:data: ['130|console:/ $ ', '130|console:/ $ [   18.010414][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:53:32.152215:进入uboot模式失败
+2026-09-22 22:53:34.154366:data: ['130|console:/ $ ', '130|console:/ $ [   18.010414][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:53:34.156376:进入uboot模式失败
+2026-09-22 22:53:36.165174:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.431337][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4', '[   24.615496][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4']
+2026-09-22 22:53:36.166368:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.431337][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4', '[   24.615496][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4']
+2026-09-22 22:53:36.169388:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.431337][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4', '[   24.615496][ T1182] optee_invoke_func task:HwBinder:745_2 ret=ffff0000 ori=4']
+2026-09-22 22:53:36.673306:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:53:36.675318:继电器命令成功
+2026-09-22 22:53:40.180415:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:53:40.184432:继电器命令成功
+2026-09-22 22:54:05.209425:data: ['130|console:/ $ ', '130|console:/ $ [   16.799964][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:54:05.212435:进入uboot模式失败
+2026-09-22 22:54:07.224921:data: ['130|console:/ $ ', '130|console:/ $ [   16.799964][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:54:07.234433:进入uboot模式失败
+2026-09-22 22:54:09.238558:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.089803][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4', '[   24.331127][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4']
+2026-09-22 22:54:09.246073:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.089803][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4', '[   24.331127][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4']
+2026-09-22 22:54:09.248083:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.089803][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4', '[   24.331127][ T1172] optee_invoke_func task:HwBinder:749_1 ret=ffff0000 ori=4']
+2026-09-22 22:54:09.757580:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:54:09.762572:继电器命令成功
+2026-09-22 22:54:13.274226:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:54:13.277751:继电器命令成功
+2026-09-22 22:54:38.302651:data: ['130|console:/ $ ', '130|console:/ $ [   17.532712][  T168] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:54:38.315232:进入uboot模式失败
+2026-09-22 22:54:40.321696:data: ['130|console:/ $ ', '130|console:/ $ [   17.532712][  T168] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:54:40.328822:进入uboot模式失败
+2026-09-22 22:54:42.331975:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.065577][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4', '[   24.589087][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4']
+2026-09-22 22:54:42.333992:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.065577][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4', '[   24.589087][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4']
+2026-09-22 22:54:42.335981:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.065577][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4', '[   24.589087][  T751] optee_invoke_func task:binder:751_2 ret=ffff0000 ori=4']
+2026-09-22 22:54:42.337981:进入uboot模式失败
+2026-09-22 22:54:42.338981:进入uboot模式失败，重试一次
+2026-09-22 22:54:42.342486:platform: MTK
+2026-09-22 22:54:42.847081:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:54:42.849088:继电器命令成功
+2026-09-22 22:54:46.354182:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:54:46.356326:继电器命令成功
+2026-09-22 22:55:11.367234:data: ['130|console:/ $ ', '130|console:/ $ [   17.906365][  T167] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:55:11.369738:进入uboot模式失败
+2026-09-22 22:55:13.372025:data: ['130|console:/ $ ', '130|console:/ $ [   17.906365][  T167] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:55:13.374033:进入uboot模式失败
+2026-09-22 22:55:15.376373:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.087231][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4', '[   24.240132][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:15.382376:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.087231][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4', '[   24.240132][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:15.383881:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.087231][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4', '[   24.240132][ T1175] optee_invoke_func task:HwBinder:750_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:15.888039:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:55:15.890052:继电器命令成功
+2026-09-22 22:55:19.396193:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:55:19.398699:继电器命令成功
+2026-09-22 22:55:44.414483:data: ['130|console:/ $ ', '130|console:/ $ [   18.037768][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:55:44.421460:进入uboot模式失败
+2026-09-22 22:55:46.432315:data: ['130|console:/ $ ', '130|console:/ $ [   18.037768][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:55:46.438309:进入uboot模式失败
+2026-09-22 22:55:48.444936:data: ['130|console:/ $ [   18.037768][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.796788][ T1179] optee_invoke_func task:HwBinder:738_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:48.447940:进入uboot模式失败
+2026-09-22 22:55:50.475137:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.796788][ T1179] optee_invoke_func task:HwBinder:738_1 ret=ffff0000 ori=4', '[   25.772538][ T1179] optee_invoke_func task:HwBinder:738_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:50.478640:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.796788][ T1179] optee_invoke_func task:HwBinder:738_1 ret=ffff0000 ori=4', '[   25.772538][ T1179] optee_invoke_func task:HwBinder:738_1 ret=ffff0000 ori=4']
+2026-09-22 22:55:50.982879:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:55:50.984384:继电器命令成功
+2026-09-22 22:55:54.491203:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:55:54.495207:继电器命令成功
+2026-09-22 22:56:19.503244:data: ['130|console:/ $ ', '130|console:/ $ [   17.871304][  T169] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:56:19.508948:进入uboot模式失败
+2026-09-22 22:56:21.513837:data: ['130|console:/ $ ', '130|console:/ $ [   17.871304][  T169] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:56:21.517837:进入uboot模式失败
+2026-09-22 22:56:23.526701:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.331001][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4', '[   24.788251][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:23.532703:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.331001][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4', '[   24.788251][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:23.538261:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   24.331001][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4', '[   24.788251][ T1154] optee_invoke_func task:HwBinder:747_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:24.045235:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-22 22:56:24.048740:继电器命令成功
+2026-09-22 22:56:27.555136:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-22 22:56:27.558663:继电器命令成功
+2026-09-22 22:56:52.581356:data: ['130|console:/ $ ', '130|console:/ $ [   17.775643][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:56:52.584419:进入uboot模式失败
+2026-09-22 22:56:54.587831:data: ['130|console:/ $ ', '130|console:/ $ [   17.775643][  T170] [AT][AN][finish boot]', 'cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied']
+2026-09-22 22:56:54.591834:进入uboot模式失败
+2026-09-22 22:56:56.598888:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   23.692869][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4', '[   23.833701][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:56.603888:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   23.692869][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4', '[   23.833701][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:56.608403:data: ['cat: /proc/device-tree/mmap_info/MMAP_PROPERTY/mmap_size: Permission denied', '[   23.692869][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4', '[   23.833701][  T748] optee_invoke_func task:binder:748_2 ret=ffff0000 ori=4']
+2026-09-22 22:56:56.611826:进入uboot模式失败

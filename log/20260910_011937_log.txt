@@ -1,0 +1,43 @@
+2026-09-10 01:19:37.264975:SID的列表sid_list: [1]
+2026-09-10 01:19:38.017932:当前测试SID: 1
+2026-09-10 01:19:38.021411:platform: MTK
+2026-09-10 01:19:38.525628:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:19:38.585308:继电器命令成功
+2026-09-10 01:19:42.089665:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:19:42.091673:继电器命令成功
+2026-09-10 01:20:17.098436:data: []
+2026-09-10 01:20:17.100948:data: ['\x1b[0;31m[ERROR] get_pid_from_preset_partition:1460: \x1b[0mError: sys_get_storage_info from factory_preset failure', '\x1b[0;31m[ERROR] parse_tcl_ffvoice_lednum:1106: \x1b[0mdrive_item is not exist!', '\x1b[0;31m[ERROR] parse_tcl_ffvoice_lednum:1126: \x1b[0muse default ffvoice lednum: 4!!!']
+2026-09-10 01:20:17.125502:data: ['INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)', 'INFO:    \x1b[0;32;31mMTK System Off: waiting for power off...\x1b[m', 'Power Down']
+2026-09-10 01:20:17.128009:data: ['INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)', 'INFO:    \x1b[0;32;31mMTK System Off: waiting for power off...\x1b[m', 'Power Down']
+2026-09-10 01:20:17.130019:data: ['INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)', 'INFO:    \x1b[0;32;31mMTK System Off: waiting for power off...\x1b[m', 'Power Down']
+2026-09-10 01:20:17.633979:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:20:17.636495:继电器命令成功
+2026-09-10 01:20:21.141672:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:20:21.143678:继电器命令成功
+2026-09-10 01:20:56.156338:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:20:56.158342:进入uboot模式失败
+2026-09-10 01:20:58.163262:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:20:58.166546:进入uboot模式失败
+2026-09-10 01:21:00.168268:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:21:00.170272:进入uboot模式失败
+2026-09-10 01:21:02.179312:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:21:02.180823:进入uboot模式失败
+2026-09-10 01:21:04.183323:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 01:21:04.186830:进入uboot模式失败
+2026-09-10 01:21:06.693082:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 01:21:06.694968:继电器命令成功
+2026-09-10 01:21:10.198810:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 01:21:10.202324:继电器命令成功
+2026-09-10 01:21:45.212293:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 01:21:45.214424:进入uboot模式成功
+2026-09-10 01:21:45.216433:进入uboot模式成功
+2026-09-10 01:22:10.220117:data: [   10.198232][  T509] PowerHAL: [AT][AN][DC finish boot]
+factory auto test loop start
+2026-09-10 01:22:10.222126:进入Pmode模式成功
+2026-09-10 01:22:10.224130:进入Pmode模式成功
+2026-09-10 01:22:10.225634:发送key指令(hex): aa061001a7ef
+2026-09-10 01:22:15.236617:刷入key值失败(超时未收到设备应答)
+2026-09-10 01:22:15.239621:进工厂模式失败
+2026-09-10 01:22:15.241620:发送key指令(hex): aa09700000000092eb
+2026-09-10 01:22:20.253690:刷入key值失败(超时未收到设备应答)
+2026-09-10 01:22:20.255861:切换PID 0 失败

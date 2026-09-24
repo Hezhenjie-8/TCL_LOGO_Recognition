@@ -1,0 +1,50 @@
+2026-09-10 02:35:05.944321:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-10 02:35:06.062124:adb connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-10 02:35:13.150978:串口已就绪
+2026-09-10 02:35:13.153981:SID的列表sid_list: [18]
+2026-09-10 02:35:13.155983:当前测试SID: 18
+2026-09-10 02:35:13.158981:冷开机启动获取开机logo的地址
+2026-09-10 02:35:13.162982:platform: MTK
+2026-09-10 02:35:13.669052:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:35:13.672231:继电器命令成功
+2026-09-10 02:35:17.176441:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:35:17.178444:继电器命令成功
+2026-09-10 02:35:52.190768:data: ['UART', '\r<.', 'AC_ON']
+2026-09-10 02:35:52.193766:data: ['130|console:/ $ ', '130|console:/ $  ^C', '130|console:/ $ ']
+2026-09-10 02:35:52.194766:进入uboot模式失败
+2026-09-10 02:35:54.198453:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 02:35:54.200961:进入uboot模式失败
+2026-09-10 02:35:56.203035:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 02:35:56.209114:进入uboot模式失败
+2026-09-10 02:35:58.213507:data: ['130|console:/ $  ^C', '130|console:/ $ ', 'factory auto test loop start']
+2026-09-10 02:35:58.215012:进入uboot模式失败
+2026-09-10 02:36:00.719134:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:36:00.721642:继电器命令成功
+2026-09-10 02:36:04.230427:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:36:04.233524:继电器命令成功
+2026-09-10 02:36:39.245134:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 02:36:39.250711:进入uboot模式失败
+2026-09-10 02:36:41.252720:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 02:36:41.254232:进入uboot模式失败
+2026-09-10 02:36:43.256845:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 02:36:43.258973:进入uboot模式失败
+2026-09-10 02:36:45.261421:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 02:36:45.263451:进入uboot模式失败
+2026-09-10 02:36:47.267187:data: ['130|console:/ $  ^C', '130|console:/ $ ', '130|console:/ $  ^Cfactory auto test loop start']
+2026-09-10 02:36:47.271206:进入uboot模式失败
+2026-09-10 02:36:49.774856:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:36:49.776871:继电器命令成功
+2026-09-10 02:36:53.283069:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:36:53.284576:继电器命令成功
+2026-09-10 02:37:28.298271:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-10 02:37:28.300275:进入uboot模式成功
+2026-09-10 02:37:28.302275:进入uboot模式成功
+2026-09-10 02:37:28.303275:第1/3次获取开机动画路径完成
+2026-09-10 02:37:28.305275:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-10 02:37:58.319957:已发送 ctrl+C 结束 logcat
+2026-09-10 02:37:58.321961:第1/3次未抓取到BootAnimation的ZipFileName路径，2s后重试
+2026-09-10 02:38:00.325071:platform: MTK
+2026-09-10 02:38:00.829209:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:38:00.830846:继电器命令成功
+2026-09-10 02:38:04.335067:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:38:04.337575:继电器命令成功

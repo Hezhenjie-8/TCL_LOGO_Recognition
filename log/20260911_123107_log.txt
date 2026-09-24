@@ -1,0 +1,148 @@
+2026-09-11 12:31:07.163667:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 12:31:07.360178:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 12:31:14.331429:串口已就绪
+2026-09-11 12:31:14.336946:SID的列表sid_list: [104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306]
+2026-09-11 12:31:14.338937:platform: MTK
+2026-09-11 12:31:14.843511:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:31:14.846261:继电器命令成功
+2026-09-11 12:31:18.350915:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:31:18.352922:继电器命令成功
+2026-09-11 12:31:43.366866:data: ['UART', '\r<.', 'AC_ON']
+2026-09-11 12:31:43.368869:data: ['[   17.753923][  T956] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   18.811191][  T410] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   20.066798][ T1009] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_Srccap_DD']
+2026-09-11 12:31:43.370869:data: ['[   17.753923][  T956] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   18.811191][  T410] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   20.066798][ T1009] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_Srccap_DD']
+2026-09-11 12:31:43.372897:data: ['[   17.753923][  T956] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   18.811191][  T410] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   20.066798][ T1009] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_Srccap_DD']
+2026-09-11 12:31:43.375911:data: ['[   17.753923][  T956] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_PquModule', '[   18.811191][  T410] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=1, Domain=N/A', '[   20.066798][ T1009] mtk_realtime_get_ret_value TIMEOUT=10001, ret=19088743, CmdIdx=5, Domain=Domain_Srccap_DD']
+2026-09-11 12:31:43.880103:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:31:43.881613:继电器命令成功
+2026-09-11 12:31:47.386109:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:31:47.391128:继电器命令成功
+2026-09-11 12:32:12.407136:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 12:32:12.409144:进入uboot模式成功
+2026-09-11 12:32:12.410647:进入uboot模式成功
+2026-09-11 12:32:37.414070:data: [   11.599086][  T524] PowerHAL: [AT][AN][DC finish boot]
+factory auto test loop start
+2026-09-11 12:32:37.415583:进入Pmode模式成功
+2026-09-11 12:32:37.417583:进入Pmode模式成功
+2026-09-11 12:32:37.419583:发送key指令(hex): aa061001a7ef
+2026-09-11 12:32:37.747424:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:32:37.753950:进工厂模式成功
+2026-09-11 12:32:38.757525:发送key指令(hex): aa09700000000092eb
+2026-09-11 12:32:39.363437:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:32:39.368775:切换PID 0指令成功
+2026-09-11 12:32:49.372309:发送key指令(hex): aa06840063e1
+2026-09-11 12:32:49.568535:刷入key值成功(应答hex): ab050adf4eab0685002664
+2026-09-11 12:32:49.570539:查询PID指令成功
+2026-09-11 12:32:49.572538:解析PID应答失败: 85后数据不足(需至少8个hex字符): ab050adf4eab0685002664
+2026-09-11 12:32:49.574040:查询PID指令成功，但应答中未解析到SID
+2026-09-11 12:32:49.577044:切换PID为 0 失败(设备回读SID: None，HID: None)
+2026-09-11 12:32:49.579043:设置PID为0失败，重试一次
+2026-09-11 12:32:49.581430:发送key指令(hex): aa061001a7ef
+2026-09-11 12:32:50.124220:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:32:50.126734:进工厂模式成功
+2026-09-11 12:32:51.130213:发送key指令(hex): aa09700000000092eb
+2026-09-11 12:32:51.678713:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:32:51.680731:切换PID 0指令成功
+2026-09-11 12:33:01.685186:发送key指令(hex): aa06840063e1
+2026-09-11 12:33:01.791117:刷入key值成功(应答hex): ab050adf4eab0685002664
+2026-09-11 12:33:01.794129:查询PID指令成功
+2026-09-11 12:33:01.795129:解析PID应答失败: 85后数据不足(需至少8个hex字符): ab050adf4eab0685002664
+2026-09-11 12:33:01.797130:查询PID指令成功，但应答中未解析到SID
+2026-09-11 12:33:01.800130:切换PID为 0 失败(设备回读SID: None，HID: None)
+2026-09-11 12:33:02.303661:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:33:02.304908:继电器命令成功
+2026-09-11 12:33:04.809707:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:33:04.811216:继电器命令成功
+2026-09-11 12:33:29.814413:当前测试SID: 104
+2026-09-11 12:33:29.822924:发送key指令(hex): aa061001a7ef
+2026-09-11 12:33:29.984879:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:33:29.987883:进工厂模式成功
+2026-09-11 12:33:30.990048:发送key指令(hex): aa06110194de
+2026-09-11 12:33:31.200256:刷入key值成功(应答hex): ab050adf4e
+2026-09-11 12:33:31.202767:显示工厂模式成功
+2026-09-11 12:33:32.429209:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 1
+2026-09-11 12:33:33.119025:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:33.121025:按键下已发送
+2026-09-11 12:33:33.807510:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:33.810511:按键下已发送
+2026-09-11 12:33:34.443557:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:34.446557:按键下已发送
+2026-09-11 12:33:35.210852:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:35.213867:按键下已发送
+2026-09-11 12:33:35.869267:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:35.871385:按键下已发送
+2026-09-11 12:33:36.713002:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:36.714001:按键下已发送
+2026-09-11 12:33:37.337976:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:37.344063:按键下已发送
+2026-09-11 12:33:38.023042:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:38.025051:按键下已发送
+2026-09-11 12:33:38.647539:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:38.649538:按键下已发送
+2026-09-11 12:33:39.290366:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_CENTER -> 返回码: 0
+2026-09-11 12:33:39.292367:按键OK已发送
+2026-09-11 12:33:39.908261:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent KEYCODE_DPAD_DOWN -> 返回码: 0
+2026-09-11 12:33:39.909763:按键下已发送
+2026-09-11 12:33:40.529753:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 8 -> 返回码: 0
+2026-09-11 12:33:40.532266:SID数字1按键已发送(keycode=8)
+2026-09-11 12:33:40.692139:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 7 -> 返回码: 0
+2026-09-11 12:33:40.696186:SID数字0按键已发送(keycode=7)
+2026-09-11 12:33:40.855435:adb 命令已执行(无结果输出命令，只看返回码): adb -s 192.168.0.155 shell input keyevent 11 -> 返回码: 0
+2026-09-11 12:33:40.856435:SID数字4按键已发送(keycode=11)
+2026-09-11 12:33:50.909363:发送key指令(hex): aa06840063e1
+2026-09-11 12:33:51.454229:刷入key值成功(应答hex): ab050adf4eab07856800d493
+2026-09-11 12:33:51.456236:查询PID指令成功
+2026-09-11 12:33:51.458237:PID应答数据(hex): 6800 -> SID=104, HID=None
+2026-09-11 12:33:51.459236:当前机器的SID: 104 (HID: None)
+2026-09-11 12:33:51.461237:切换SID为 104 成功
+2026-09-11 12:33:51.463740:设置SID 104 成功
+2026-09-11 12:33:51.968030:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:33:51.970034:继电器命令成功
+2026-09-11 12:33:54.473674:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:33:54.474678:继电器命令成功
+2026-09-11 12:34:19.477977:切换SID为 104 完成，等待设备启动完成
+2026-09-11 12:34:19.479980:uboot下获取开机logo的地址
+2026-09-11 12:34:19.482486:platform: MTK
+2026-09-11 12:34:19.986043:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:34:19.988049:继电器命令成功
+2026-09-11 12:34:23.492390:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:34:23.494398:继电器命令成功
+2026-09-11 12:34:48.512207:data: ['=>  <INTERRUPT>', '=> ', '=>  <INTERRUPT>']
+2026-09-11 12:34:48.514210:进入uboot模式成功
+2026-09-11 12:34:48.516211:进入uboot模式成功
+2026-09-11 12:34:48.518210:第1/3次获取开机动画路径完成
+2026-09-11 12:34:48.520227:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-11 12:34:49.523979:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 12:34:49.531514:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 12:34:49.535514:已发送 ctrl+C 结束 logcat
+2026-09-11 12:34:49.538019:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/logo
+2026-09-11 12:34:50.041916:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-11 12:34:50.043918:继电器命令成功
+2026-09-11 12:34:52.547946:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-11 12:34:52.550460:继电器命令成功
+2026-09-11 12:35:27.553182:从 config.json 获取到 ipAddress: 192.168.0.155
+2026-09-11 12:35:27.660807:adb connect 返回码: 0, 输出: already connected to 192.168.0.155:5555
+2026-09-11 12:35:27.729437:adb root 首次返回码: 1, 输出: adb: unable to connect for root: closed
+2026-09-11 12:35:32.788340:设备已上线: 192.168.0.155:5555
+2026-09-11 12:35:32.867206:adb root 等待上线后获取返回码: 0, 输出: restarting adbd as root
+2026-09-11 12:35:32.935407:等待设备上线中... 当前状态: error: device offline
+2026-09-11 12:35:36.144145:设备已上线: 192.168.0.155:5555
+2026-09-11 12:35:36.146652:执行 adb pull 命令: adb -s 192.168.0.155:5555 pull /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K d:\demo\image_recognition\machine\20260911_123536
+2026-09-11 12:35:36.489100:adb pull 返回码: 0, 输出: /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K/: 3 files pulled, 0 skipped. 12.7 MB/s (3538000 bytes in 0.265s)
+2026-09-11 12:35:36.491099:/tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 数据已成功 pull 到: d:\demo\image_recognition\machine\20260911_123536
+2026-09-11 12:35:36.493607:拉取 /tclconfig/tvcust/aio_resources/resource/extension/common_TCL_QDMINI_4K 完成
+2026-09-11 12:35:36.495608:解压tcl_logo_path的压缩包的customized_bootanimation.zip，并且拿到最后一张开机动画的图片
+2026-09-11 12:35:36.498112:从 tcl_logo_path 解析出的机型目录: common_TCL_QDMINI_4K
+2026-09-11 12:35:36.502120:本批次机型目录: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K
+2026-09-11 12:35:36.505555:静态开机logo: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\logo\logo.jpg
+2026-09-11 12:35:36.508689:找到开机动画压缩包: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\bootanim\customized_bootanimation.zip
+2026-09-11 12:35:36.791063:解压开机动画压缩包完成: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\bootanim\customized_bootanimation
+2026-09-11 12:35:36.794064:开机动画帧目录: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\bootanim\customized_bootanimation\boot (共130张)
+2026-09-11 12:35:36.796567:开机动画最后一张图片: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\bootanim\customized_bootanimation\boot\loop_00131.png
+2026-09-11 12:35:36.797571:开机动画的图片last_bootanimation_image_path: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\bootanim\customized_bootanimation\boot\loop_00131.png
+2026-09-11 12:35:36.800572:静态logo图片logo_image_path: d:\demo\image_recognition\machine\20260911_123536\common_TCL_QDMINI_4K\logo\logo.jpg
+2026-09-11 12:35:36.819555:SID=104 对应的 template 目录: d:\demo\image_recognition\template\SID_104_X11K
+2026-09-11 12:35:36.822560:template 目录下未找到 开机logo.png: d:\demo\image_recognition\template\SID_104_X11K
+2026-09-11 12:35:36.824557:template 目录下未找到 开机动画.png: d:\demo\image_recognition\template\SID_104_X11K
+2026-09-11 12:35:36.827555:标准库开机动画图片template_bootanimation_image_path: None
+2026-09-11 12:35:36.828599:标准库静态logo图片template_logo_image_path: None
+2026-09-11 12:35:36.836110:发生错误: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'

@@ -1,0 +1,36 @@
+2026-09-10 02:49:53.387809:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-10 02:50:14.603637:adb connect 返回码: 0, 输出: cannot connect to 192.168.0.114:5555: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 (10060)
+2026-09-10 02:50:14.606640:adb 连接失败，请检查设备是否开启网络 adb 调试: 192.168.0.114
+2026-09-10 02:50:14.610902:串口已就绪
+2026-09-10 02:50:14.614409:SID的列表sid_list: [18]
+2026-09-10 02:50:14.617409:当前测试SID: 18
+2026-09-10 02:50:14.619409:冷开机启动获取开机logo的地址
+2026-09-10 02:50:14.623913:platform: MTK
+2026-09-10 02:50:15.127889:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:50:15.129893:继电器命令成功
+2026-09-10 02:50:18.633611:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:50:18.637615:继电器命令成功
+2026-09-10 02:50:53.656461:data: ['UART', '\r<.', 'AC_ON']
+2026-09-10 02:50:53.662479:data: ['=> ', '=>  <INTERRUPT>', '=> ']
+2026-09-10 02:50:53.665476:进入uboot模式成功
+2026-09-10 02:50:53.668477:进入uboot模式成功
+2026-09-10 02:50:53.670692:第1/3次获取开机动画路径完成
+2026-09-10 02:50:53.672696:已发送命令: printenv tcl_logo_path，正在等待抓取返回值...
+2026-09-10 02:50:54.675715:抓取到返回值: tcl_logo_path=/tclconfig/tvcust/aio_resources/resource/brand/common_TCL/logo
+2026-09-10 02:50:54.679719:提取到的tcl_logo_path路径: /tclconfig/tvcust/aio_resources/resource/brand/common_TCL/logo
+2026-09-10 02:50:54.681719:已发送 ctrl+C 结束 logcat
+2026-09-10 02:50:54.683719:tcl_logo_path: /tclconfig/tvcust/aio_resources/resource/brand/common_TCL/logo
+2026-09-10 02:50:55.187781:b'power off\r\nTurn off success!\r\nTest Wizard > '
+2026-09-10 02:50:55.193332:继电器命令成功
+2026-09-10 02:50:57.698967:b'power on\r\nTurn on success!\r\nTest Wizard > '
+2026-09-10 02:50:57.701179:继电器命令成功
+2026-09-10 02:51:42.705471:从 config.json 获取到 ipAddress: 192.168.0.114
+2026-09-10 02:51:42.897486:adb connect 返回码: 0, 输出: connected to 192.168.0.114:5555
+2026-09-10 02:51:43.341377:adb root 首次返回码: 0, 输出: 
+2026-09-10 02:51:48.451640:adb root 后重新 connect 返回码: 0, 输出: already connected to 192.168.0.114:5555
+2026-09-10 02:51:48.584331:adb root 等待5s后获取返回码: 0, 输出: adbd is already running as root
+2026-09-10 02:52:40.247340:本地已存在旧的 tclconfig，已删除
+2026-09-10 02:52:40.249340:执行 adb pull 命令: adb -s 192.168.0.114:5555 pull /tclconfig d:\demo\image_recognition\machine
+2026-09-10 02:54:58.003988:adb pull 返回码: 0, 输出: /tclconfig/: 10438 files pulled, 0 skipped. 2.3 MB/s (325256047 bytes in 136.843s)
+2026-09-10 02:54:58.147146:/tclconfig 数据已成功 pull 到: d:\demo\image_recognition\machine\tclconfig
+2026-09-10 02:54:58.149145:拉取 /tclconfig 完成
